@@ -1,0 +1,1491 @@
+--------- beginning of main
+09-27 21:41:03.389  1456  2915 D WifiPermissionsUtil: Denied: no location permission
+09-27 21:42:11.823  1456  1466 I zygote  : Background concurrent copying GC freed 272724(10MB) AllocSpace objects, 26(2MB) LOS objects, 42% free, 23MB/41MB, paused 334us total 298.363ms
+--------- beginning of system
+09-27 21:42:15.644  1456  1723 I ActivityManager: Start proc 16700:com.android.defcontainer/u0a27 for service com.android.defcontainer/.DefaultContainerService
+09-27 21:42:15.694 16700 16700 I zygote  : The ClassLoaderContext is a special shared library.
+09-27 21:42:15.787  1456  1601 I ActivityManager: Start proc 16716:com.android.vending/u0a62 for broadcast com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationReceiver
+09-27 21:42:15.872 16716 16716 I Finsky  : [2] dte.aH(7): Process created at version: 16.7.21-all [0] [PR] 269660243
+09-27 21:42:16.211 16716 16736 I Finsky  : [12023] qbc.a(33): Started reading experiment flags from file [SKocQA9EQQFTb-1gQsc5WsjVhGA].
+09-27 21:42:16.227 16716 16736 I Finsky  : [12023] qbc.a(38): Finished reading experiment flags from file [SKocQA9EQQFTb-1gQsc5WsjVhGA].
+09-27 21:42:16.229 16716 16739 I Finsky  : [12026] qbc.a(33): Started reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+09-27 21:42:16.244 16716 16739 I Finsky  : [12026] qbc.a(38): Finished reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+09-27 21:42:16.357 16716 16716 I Finsky  : [2] shq.<init>(6): Resetting scheduler db
+09-27 21:42:16.378 16716 16735 I Finsky  : [12022] dte.X(6): Not a unicorn account
+09-27 21:42:16.389 16716 16735 W PrimesInit: Primes instant initialization
+09-27 21:42:16.393 16716 16748 W Primes  : background initialization
+09-27 21:42:16.419 16716 16748 I PrimesTesting: GserviceFlagsSupplier.get()
+09-27 21:42:16.432 16716 16732 I Finsky  : [12019] dte.aS(5): Disable SystemUpdateActivity, because Android is lower than Q
+09-27 21:42:16.449 16716 16753 I Finsky  : [12039] dtr.run(3): Set SystemUpdateActivity enabled state to 2
+09-27 21:42:16.450 16716 16734 I Finsky  : [12021] psq.<init>(5): Registering in memory receiver for android.intent.action.PACKAGE_ADDED
+09-27 21:42:16.515 16716 16733 I cr_CronetLibraryLoader: Cronet version: 78.0.3887.6, arch: armv7l
+09-27 21:42:16.515 16716 16732 W Settings: Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:42:16.522 16716 16732 I Finsky  : [12019] pae.a(5): SettingNotFoundException, fall through to G.downloadBytesOverMobileMaximum
+09-27 21:42:16.522 16716 16732 W Settings: Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:42:16.526 16716 16733 W Finsky  : [12020] dkl.a(24): For unauth, use getDfeApiNonAuthenticated() instead!
+09-27 21:42:16.530 16716 16732 I Finsky  : [12019] pae.a(8): SettingNotFoundException, fall through to G.downloadBytesOverMobileRecommended
+09-27 21:42:16.548 16716 16739 I Finsky  : [12026] oeb.a(14): Finished loading 0 libraries.
+09-27 21:42:16.559 16716 16734 I Finsky  : [12021] yby.j(9): Setup app restrictions monitor
+09-27 21:42:16.562 16716 16734 I Finsky  : [12021] ydt.a(3): Device wide unknown source restriction is changed.
+09-27 21:42:16.619 16716 16716 I Finsky  : [2] xuz.a(5): Verification requested, id = 161
+09-27 21:42:16.650 16716 16716 I Finsky  : [2] lzx.<init>(18): Installer: Setting Parallelism[DEFAULT]
+09-27 21:42:16.653 16716 16716 I Finsky  : [2] lsx.a(33): Installer: Attempting to start installer
+09-27 21:42:16.658 16716 16716 I Finsky  : [2] lse.<init>(7): Not checking if recovering from paused session because experiment is off
+09-27 21:42:16.685 16716 16716 E Finsky  : [2] yin.b(2): Package name null is not an installed package
+09-27 21:42:16.696 16716 16739 I Finsky  : [12026] xxf.a(9): Single user settings service is not running, bind it now
+09-27 21:42:16.697 16716 16716 I Finsky  : [2] lsx.a(207): Installer kick - no action, not running yet
+09-27 21:42:16.698 16716 16716 I Finsky  : [2] lsx.a(207): Installer kick - no action, not running yet
+09-27 21:42:16.699 16716 16736 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:42:16.703 16716 16716 I Finsky  : [2] xxg.onServiceConnected(1): Single user settings service is connected
+09-27 21:42:16.725 16716 16789 I zygote  : Deoptimizing java.lang.Object j$.util.concurrent.ConcurrentHashMap.putVal(java.lang.Object, java.lang.Object, boolean) due to JIT inline cache
+09-27 21:42:16.756 16716 16739 W Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+09-27 21:42:16.829 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 3-494 24-77777777 26-1414141414 29-29 
+09-27 21:42:16.842 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56937449ms, C: false, I: true, N: 0
+09-27 21:42:16.843 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337,  -> L: 17321512ms, D: 60521512ms, C: false, I: false, N: 1
+09-27 21:42:16.844 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 3-494,  -> L: 0ms, D: 65934384ms, C: true, I: true, N: 2
+09-27 21:42:16.845 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414, 29-29,  -> L: 29512ms, D: 59512ms, C: false, I: false, N: 0
+09-27 21:42:16.858 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9000 9005 9007 9004 
+09-27 21:42:16.860 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9001, L: 0, D: 56937449, C: false, I: true, N: 0
+09-27 21:42:16.862 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9002, L: 17321512, D: 60521512, C: false, I: false, N: 1
+09-27 21:42:16.864 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9003, L: 0, D: 65934384, C: true, I: true, N: 2
+09-27 21:42:16.866 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9006, L: 29512, D: 59512, C: false, I: false, N: 0
+09-27 21:42:16.881 16716 16721 I zygote  : Do partial code cache collection, code=31KB, data=29KB
+09-27 21:42:16.884 16716 16721 I zygote  : After code cache collection, code=29KB, data=29KB
+09-27 21:42:16.884 16716 16721 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:16.914  1456  2915 I ActivityManager: Start proc 16794:android.process.media/u0a31 for content provider com.android.providers.downloads/.DownloadProvider
+09-27 21:42:16.950 16794 16794 I zygote  : The ClassLoaderContext is a special shared library.
+09-27 21:42:16.968 16794 16794 I zygote  : The ClassLoaderContext is a special shared library.
+09-27 21:42:17.056 16716 16791 I Finsky  : [12067] lwe.run(2): Installer: Installer starting.
+09-27 21:42:17.056 16716 16791 I Finsky  : [12067] lwe.run(4): Installer: Installer started.
+09-27 21:42:17.065 16716 16716 I Finsky  : [2] lsx.a(214): Installer: found apps to install. isMultiUserMode=false, apps=[]
+09-27 21:42:17.080 16716 16716 I Finsky  : [2] sid.a(3): Canceling job 3-494
+09-27 21:42:17.084 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 24-77777777 26-1414141414 29-29 
+09-27 21:42:17.092 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56937196ms, C: false, I: true, N: 0
+09-27 21:42:17.093 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337,  -> L: 17321256ms, D: 60521256ms, C: false, I: false, N: 1
+09-27 21:42:17.094 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414, 29-29,  -> L: 29260ms, D: 59260ms, C: false, I: false, N: 0
+09-27 21:42:17.102 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9002 9006 9003 9001 
+09-27 21:42:17.103 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9000, L: 0, D: 56937196, C: false, I: true, N: 0
+09-27 21:42:17.105 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9004, L: 17321256, D: 60521256, C: false, I: false, N: 1
+09-27 21:42:17.107 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9005, L: 29260, D: 59260, C: false, I: false, N: 0
+09-27 21:42:17.147 16716 16811 I Finsky  : [12070] mfy.c(22): IQ: Creating job 495, for (REQ_CHARGING, REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED)
+09-27 21:42:17.172 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 3-495 24-77777777 26-1414141414 29-29 
+09-27 21:42:17.181 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56937107ms, C: false, I: true, N: 0
+09-27 21:42:17.182 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337,  -> L: 17321168ms, D: 60521168ms, C: false, I: false, N: 1
+09-27 21:42:17.183 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 3-495,  -> L: 0ms, D: 86399979ms, C: true, I: true, N: 2
+09-27 21:42:17.184 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414, 29-29,  -> L: 29171ms, D: 59171ms, C: false, I: false, N: 0
+09-27 21:42:17.190 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9000 9005 9004 
+09-27 21:42:17.191 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9001, L: 0, D: 56937107, C: false, I: true, N: 0
+09-27 21:42:17.192 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9002, L: 17321168, D: 60521168, C: false, I: false, N: 1
+09-27 21:42:17.194 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9003, L: 0, D: 86399979, C: true, I: true, N: 2
+09-27 21:42:17.196 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9006, L: 29171, D: 59171, C: false, I: false, N: 0
+09-27 21:42:17.240 16716 16716 I Finsky  : [2] tom.a(20): Connecting InstallListener to SplitInstallService broadcaster...
+09-27 21:42:19.400  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4343846, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=272, SEQNUM=60878, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2836346, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+09-27 21:42:19.408  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+09-27 21:42:19.878 16716 16721 I zygote  : Do partial code cache collection, code=62KB, data=48KB
+09-27 21:42:19.881 16716 16721 I zygote  : After code cache collection, code=62KB, data=48KB
+09-27 21:42:19.881 16716 16721 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:42:20.427 16716 16739 I Finsky  : [12026] kho.a(3): Task 7 requested foreground
+09-27 21:42:20.432 16716 16739 I Finsky  : [12026] kho.a(5): Not entering foreground
+09-27 21:42:20.839 16716 16729 I zygote  : Waiting for a blocking GC ProfileSaver
+09-27 21:42:20.875 16716 16729 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 35.684ms
+09-27 21:42:20.900 16716 16746 I Finsky  : [12033] ydn.b(4): Verify: Verification package=org.mozilla.fenix.nightly, id=161 response=0
+09-27 21:42:20.907 16716 16739 I Finsky  : [12026] yin.b(3): PSIC verification started with installer uid: 2000 package name: null, originating uid: -1
+09-27 21:42:20.914 16716 16716 I Finsky  : [2] yel.c(3): Verifying id=161, result=1
+09-27 21:42:20.918 16716 16716 I Finsky  : [2] yel.h(6): Verification complete: id=161, package_name=org.mozilla.fenix.nightly
+09-27 21:42:21.610  1456  1723 I PackageManager.DexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/base.apk pkg=org.mozilla.fenix.nightly isa=arm dexoptFlags=boot_complete,public target-filter=quicken oatDir=/data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/oat sharedLibraries=PCL[]
+09-27 21:42:21.670 16818 16818 I dex2oat : /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=11 --compiler-filter=quicken --classpath-dir=/data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow== --class-loader-context=PCL[]
+09-27 21:42:21.677 16818 16818 W dex2oat : Could not reserve sentinel fault page
+09-27 21:42:21.955 16794 16808 I zygote  : Waiting for a blocking GC ProfileSaver
+09-27 21:42:25.142 16818 16818 I dex2oat : dex2oat took 3.474s (14.995s cpu) (threads: 8) arena alloc=43KB (44056B) java alloc=6MB (6873440B) native alloc=8MB (9349368B) free=2MB (2184968B)
+09-27 21:42:25.168  1456  6339 I ActivityManager: Killing 16461:com.android.providers.calendar/u0a16 (adj 906): empty for 2902s
+09-27 21:42:25.170  1456  1605 W zygote  : kill(-16461, 9) failed: No such process
+09-27 21:42:25.178  1016  1911 E         : Couldn't opendir /data/app/vmdl614438052.tmp: No such file or directory
+09-27 21:42:25.178  1016  1911 E installd: Failed to delete /data/app/vmdl614438052.tmp: No such file or directory
+09-27 21:42:25.184  1456  1605 W zygote  : kill(-16461, 9) failed: No such process
+09-27 21:42:25.198  1456  1605 W zygote  : kill(-16461, 9) failed: No such process
+09-27 21:42:25.204  2360  2360 D MayaFrameworkProxyService: receive intent :Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) }
+09-27 21:42:25.205  1456  1605 I zygote  : Successfully killed process cgroup uid 10016 pid 16461 in 35ms
+09-27 21:42:25.216 16716 16716 I Finsky  : [2] psq.a(4): PackageMonitor received: android.intent.action.PACKAGE_ADDED
+09-27 21:42:25.216 16716 16716 I Finsky  : [2] ptp.d(7): Invalidating cached PackageState for org.mozilla.fenix.nightly
+09-27 21:42:25.243 16716 16716 I Finsky  : [2] zcr.a(10): Do not start WearSupportService due to Wear service optimization
+09-27 21:42:25.253  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 545, previously 544
+09-27 21:42:25.253  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 378, previously 1461
+09-27 21:42:25.253  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 215, previously 1172
+09-27 21:42:25.255 16716 16716 I Finsky  : [2] zcr.a(10): Do not start WearSupportService due to Wear service optimization
+09-27 21:42:25.257 16716 16716 I Finsky  : [2] toz.a(1): Clearing split related stale data.
+09-27 21:42:25.260  1456  2196 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+09-27 21:42:25.262  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+09-27 21:42:25.265  1456  1942 I InputReader: Reconfiguring input devices.  changes=0x00000010
+09-27 21:42:25.266  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+09-27 21:42:25.271  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-27 21:42:25.272  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+09-27 21:42:25.273  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+09-27 21:42:25.274 16716 16831 I Finsky  : [12077] mmh.run(2): Cleaning dev-triggered-update data on package install for org.mozilla.fenix.nightly.
+09-27 21:42:25.281  7883 16830 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:42:25.286 16716 16716 I Finsky  : [2] pjs.c(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+09-27 21:42:25.292  1456  1601 I ActivityManager: Start proc 16840:com.motorola.invisiblenet/u0a44 for broadcast com.motorola.invisiblenet/.PackageAddedReceiver
+09-27 21:42:25.295  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:42:25.297  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:42:25.297  2398  2398 D ImsResolver: maybeAddedImsService, packageName: org.mozilla.fenix.nightly
+09-27 21:42:25.302 12455 16839 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+09-27 21:42:25.307  2398  2398 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+09-27 21:42:25.307  2398  2398 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+09-27 21:42:25.308 12455 16839 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+09-27 21:42:25.313  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080120
+09-27 21:42:25.313  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e0
+09-27 21:42:25.314  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e0
+09-27 21:42:25.314  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f08011e
+09-27 21:42:25.314  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200de
+09-27 21:42:25.314  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200de
+09-27 21:42:25.314  1456  7570 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+09-27 21:42:25.315   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+09-27 21:42:25.332 16716 16847 I Finsky  : [12081] mmj.run(2): Finished dev-triggered-update cleaning.
+09-27 21:42:25.333 16716 16838 I Finsky  : [12080] pjv.run(16): Wrote row to frosting DB: 977
+09-27 21:42:25.333 12500 16845 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+09-27 21:42:25.353  1456  5027 I ActivityManager: Start proc 16865:org.mozilla.fenix.nightly/u0a283 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+09-27 21:42:25.359  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 32, previously 38
+09-27 21:42:25.361  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 2167, previously 2164
+09-27 21:42:25.361  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 268, previously 1515
+09-27 21:42:25.379  1456  1456 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@Ch4
+09-27 21:42:25.380 12500 16864 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+09-27 21:42:25.393 16840 16840 I zygote  : The ClassLoaderContext is a special shared library.
+09-27 21:42:25.449  1456  6339 W ActivityManager: Slow operation: 60ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+09-27 21:42:25.490 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 3-495 12-1 24-77777777 26-1414141414 29-29 
+09-27 21:42:25.499 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56928789ms, C: false, I: true, N: 0
+09-27 21:42:25.500 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337, 12-1,  -> L: 14815ms, D: 60512851ms, C: false, I: false, N: 1
+09-27 21:42:25.501 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 3-495,  -> L: 0ms, D: 86391662ms, C: true, I: true, N: 2
+09-27 21:42:25.501 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414, 29-29,  -> L: 20854ms, D: 50854ms, C: false, I: false, N: 0
+09-27 21:42:25.527 16865 16865 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+09-27 21:42:25.527 16865 16865 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+09-27 21:42:25.535 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9003 9006 9001 9002 
+09-27 21:42:25.536 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9000, L: 0, D: 56928789, C: false, I: true, N: 0
+09-27 21:42:25.541  1456  2063 D WifiNative-wlan0: Scan issued for specific freq..
+09-27 21:42:25.557 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9004, L: 14815, D: 60512851, C: false, I: false, N: 1
+09-27 21:42:25.573 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9005, L: 0, D: 86391662, C: true, I: true, N: 2
+09-27 21:42:25.576 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9007, L: 20854, D: 50854, C: false, I: false, N: 0
+09-27 21:42:25.601 16865 16865 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:25.601 16865 16865 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:25.601 16865 16865 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:25.602 16865 16865 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:25.618  1456  1466 I zygote  : Background concurrent copying GC freed 149642(8MB) AllocSpace objects, 69(3MB) LOS objects, 42% free, 23MB/41MB, paused 448us total 440.868ms
+09-27 21:42:25.629 16865 16865 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:25.629 16865 16865 D RustNativeSupport: lib in use: none
+09-27 21:42:25.629 16865 16865 D RustNativeSupport: lib configured: fenix
+09-27 21:42:25.629 16865 16865 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:25.629 16865 16865 D RustNativeSupport: settled on fenix
+09-27 21:42:25.644 12500 12614 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+09-27 21:42:25.664 12500 14403 W Icing   : No valid account for uploading user actions: addq: Not signed in
+09-27 21:42:25.669 16865 16865 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:25.669 16865 16865 D RustNativeSupport: lib in use: none
+09-27 21:42:25.669 16865 16865 D RustNativeSupport: lib configured: fenix
+09-27 21:42:25.669 16865 16865 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:25.669 16865 16865 D RustNativeSupport: settled on fenix
+09-27 21:42:25.672 16865 16865 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:25.715 16865 16865 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:25.716 16865 16898 I GeckoThread: preparing to run Gecko
+09-27 21:42:25.723 16865 16865 D GeckoRuntime: Lifecycle: onCreate
+09-27 21:42:25.723 16865 16898 D GeckoThread: State changed to MOZGLUE_READY
+09-27 21:42:25.730  1456  2204 D VoldConnector: SND -> {112 volume mkdirs /storage/emulated/0/Android/data/org.mozilla.fenix.nightly/files/Download/}
+09-27 21:42:25.732  1456  1977 D VoldConnector: RCV <- {200 112 Command succeeded}
+09-27 21:42:25.745 16865 16898 W Settings: Setting animator_duration_scale has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only global URI.
+09-27 21:42:25.747 16865 16898 E GeckoLibLoad: Load sqlite start
+09-27 21:42:25.748 12500 14403 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+09-27 21:42:25.751 16865 16865 E experiments: Caught error trying to retrieve experiments from storage: java.io.FileNotFoundException: /data/user/0/org.mozilla.fenix.nightly/app_experiments-service/experiments.json (No such file or directory)
+09-27 21:42:25.756 16865 16865 I experiments: No active experiment in cache
+09-27 21:42:25.756 16865 16900 D App     : Bucket is 98
+09-27 21:42:25.756 16865 16900 D App     : Experiments active: {}
+09-27 21:42:25.766 16865 16865 I glean/Glean: Metrics enabled: true
+09-27 21:42:25.778 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: unhandled flags #8 not handled
+09-27 21:42:25.788 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: Relocation to NULL @0x00130ffc for symbol "__cxa_type_match"
+09-27 21:42:25.788 16865 16898 E GeckoLibLoad: Load sqlite done
+09-27 21:42:25.789 16865 16898 E GeckoLibLoad: Load nss start
+09-27 21:42:25.789 16865 16898 E GeckoLibLoad: Load nss done
+09-27 21:42:25.790 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libxul.so: unhandled flags #8 not handled
+09-27 21:42:25.790 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/liblgpllibs.so: unhandled flags #8 not handled
+09-27 21:42:25.820   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (19:65039 vsyncs) (21:292671)
+09-27 21:42:25.834 16865 16898 E GeckoLibLoad: Loaded libs in 44.364328ms total, 30ms(70ms) user, 13ms(26ms) system, 0(0) faults
+09-27 21:42:25.834 16865 16898 D GeckoThread: State changed to LIBS_READY
+09-27 21:42:25.834 16865 16898 W GeckoThread: zerdatime 2163019296 - runGecko
+09-27 21:42:25.838 16865 16898 D GeckoProfile: Loading profile at: null name: default
+09-27 21:42:25.839 16865 16898 D GeckoProfile: Created new profile dir.
+09-27 21:42:25.841 16865 16898 I GeckoProfile: Enqueuing profile init.
+09-27 21:42:25.845 16865 16898 D GeckoProfile: Found profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:42:25.846 16865 16898 D GeckoProfile: Attempting to write new client ID properties
+09-27 21:42:25.847 16865 16898 D GeckoProfile: Creating profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:42:25.850  1456  7570 I ActivityManager: Start proc 16910:org.mozilla.fenix.nightly:tab/u0a283 for service org.mozilla.fenix.nightly/org.mozilla.gecko.process.GeckoServiceChildProcess$tab
+09-27 21:42:25.860 16865 16865 W [WARNING][Leanplum]: [com.leanplum.internal.ActionManager::getLocationManager::8]: Geofencing support requires leanplum-location module and Google Play Services v8.1 and higher.
+09-27 21:42:25.860 16865 16865 W [WARNING][Leanplum]: Add this to your build.gradle file:
+09-27 21:42:25.860 16865 16865 W [WARNING][Leanplum]: implementation 'com.google.android.gms:play-services-location:8.3.0+'
+09-27 21:42:25.860 16865 16865 W [WARNING][Leanplum]: implementation 'com.leanplum:leanplum-location:+'
+09-27 21:42:25.864 16865 16865 I [INFO][Leanplum]: [com.leanplum.monitoring.ExceptionHandler::setContext::6]: LeanplumExceptionHandler could not initialize Exception Reporting.This is expected if you have not included the leanplum-monitoring module
+09-27 21:42:25.889 16865 16865 I FirefoxAccountStateMachine: Enabling/updating sync with a new SyncConfig: SyncConfig(supportedEngines=[HISTORY, BOOKMARKS], syncPeriodInMinutes=240)
+09-27 21:42:25.892 16865 16865 I BgSyncManager: Periodic syncing enabled at a 240 interval
+09-27 21:42:25.892 16865 16865 I FirefoxAccountStateMachine: Sync is enabled
+09-27 21:42:25.895 16865 16865 W PushConfig: No firebase configuration found; cannot support push service.
+09-27 21:42:25.903 16865 16928 I FirefoxAccountStateMachine: Processing event Event$Init for state Start. Next state is Start
+09-27 21:42:25.906  1456  4797 D WificondControl: Scan result ready event
+09-27 21:42:25.909 16865 16928 I FirefoxAccountStateMachine: Ran 'Event$Init' side-effects for state Start, got successive event Event$AccountNotFound
+09-27 21:42:25.909 16865 16928 I FirefoxAccountStateMachine: Processing event Event$AccountNotFound for state Start. Next state is NotAuthenticated
+09-27 21:42:25.912 16865 16928 D RustNativeSupport: findMegazordLibraryName(fxaclient, 0.39.1
+09-27 21:42:25.912 16865 16928 D RustNativeSupport: lib in use: none
+09-27 21:42:25.912 16865 16928 D RustNativeSupport: lib configured: fenix
+09-27 21:42:25.912 16865 16928 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:25.912 16865 16928 D RustNativeSupport: settled on fenix
+09-27 21:42:25.915 16865 16928 D fxaclient_ffi: fxa_new
+09-27 21:42:25.916 16865 16901 D RustNativeSupport: findMegazordLibraryName(places, 0.39.1
+09-27 21:42:25.916 16865 16901 D RustNativeSupport: lib in use: none
+09-27 21:42:25.916 16865 16901 D RustNativeSupport: lib configured: fenix
+09-27 21:42:25.916 16865 16901 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:25.916 16865 16901 D RustNativeSupport: settled on fenix
+09-27 21:42:25.922 16865 16901 D places_ffi: places_api_new
+09-27 21:42:25.957 16910 16910 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:25.957 16910 16910 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:25.957 16910 16910 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:25.958 16910 16910 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:25.971 16865 16865 D PhoneWindow: Restoring navigation bar divider color to default value = 0x00000000
+09-27 21:42:25.981 16910 16910 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:25.982 16910 16910 D RustNativeSupport: lib in use: none
+09-27 21:42:25.982 16910 16910 D RustNativeSupport: lib configured: fenix
+09-27 21:42:25.982 16910 16910 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:25.982 16910 16910 D RustNativeSupport: settled on fenix
+09-27 21:42:25.996 16865 16870 I zygote  : Do partial code cache collection, code=31KB, data=24KB
+09-27 21:42:25.998 16865 16870 I zygote  : After code cache collection, code=31KB, data=24KB
+09-27 21:42:25.998 16865 16870 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:26.006 16865 16901 D places::db::schema: Creating schema
+09-27 21:42:26.012 16910 16910 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:26.012 16910 16910 D RustNativeSupport: lib in use: none
+09-27 21:42:26.012 16910 16910 D RustNativeSupport: lib configured: fenix
+09-27 21:42:26.012 16910 16910 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:26.012 16910 16910 D RustNativeSupport: settled on fenix
+09-27 21:42:26.016 16910 16910 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:26.024 16910 16910 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:26.025 16910 16937 I GeckoThread: preparing to run Gecko
+09-27 21:42:26.071 16865 16865 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:26.080 16865 16901 D sql_support::conn_ext: Transaction commited after 74.825112ms
+09-27 21:42:26.081 16865 16901 D places_ffi: places_connection_new
+09-27 21:42:26.084 16865 16901 D places_ffi: places_connection_new
+09-27 21:42:26.091 16865 16901 D places_ffi: places_run_maintenance
+09-27 21:42:26.214 16865 16898 I Gecko:DumpUtils: Fifo watcher disabled via pref.
+09-27 21:42:26.230 16865 16865 D GeckoRuntime: Lifecycle: onStart
+09-27 21:42:26.259 16865 16865 D GeckoRuntime: Lifecycle: onResume
+09-27 21:42:26.262 16865 16928 W FirefoxAccountStateMachine: Got invalid event Event$Init for state NotAuthenticated.
+09-27 21:42:26.264 16865 16865 D GeckoNetworkManager: Incoming event start for state OffNoListeners -> OnNoListeners
+09-27 21:42:26.265 16865 16865 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:26.271 16865 16923 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:42:26.300 16865 16964 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:42:26.309 16865 16865 I glean/Glean: Registering pings for org.mozilla.fenix.GleanMetrics.Pings
+09-27 21:42:26.311 16865 16865 I glean/Glean: Registering pings for mozilla.components.service.glean.GleanMetrics.Pings
+09-27 21:42:26.321 16865 16870 I zygote  : Do partial code cache collection, code=61KB, data=48KB
+09-27 21:42:26.323 16865 16870 I zygote  : After code cache collection, code=61KB, data=48KB
+09-27 21:42:26.323 16865 16870 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:42:26.330 16865 16865 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:26.333 16865 16865 E glean/MetricsPingScheduler: MetricsPingScheduler last stored ping time was not valid
+09-27 21:42:26.375 16716 16739 I Finsky  : [12026] gts.a(25): No selector loaded
+09-27 21:42:26.379 16716 16739 I zygote  : Deoptimizing void alrr.a(java.lang.Iterable, java.util.List) due to JIT inline cache
+09-27 21:42:26.387 16716 16739 I Finsky  : [12026] idh.d(67): System was updated or GL extensions were already cached.
+09-27 21:42:26.408 16865 16898 D GeckoSysInfo: System memory: 1867MB.
+09-27 21:42:26.426 16865 16898 D GeckoThread: State changed to JNI_READY
+09-27 21:42:26.432 16716 16784 I Finsky  : [12061] qbj.b(1): Triggered update for experiment package com.google.android.finsky.regular.
+09-27 21:42:26.435 16716 16746 I Finsky  : [12033] dtu.run(3): Initializing the instant apps module.
+09-27 21:42:26.462 16865 16865 I glean/MetricsPingScheduler: The 'metrics' ping is scheduled for immediate collection, Fri Sep 27 21:42:26 EDT 2019
+09-27 21:42:26.463 16865 16865 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:26.463 16865 16865 E glean/MetricsPingScheduler: MetricsPingScheduler last stored ping time was not valid
+09-27 21:42:26.464 16865 16865 I glean/MetricsPingScheduler: The 'metrics' ping is scheduled for immediate collection, Fri Sep 27 21:42:26 EDT 2019
+09-27 21:42:26.464 16865 16865 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:26.465 16865 16875 I zygote  : Background concurrent copying GC freed 17229(1525KB) AllocSpace objects, 16(488KB) LOS objects, 49% free, 2MB/5MB, paused 148us total 107.208ms
+09-27 21:42:26.479 16865 16976 I glean/MetricsPingScheduler: Collecting the 'metrics' ping, now = Fri Sep 27 21:42:26 EDT 2019
+09-27 21:42:26.481 16865 16976 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22653669ms
+09-27 21:42:26.483 16865 16976 I glean/MetricsPingScheduler: Collecting the 'metrics' ping, now = Fri Sep 27 21:42:26 EDT 2019
+09-27 21:42:26.488 16865 16976 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22653537ms
+09-27 21:42:26.490 16865 16976 D glean/PingMaker: Collecting events
+09-27 21:42:26.556 16716 16739 I Finsky  : [12026] yby.f(2): Restoring notifications
+09-27 21:42:26.573 16716 16763 I Finsky  : [12043] dtg.run(8): Component class com.google.android.finsky.wear.WearSupportService disabled via PackageManager.
+09-27 21:42:26.574 16716 16763 I Finsky  : [12043] dtg.run(8): Component class com.google.android.finsky.wear.WearChangeListenerService disabled via PackageManager.
+09-27 21:42:26.575 16716 16763 I Finsky  : [12043] zcr.a(10): Do not start WearSupportService due to Wear service optimization
+09-27 21:42:26.586 16716 16739 I Finsky  : [12026] yby.f(5): Done restoring notifications
+09-27 21:42:26.594 16865 16976 D glean/PingMaker: Collecting metrics
+09-27 21:42:26.596 16865 16934 D glean/PingStorageEngine: Storing ping 201cc200-d162-4527-8e19-9671206d9783 at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/201cc200-d162-4527-8e19-9671206d9783
+09-27 21:42:26.600 16865 16976 D glean/Glean: No content for ping 'PingType(name=metrics, includeClientId=true).name', therefore no ping queued.
+09-27 21:42:26.601 16865 16976 D glean/PingMaker: Collecting metrics
+09-27 21:42:26.605 16716 16721 I zygote  : Do full code cache collection, code=111KB, data=84KB
+09-27 21:42:26.607 16865 16865 D GeckoNetworkManager: Incoming event receivedUpdate for state OnNoListeners -> OnNoListeners
+09-27 21:42:26.609 16716 16721 I zygote  : After code cache collection, code=79KB, data=50KB
+09-27 21:42:26.609 16865 16865 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:26.630 16865 16976 D glean/Glean: No content for ping 'PingType(name=metrics, includeClientId=true).name', therefore no ping queued.
+09-27 21:42:26.632 16865 16926 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+09-27 21:42:26.635  1456  2204 I WifiService: getDhcpInfo uid=10283
+09-27 21:42:26.655 16865 16865 I zygote  : Deoptimizing java.lang.Object androidx.collection.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+09-27 21:42:26.682 16865 16875 I zygote  : ThreadFlipBegin blocked for 17.341ms
+09-27 21:42:26.683 16865 16891 I zygote  : IncrementDisableThreadFlip blocked for 10.311ms
+09-27 21:42:26.684 16865 16923 I zygote  : IncrementDisableThreadFlip blocked for 6.694ms
+09-27 21:42:26.716  1456  2915 D ConnectivityService: requestNetwork for uid/pid:10283/16865 NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:42:26.718  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:26.718  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:26.718  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:26.718  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:26.753 12500 14403 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+09-27 21:42:26.761 16716 16784 I Finsky  : [12061] qbj.b(6): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+09-27 21:42:26.762 16716 16792 I Finsky  : [12068] qbj.b(1): Triggered update for experiment package com.google.android.finsky.stable.
+09-27 21:42:26.786 16865 16875 I zygote  : Background concurrent copying GC freed 8736(1148KB) AllocSpace objects, 38(1912KB) LOS objects, 49% free, 2MB/5MB, paused 290us total 123.937ms
+09-27 21:42:26.826 16716 16792 I Finsky  : [12068] qbj.b(6): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+09-27 21:42:26.840 12500 14403 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+09-27 21:42:26.861 12500 14403 I Icing   : Indexing com.google.android.gms-internal.3p:DigitalDocument from com.google.android.gms
+09-27 21:42:26.875 12500 14403 I Icing   : Indexing done com.google.android.gms-apps
+09-27 21:42:26.880 12500 14403 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+09-27 21:42:26.889 12500 14403 I Icing   : Indexing done com.google.android.gms-internal.3p:DigitalDocument
+09-27 21:42:26.905   808   900 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=2162812042294727)
+09-27 21:42:26.926 16865 16870 I zygote  : Do full code cache collection, code=118KB, data=94KB
+09-27 21:42:26.930 16865 16870 I zygote  : After code cache collection, code=77KB, data=44KB
+09-27 21:42:26.954 16716 16721 I zygote  : Do partial code cache collection, code=81KB, data=77KB
+09-27 21:42:26.956 16716 16721 I zygote  : After code cache collection, code=81KB, data=77KB
+09-27 21:42:26.956 16716 16721 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:42:26.958 16716 16721 I zygote  : Compiler allocated 8MB to compile aewa aexn.a(android.content.Context, aewo)
+09-27 21:42:26.990 16865 16898 I Gecko   : 1569634946986	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readUTF8URI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: startup :: line 2362"  data: no] Stack trace: startup()@resource://gre/modules/addons/XPIProvider.jsm:2362
+09-27 21:42:26.990 16865 16898 I Gecko   : callProvider()@resource://gre/modules/AddonManager.jsm:213
+09-27 21:42:26.990 16865 16898 I Gecko   : _startProvider()@resource://gre/modules/AddonManager.jsm:649
+09-27 21:42:26.990 16865 16898 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:873
+09-27 21:42:26.990 16865 16898 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:3469
+09-27 21:42:26.990 16865 16898 I Gecko   : observe()@resource://gre/modules/addonManager.js:86
+09-27 21:42:27.002 16865 16964 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:42:27.002 16865 16964 I Adreno  : Build Date                       : 06/07/18
+09-27 21:42:27.002 16865 16964 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:42:27.002 16865 16964 I Adreno  : Local Branch                     : 
+09-27 21:42:27.002 16865 16964 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:42:27.002 16865 16964 I Adreno  : Remote Branch                    : NONE
+09-27 21:42:27.002 16865 16964 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:42:27.005 16865 16964 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:27.021 16865 16964 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:42:27.032 16865 16964 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:42:27.035 16865 16964 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:27.035 16865 16964 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:27.048 16865 16898 I Gecko   : 1569634947047	addons.xpi	WARN	No list of valid system add-ons found.
+09-27 21:42:27.071 16716 16716 I Finsky  : [2] syw.run(5): Detected restoreservicev2://recovery not needed, will not run
+09-27 21:42:27.104 16865 16898 D GeckoThread: State changed to PROFILE_READY
+09-27 21:42:27.117 16865 17011 D glean/PingStorageEngine: Processing persisted pings at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings
+09-27 21:42:27.118 16865 17011 D glean/PingStorageEngine: Processing ping: 201cc200-d162-4527-8e19-9671206d9783
+09-27 21:42:27.121 16865 17011 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/events/1/201cc200-d162-4527-8e19-9671206d9783
+09-27 21:42:27.151 16865 16964 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:42:27.155 16865 16964 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:27.161 16865 16870 I zygote  : Do partial code cache collection, code=113KB, data=89KB
+09-27 21:42:27.163 16865 16870 I zygote  : After code cache collection, code=113KB, data=89KB
+09-27 21:42:27.163 16865 16870 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:42:27.177 16865 16958 I App     : ActivationPing - generating ping with the hashed id
+09-27 21:42:27.178 16865 16958 I App     : ActivationPing - generating ping (has `identifier`: true)
+09-27 21:42:27.180 16865 16976 D glean/PingMaker: Collecting activation
+09-27 21:42:27.195 16865 16960 D glean/PingStorageEngine: Storing ping eb0029a0-f41b-42d6-9d4f-1cd0abf9ac6d at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/eb0029a0-f41b-42d6-9d4f-1cd0abf9ac6d
+09-27 21:42:27.251 16865 16898 W GeckoEventDispatcher: No listener for AndroidCastDevice:SyncDevice
+09-27 21:42:27.254 16716 17017 I Finsky  : [12088] jcu.a(1): registerListener
+09-27 21:42:27.256 16716 17017 I Finsky  : [12088] jcp.a(2): getDownloads(-)
+09-27 21:42:27.260 16865 16898 I Gecko   : -*- nsDNSServiceDiscovery.js : nsDNSServiceDiscovery
+09-27 21:42:27.265 16716 17017 I Finsky  : [12088] ecu.run(2): Initialized AssetModuleDownloader.
+09-27 21:42:27.265 16716 17018 I zygote  : Deoptimizing java.lang.String zoe.a(java.lang.String, java.lang.Object[]) due to JIT inline cache
+09-27 21:42:27.265 16716 17018 I Finsky  : [12089] jcu.a(1): Initiate binding to the service.
+09-27 21:42:27.282  1456  7570 I ActivityManager: Start proc 17019:com.android.vending:download_service/u0a62 for service com.android.vending/com.google.android.finsky.downloadservice.DownloadService
+09-27 21:42:27.345  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity,cp,ca,2007
+09-27 21:42:27.347  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity: +1s991ms
+09-27 21:42:27.364 17019 17019 I Finsky:download_service: [2] dte.aH(7): Process created at version: 16.7.21-all [0] [PR] 269660243
+09-27 21:42:27.383 16865 17038 I experiments: Fetching experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records
+09-27 21:42:27.386 16865 16898 W ResourceType: Too many attribute references, stopped at: 0x01010099
+09-27 21:42:27.411  1456  2915 D ConnectivityService: requestNetwork for uid/pid:10062/17019 NetworkRequest [ TRACK_DEFAULT id=700, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:42:27.413  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=700, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:27.413  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=700, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:27.413  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=700, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:27.414  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=700, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:27.415 17019 17044 I Finsky:download_service: [12041] iwe.onAvailable(3): Network is available [NetworkState{connected=true, wifi=true, metered=false, roaming=false}].
+09-27 21:42:27.416 17019 17043 I Finsky:download_service: [12040] ivo.a(1): Trying to resume downloads.
+09-27 21:42:27.417  1456  2915 I ActivityManager: Killing 16507:com.google.android.calendar/u0a82 (adj 906): empty for 2904s
+09-27 21:42:27.417 16716 16716 I Finsky  : [2] jcu.a(1): ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.downloadservice.DownloadService})
+09-27 21:42:27.418  1456  1605 W zygote  : kill(-16507, 9) failed: No such process
+09-27 21:42:27.434  1456  1605 W zygote  : kill(-16507, 9) failed: No such process
+09-27 21:42:27.440 16716 17018 I Finsky  : [12089] jcu.a(1): linkToDeath
+09-27 21:42:27.442 17019 17033 I Finsky:download_service: [12036] iwx.a(13): Starting getDownloads().
+09-27 21:42:27.447 16865 16898 I Gecko   : Attempting load of libEGL.so
+09-27 21:42:27.447  1456  1605 W zygote  : kill(-16507, 9) failed: No such process
+09-27 21:42:27.447  1456  1605 I zygote  : Successfully killed process cgroup uid 10082 pid 16507 in 29ms
+09-27 21:42:27.480 16716 17018 I Finsky  : [12089] jcu.a(1): Unbind from service.
+09-27 21:42:27.482 16716 16728 I Finsky  : [12015] jcc.d(4): onGetDownloads()
+09-27 21:42:27.575 16865 17011 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:42:27.576 16865 17011 D glean/PingStorageEngine: 201cc200-d162-4527-8e19-9671206d9783 was deleted: true
+09-27 21:42:27.580 16865 16891 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4fa27a68-c360-4876-93df-c4058fb6542e, tags={ mozac_service_glean_ping_upload_worker, mozilla.components.service.glean.scheduler.PingUploadWorker } ]
+09-27 21:42:27.607  1456  2067 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=699, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+09-27 21:42:27.810 16865 16865 D GeckoNetworkManager: Incoming event enableNotifications for state OnNoListeners -> OnWithListeners
+09-27 21:42:27.811 16865 16865 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:27.812 16865 16865 D GeckoNetworkManager: Incoming event receivedUpdate for state OnWithListeners -> OnWithListeners
+09-27 21:42:27.813 16865 16865 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:27.816 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: unhandled flags #8 not handled
+09-27 21:42:27.817 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: Relocation to NULL @0x00025ffc for symbol "__cxa_type_match"
+09-27 21:42:27.818 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: unhandled flags #8 not handled
+09-27 21:42:27.819 16865 16898 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: Relocation to NULL @0x00040ffc for symbol "__cxa_type_match"
+09-27 21:42:27.882 16865 17037 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: unhandled flags #8 not handled
+09-27 21:42:27.883 16865 17037 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: Relocation to NULL @0x00050ffc for symbol "__cxa_type_match"
+09-27 21:42:28.051 16865 17038 D experiments: Fetched experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records:
+09-27 21:42:28.051 16865 17038 D experiments: {"data":[{"match":{"app_id":"^org.mozilla.fenix$","regions":[],"debug_tags":[]},"schema":1566228455761,"buckets":{"count":667,"start":0},"branches":[{"name":"a","ratio":1},{"name":"b","ratio":1},{"name":"c","ratio":1}],"description":"End-to-end test of the Mobiles Experiments platform for Firefox Preview.","id":"fenix-test-2019-08-05","last_modified":1566233826256}]}
+09-27 21:42:28.054 16865 17038 I experiments: Experiments update from server: ExperimentsSnapshot(experiments=[Experiment(id=fenix-test-2019-08-05, description=End-to-end test of the Mobiles Experiments platform for Firefox Preview., lastModified=1566233826256, schemaModified=1566228455761, buckets=Buckets(start=0, count=667), branches=[Branch(name=a, ratio=1), Branch(name=b, ratio=1), Branch(name=c, ratio=1)], match=Matcher(appId=^org.mozilla.fenix$, appDisplayVersion=null, appMinVersion=null, appMaxVersion=null, localeLanguage=null, localeCountry=null, deviceManufacturer=null, deviceModel=null, regions=[], debugTags=[]))], lastModified=1566233826256)
+09-27 21:42:28.056 16865 17038 I experiments: onExperimentsUpdated - no experiment currently active, looking for match
+09-27 21:42:28.067 16865 16891 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=5980a666-b824-4e6b-bb7a-34010b5a1fc4, tags={ mozilla.components.service.experiments.ExperimentsUpdaterWorker, mozilla.components.service.experiments } ]
+09-27 21:42:28.494 16865 16898 I Gecko   : 1569634948494	addons.xpi-utils	WARN	Synchronous load of XPI database due to getAddonsByType([theme]) Stack: getAddonsByType@resource://gre/modules/addons/XPIDatabase.jsm:1992:21
+09-27 21:42:28.494 16865 16898 I Gecko   : installBuiltinAddon@resource://gre/modules/addons/XPIInstall.jsm:4291:24
+09-27 21:42:28.494 16865 16898 I Gecko   : 
+09-27 21:42:32.329 17019 17034 I zygote  : Waiting for a blocking GC ProfileSaver
+09-27 21:42:35.467  1456  6339 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10283 user=0: from pid 17098
+09-27 21:42:35.467  1456  6339 I ActivityManager: Killing 16865:org.mozilla.fenix.nightly/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:35.470  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.472  1456  6339 W ActivityManager: Force removing ActivityRecord{a9452e8 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t516}: app died, no saved state
+09-27 21:42:35.472 16910 16910 I ServiceChildProcess: Service has been unbound. Stopping.
+09-27 21:42:35.485  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.494  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+09-27 21:42:35.507  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.514  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:35.514  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:35.520  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.534  1456  6339 I ActivityManager: Killing 16910:org.mozilla.fenix.nightly:tab/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:35.534  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+09-27 21:42:35.548  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.553  1456  1941 W InputDispatcher: channel '4c9d350 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+09-27 21:42:35.554  1456  1941 E InputDispatcher: channel '4c9d350 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+09-27 21:42:35.556  1456  2402 I WindowManager: WIN DEATH: Window{4c9d350 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity}
+09-27 21:42:35.556  1456  2402 W InputDispatcher: Attempted to unregister already unregistered input channel '4c9d350 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity (server)'
+09-27 21:42:35.561  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.577  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:42:35.582  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.593  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 16865
+09-27 21:42:35.597  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.598  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:42:35.615  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080120
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e0
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e0
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f08011e
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200de
+09-27 21:42:35.621  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200de
+09-27 21:42:35.624  2360  2360 D MayaFrameworkProxyService: receive intent :Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:org.mozilla.fenix.nightly flg=0x45000010 (has extras) }
+09-27 21:42:35.626  1456  1942 I InputReader: Reconfiguring input devices.  changes=0x00000010
+09-27 21:42:35.627  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.643  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.653  7883 17102 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:42:35.664  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.665  1456  1605 W zygote  : kill(16865, 9) failed: No such process
+09-27 21:42:35.684  1456  1605 W zygote  : kill(-16865, 9) failed: No such process
+09-27 21:42:35.687  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 16865 in 217ms
+09-27 21:42:35.689  2146  2165 I zygote  : NativeAlloc concurrent copying GC freed 156529(5MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6MB/12MB, paused 169us total 111.793ms
+09-27 21:42:35.692  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:42:35.700  1456  1605 W zygote  : kill(-16910, 9) failed: No such process
+09-27 21:42:35.700  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 16910 in 0ms
+09-27 21:42:35.718  2398  2398 D ImsResolver: maybeAddedImsService, packageName: org.mozilla.fenix.nightly
+09-27 21:42:35.730  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:42:35.732  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:42:35.735  1456  4829 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+09-27 21:42:35.736   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+09-27 21:42:35.746  1456 10736 I WifiService: getVerboseLoggingLevel uid=1000
+09-27 21:42:35.746  1456 10736 I WifiService: getAggressiveHandover uid=1000
+09-27 21:42:35.747  1456 10736 I WifiService: getAllowScansWithTraffic uid=1000
+09-27 21:42:35.747  2398  2398 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+09-27 21:42:35.774  1456  1456 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@CiI
+09-27 21:42:35.778  7883 17108 D Settings: No enabled state changed, skipping updateCategory call
+09-27 21:42:35.794  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:35.802  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:35.813 12500 12609 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+09-27 21:42:35.830 12500 13117 W Icing   : No valid account for uploading user actions: addq: Not signed in
+09-27 21:42:35.837  1456  1466 I zygote  : NativeAlloc concurrent copying GC freed 78153(3MB) AllocSpace objects, 27(1456KB) LOS objects, 42% free, 22MB/38MB, paused 247us total 322.670ms
+09-27 21:42:35.847  7883 17120 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:42:35.862  1456  7556 I ActivityManager: Start proc 17121:org.mozilla.fenix.nightly/u0a283 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+09-27 21:42:35.865 12500 12514 I zygote  : Waiting for a blocking GC ProfileSaver
+09-27 21:42:35.896  1456  2915 I WindowManager: Keep hide if surface has never drawn Window{4f49e2 u0 com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}
+09-27 21:42:35.896 12500 12510 I zygote  : Background concurrent copying GC freed 44814(2MB) AllocSpace objects, 8(288KB) LOS objects, 50% free, 9MB/19MB, paused 163us total 158.801ms
+09-27 21:42:35.897 12500 12514 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 31.793ms
+09-27 21:42:35.899  1456  2915 I WindowManager: Failed to capture screenshot of Token{6665c2b ActivityRecord{e887c7a u0 com.android.settings/.Settings$DevelopmentSettingsActivity t206}} appWin=Window{4f49e2 u0 com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity} drawState=4
+09-27 21:42:35.956 17121 17121 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+09-27 21:42:35.956 17121 17121 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+09-27 21:42:36.000 17121 17121 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:36.000 17121 17121 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:36.000 17121 17121 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:36.001 17121 17121 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:36.014 17121 17121 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:36.014 17121 17121 D RustNativeSupport: lib in use: none
+09-27 21:42:36.014 17121 17121 D RustNativeSupport: lib configured: fenix
+09-27 21:42:36.014 17121 17121 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:36.014 17121 17121 D RustNativeSupport: settled on fenix
+09-27 21:42:36.042 17121 17121 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:36.042 17121 17121 D RustNativeSupport: lib in use: none
+09-27 21:42:36.042 17121 17121 D RustNativeSupport: lib configured: fenix
+09-27 21:42:36.042 17121 17121 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:36.042 17121 17121 D RustNativeSupport: settled on fenix
+09-27 21:42:36.045 17121 17121 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:36.067 17121 17121 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:36.068 17121 17140 I GeckoThread: preparing to run Gecko
+09-27 21:42:36.072 17121 17121 D GeckoRuntime: Lifecycle: onCreate
+09-27 21:42:36.073 17121 17140 D GeckoThread: State changed to MOZGLUE_READY
+09-27 21:42:36.086 17121 17140 W Settings: Setting animator_duration_scale has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only global URI.
+09-27 21:42:36.087 17121 17140 E GeckoLibLoad: Load sqlite start
+09-27 21:42:36.089 12500 13117 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+09-27 21:42:36.101 17121 17121 I experiments: No active experiment in cache
+09-27 21:42:36.104 17121 17142 D App     : Bucket is 98
+09-27 21:42:36.107 17121 17142 D App     : Experiments active: {asFeatureSyncDisabled=false}
+09-27 21:42:36.109 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: unhandled flags #8 not handled
+09-27 21:42:36.115 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: Relocation to NULL @0x00130ffc for symbol "__cxa_type_match"
+09-27 21:42:36.115 17121 17140 E GeckoLibLoad: Load sqlite done
+09-27 21:42:36.115 17121 17140 E GeckoLibLoad: Load nss start
+09-27 21:42:36.115 17121 17140 E GeckoLibLoad: Load nss done
+09-27 21:42:36.117 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libxul.so: unhandled flags #8 not handled
+09-27 21:42:36.117 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/liblgpllibs.so: unhandled flags #8 not handled
+09-27 21:42:36.121 17121 17121 I glean/Glean: Metrics enabled: true
+09-27 21:42:36.157 17121 17140 E GeckoLibLoad: Loaded libs in 41.113181ms total, 20ms(123ms) user, 16ms(40ms) system, 0(1) faults
+09-27 21:42:36.157 17121 17140 D GeckoThread: State changed to LIBS_READY
+09-27 21:42:36.158 17121 17140 W GeckoThread: zerdatime 2163029619 - runGecko
+09-27 21:42:36.164 17121 17140 D GeckoProfile: Loading profile at: null name: default
+09-27 21:42:36.171 17121 17140 D GeckoProfile: Found profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:42:36.175  1456  2402 I ActivityManager: Start proc 17157:org.mozilla.fenix.nightly:tab/u0a283 for service org.mozilla.fenix.nightly/org.mozilla.gecko.process.GeckoServiceChildProcess$tab
+09-27 21:42:36.220 17121 17121 W [WARNING][Leanplum]: [com.leanplum.internal.ActionManager::getLocationManager::8]: Geofencing support requires leanplum-location module and Google Play Services v8.1 and higher.
+09-27 21:42:36.220 17121 17121 W [WARNING][Leanplum]: Add this to your build.gradle file:
+09-27 21:42:36.220 17121 17121 W [WARNING][Leanplum]: implementation 'com.google.android.gms:play-services-location:8.3.0+'
+09-27 21:42:36.220 17121 17121 W [WARNING][Leanplum]: implementation 'com.leanplum:leanplum-location:+'
+09-27 21:42:36.229 17121 17121 I [INFO][Leanplum]: [com.leanplum.monitoring.ExceptionHandler::setContext::6]: LeanplumExceptionHandler could not initialize Exception Reporting.This is expected if you have not included the leanplum-monitoring module
+09-27 21:42:36.241 17121 17121 I FirefoxAccountStateMachine: Enabling/updating sync with a new SyncConfig: SyncConfig(supportedEngines=[HISTORY, BOOKMARKS], syncPeriodInMinutes=240)
+09-27 21:42:36.243 17121 17121 I BgSyncManager: Periodic syncing enabled at a 240 interval
+09-27 21:42:36.244 17121 17121 I FirefoxAccountStateMachine: Sync is enabled
+09-27 21:42:36.246 17121 17121 W PushConfig: No firebase configuration found; cannot support push service.
+09-27 21:42:36.248 17121 17177 I FirefoxAccountStateMachine: Processing event Event$Init for state Start. Next state is Start
+09-27 21:42:36.251 17121 17177 I FirefoxAccountStateMachine: Ran 'Event$Init' side-effects for state Start, got successive event Event$AccountNotFound
+09-27 21:42:36.252 17121 17177 I FirefoxAccountStateMachine: Processing event Event$AccountNotFound for state Start. Next state is NotAuthenticated
+09-27 21:42:36.252 17157 17157 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:36.252 17157 17157 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:36.253 17157 17157 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:36.254 17157 17157 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:36.256 17121 17177 D RustNativeSupport: findMegazordLibraryName(fxaclient, 0.39.1
+09-27 21:42:36.256 17121 17177 D RustNativeSupport: lib in use: none
+09-27 21:42:36.256 17121 17177 D RustNativeSupport: lib configured: fenix
+09-27 21:42:36.256 17121 17177 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:36.256 17121 17177 D RustNativeSupport: settled on fenix
+09-27 21:42:36.261 17121 17177 D fxaclient_ffi: fxa_new
+09-27 21:42:36.267 17157 17157 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:36.267 17157 17157 D RustNativeSupport: lib in use: none
+09-27 21:42:36.267 17157 17157 D RustNativeSupport: lib configured: fenix
+09-27 21:42:36.267 17157 17157 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:36.267 17157 17157 D RustNativeSupport: settled on fenix
+09-27 21:42:36.285   808   808 I SFPerfTracer:      triggers: (rate: 4:4557) (compose: 0:0) (post: 0:0) (render: 0:1) (16:114293 frames) (17:290546)
+09-27 21:42:36.285   808   808 D SFPerfTracer:        layers: (3:12) (NavigationBar#0 (0xb07df000): 0:1037) (StatusBar#0 (0xb07e3000): 0:174025) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:118)* (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 0:37)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb03a0000): 0:30)- (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb03a5000): 0:22)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb0763000): 16:19) (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb03a4000): 1:5)* 
+09-27 21:42:36.293 17121 17121 D PhoneWindow: Restoring navigation bar divider color to default value = 0x00000000
+09-27 21:42:36.296 17157 17157 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:36.296 17157 17157 D RustNativeSupport: lib in use: none
+09-27 21:42:36.296 17157 17157 D RustNativeSupport: lib configured: fenix
+09-27 21:42:36.296 17157 17157 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:36.296 17157 17157 D RustNativeSupport: settled on fenix
+09-27 21:42:36.299 17157 17157 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:36.306 17157 17157 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:36.309 17157 17182 I GeckoThread: preparing to run Gecko
+09-27 21:42:36.345 17121 17126 I zygote  : Do partial code cache collection, code=31KB, data=28KB
+09-27 21:42:36.346 17121 17126 I zygote  : After code cache collection, code=31KB, data=28KB
+09-27 21:42:36.346 17121 17126 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:36.384 17121 17121 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:36.504 17121 17140 I Gecko:DumpUtils: Fifo watcher disabled via pref.
+09-27 21:42:36.521 17121 17121 D GeckoRuntime: Lifecycle: onStart
+09-27 21:42:36.542 17121 17121 D GeckoRuntime: Lifecycle: onResume
+09-27 21:42:36.543 17121 17177 W FirefoxAccountStateMachine: Got invalid event Event$Init for state NotAuthenticated.
+09-27 21:42:36.546 17121 17121 D GeckoNetworkManager: Incoming event start for state OffNoListeners -> OnNoListeners
+09-27 21:42:36.548 17121 17121 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:36.558 17121 17174 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:42:36.585 17121 17212 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:42:36.594 17121 17121 I glean/Glean: Registering pings for org.mozilla.fenix.GleanMetrics.Pings
+09-27 21:42:36.595 17121 17121 I glean/Glean: Registering pings for mozilla.components.service.glean.GleanMetrics.Pings
+09-27 21:42:36.618 17121 17121 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:36.635 17121 17121 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:36.635 17121 17121 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:36 EDT 2019.
+09-27 21:42:36.636 17121 17121 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22643380ms
+09-27 21:42:36.638 17121 17121 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:36.638 17121 17121 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:36 EDT 2019.
+09-27 21:42:36.638 17121 17121 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22643363ms
+09-27 21:42:36.660 17121 17218 D glean/PingMaker: Collecting events
+09-27 21:42:36.725 17121 17126 I zygote  : Do partial code cache collection, code=57KB, data=49KB
+09-27 21:42:36.727 17121 17126 I zygote  : After code cache collection, code=57KB, data=49KB
+09-27 21:42:36.727 17121 17126 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:42:36.733 17121 17144 D glean/PingStorageEngine: Storing ping 3d59f70b-2aa0-46e0-a6ae-9962405dc47a at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/3d59f70b-2aa0-46e0-a6ae-9962405dc47a
+09-27 21:42:36.741 17121 17140 D GeckoSysInfo: System memory: 1867MB.
+09-27 21:42:36.744 17121 17140 D GeckoThread: State changed to JNI_READY
+09-27 21:42:36.749 17121 17121 D App     : ActivationPing - already generated
+09-27 21:42:36.754 17121 17121 D GeckoNetworkManager: Incoming event receivedUpdate for state OnNoListeners -> OnNoListeners
+09-27 21:42:36.755 17121 17121 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:36.760  1456  2915 I WifiService: getDhcpInfo uid=10283
+09-27 21:42:36.763  1456  2402 D ConnectivityService: requestNetwork for uid/pid:10283/17121 NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:42:36.764  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:36.765  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:36.766  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:36.766  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:36.779 17121 17176 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+09-27 21:42:36.782 17121 17121 I zygote  : Deoptimizing java.lang.Object androidx.collection.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+09-27 21:42:37.034 17121 17126 I zygote  : Do full code cache collection, code=126KB, data=96KB
+09-27 21:42:37.036 17121 17126 I zygote  : After code cache collection, code=81KB, data=42KB
+09-27 21:42:37.038 17121 17212 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:42:37.038 17121 17212 I Adreno  : Build Date                       : 06/07/18
+09-27 21:42:37.038 17121 17212 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:42:37.038 17121 17212 I Adreno  : Local Branch                     : 
+09-27 21:42:37.038 17121 17212 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:42:37.038 17121 17212 I Adreno  : Remote Branch                    : NONE
+09-27 21:42:37.038 17121 17212 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:42:37.039 17121 17212 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:37.045 17121 17212 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:42:37.054 17121 17212 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:42:37.056 17121 17212 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:37.056 17121 17212 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:37.093 12500 13117 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+09-27 21:42:37.124 17121 17126 I zygote  : Do partial code cache collection, code=92KB, data=69KB
+09-27 21:42:37.127 17121 17126 I zygote  : After code cache collection, code=92KB, data=69KB
+09-27 21:42:37.127 17121 17126 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:42:37.136 17121 17250 D glean/PingStorageEngine: Processing persisted pings at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings
+09-27 21:42:37.137 17121 17250 D glean/PingStorageEngine: Processing ping: 3d59f70b-2aa0-46e0-a6ae-9962405dc47a
+09-27 21:42:37.141  1456  2915 I ActivityManager: Killing 16479:com.motorola.msimsettings/u0a48 (adj 906): empty for 2896s
+09-27 21:42:37.141 17121 17250 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/events/1/3d59f70b-2aa0-46e0-a6ae-9962405dc47a
+09-27 21:42:37.142  1456  1605 W zygote  : kill(-16479, 9) failed: No such process
+09-27 21:42:37.152 12500 13117 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+09-27 21:42:37.156 17121 17212 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:42:37.157  1456  1605 W zygote  : kill(-16479, 9) failed: No such process
+09-27 21:42:37.158 17121 17212 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:37.166 12500 13117 I Icing   : Indexing done com.google.android.gms-apps
+09-27 21:42:37.171 12500 13117 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+09-27 21:42:37.171 12500 13117 I Icing   : Indexing com.google.android.gms-internal.3p:DigitalDocument from com.google.android.gms
+09-27 21:42:37.172  1456  1605 W zygote  : kill(-16479, 9) failed: No such process
+09-27 21:42:37.173  1456  1605 I zygote  : Successfully killed process cgroup uid 10048 pid 16479 in 31ms
+09-27 21:42:37.182  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity,cp,ca,1346
+09-27 21:42:37.183  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity: +1s341ms
+09-27 21:42:37.187 12500 13117 I Icing   : Indexing done com.google.android.gms-internal.3p:DigitalDocument
+09-27 21:42:37.217 17121 17254 I experiments: Fetching experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256
+09-27 21:42:37.248 17121 17140 I Gecko   : 1569634957244	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readUTF8URI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: startup :: line 2362"  data: no] Stack trace: startup()@resource://gre/modules/addons/XPIProvider.jsm:2362
+09-27 21:42:37.248 17121 17140 I Gecko   : callProvider()@resource://gre/modules/AddonManager.jsm:213
+09-27 21:42:37.248 17121 17140 I Gecko   : _startProvider()@resource://gre/modules/AddonManager.jsm:649
+09-27 21:42:37.248 17121 17140 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:873
+09-27 21:42:37.248 17121 17140 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:3469
+09-27 21:42:37.248 17121 17140 I Gecko   : observe()@resource://gre/modules/addonManager.js:86
+09-27 21:42:37.256 17121 17140 I Gecko   : 1569634957255	addons.xpi	WARN	No list of valid system add-ons found.
+09-27 21:42:37.412 17121 17140 D GeckoThread: State changed to PROFILE_READY
+09-27 21:42:37.518 17121 17140 W GeckoEventDispatcher: No listener for AndroidCastDevice:SyncDevice
+09-27 21:42:37.524 17121 17140 I Gecko   : -*- nsDNSServiceDiscovery.js : nsDNSServiceDiscovery
+09-27 21:42:37.561 17121 17250 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:42:37.562 17121 17250 D glean/PingStorageEngine: 3d59f70b-2aa0-46e0-a6ae-9962405dc47a was deleted: true
+09-27 21:42:37.562 17121 17250 D glean/PingStorageEngine: Processing ping: eb0029a0-f41b-42d6-9d4f-1cd0abf9ac6d
+09-27 21:42:37.564 17121 17250 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/activation/1/eb0029a0-f41b-42d6-9d4f-1cd0abf9ac6d
+09-27 21:42:37.625 17121 17140 W ResourceType: Too many attribute references, stopped at: 0x01010099
+09-27 21:42:37.672 17121 17140 I Gecko   : Attempting load of libEGL.so
+09-27 21:42:37.677 17121 17250 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:42:37.678 17121 17250 D glean/PingStorageEngine: eb0029a0-f41b-42d6-9d4f-1cd0abf9ac6d was deleted: true
+09-27 21:42:37.679 17121 17135 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4fdda4a9-e35e-4a46-87a3-2247ad9ab2bb, tags={ mozac_service_glean_ping_upload_worker, mozilla.components.service.glean.scheduler.PingUploadWorker } ]
+09-27 21:42:37.683  1456  2067 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+09-27 21:42:37.689 17121 17121 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: FATAL EXCEPTION: main
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 17121
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: java.lang.IllegalStateException: it.campaign must not be null
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at io.reactivex.plugins.RxJavaPlugins.checkExpressionValueIsNotNull(RxJavaPlugins.java:1)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at org.mozilla.fenix.components.metrics.AdjustMetricsService$start$1.onAttributionChanged(AdjustMetricsService.kt:3)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at com.adjust.sdk.ActivityHandler$31.run(ActivityHandler.java:1)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:790)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+09-27 21:42:37.690 17121 17121 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+09-27 21:42:37.691 17121 17121 I mozac/CrashReporter: Received crash: UncaughtExceptionCrash(throwable=java.lang.IllegalStateException: it.campaign must not be null, breadcrumbs=[Breadcrumb(message=Changing to fragment homeFragment, isCustomTab: false, data={}, category=DestinationChanged, level=INFO, type=DEFAULT, date=Fri Sep 27 21:42:36 EDT 2019)])
+09-27 21:42:37.691 17121 17121 I mozac/CrashReporter: Showing prompt
+09-27 21:42:37.703  1456  5907 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10283
+09-27 21:42:37.716  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+09-27 21:42:37.741  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+09-27 21:42:37.741  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-27 21:42:37.781  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:37.781  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:37.866 12455 12466 I zygote  : Background concurrent copying GC freed 115328(6MB) AllocSpace objects, 12(400KB) LOS objects, 50% free, 6MB/13MB, paused 158us total 100.835ms
+09-27 21:42:37.882 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: unhandled flags #8 not handled
+09-27 21:42:37.884 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: Relocation to NULL @0x00025ffc for symbol "__cxa_type_match"
+09-27 21:42:37.885 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: unhandled flags #8 not handled
+09-27 21:42:37.886 17121 17140 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: Relocation to NULL @0x00040ffc for symbol "__cxa_type_match"
+09-27 21:42:37.922 17121 17280 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: unhandled flags #8 not handled
+09-27 21:42:37.922 17121 17280 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: Relocation to NULL @0x00050ffc for symbol "__cxa_type_match"
+09-27 21:42:38.038 17121 17254 D experiments: Fetched experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256:
+09-27 21:42:38.038 17121 17254 D experiments: {"data":[]}
+09-27 21:42:38.040 17121 17254 I experiments: Experiments update from server: ExperimentsSnapshot(experiments=[Experiment(id=fenix-test-2019-08-05, description=End-to-end test of the Mobiles Experiments platform for Firefox Preview., lastModified=1566233826256, schemaModified=1566228455761, buckets=Buckets(start=0, count=667), branches=[Branch(name=a, ratio=1), Branch(name=b, ratio=1), Branch(name=c, ratio=1)], match=Matcher(appId=^org.mozilla.fenix$, appDisplayVersion=null, appMinVersion=null, appMaxVersion=null, localeLanguage=null, localeCountry=null, deviceManufacturer=null, deviceModel=null, regions=[], debugTags=[]))], lastModified=1566233826256)
+09-27 21:42:38.042 17121 17254 I experiments: onExperimentsUpdated - no experiment currently active, looking for match
+09-27 21:42:38.046 17121 17135 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4bf6b18d-d77d-4439-af8f-49f4e1715363, tags={ mozilla.components.service.experiments.ExperimentsUpdaterWorker, mozilla.components.service.experiments } ]
+09-27 21:42:38.206  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{4ab0c3 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t517 f}
+09-27 21:42:38.219  1456  1601 I ActivityManager: Start proc 17298:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a283 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+09-27 21:42:38.343 17298 17298 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:38.343 17298 17298 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:38.343 17298 17298 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:38.344 17298 17298 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:38.359 17298 17298 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:38.360 17298 17298 D RustNativeSupport: lib in use: none
+09-27 21:42:38.360 17298 17298 D RustNativeSupport: lib configured: fenix
+09-27 21:42:38.360 17298 17298 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:38.360 17298 17298 D RustNativeSupport: settled on fenix
+09-27 21:42:38.388 17298 17298 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:38.388 17298 17298 D RustNativeSupport: lib in use: none
+09-27 21:42:38.388 17298 17298 D RustNativeSupport: lib configured: fenix
+09-27 21:42:38.388 17298 17298 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:38.388 17298 17298 D RustNativeSupport: settled on fenix
+09-27 21:42:38.392 17298 17298 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:38.532 17298 17317 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:42:38.639 17298 17317 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:42:38.639 17298 17317 I Adreno  : Build Date                       : 06/07/18
+09-27 21:42:38.639 17298 17317 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:42:38.639 17298 17317 I Adreno  : Local Branch                     : 
+09-27 21:42:38.639 17298 17317 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:42:38.639 17298 17317 I Adreno  : Remote Branch                    : NONE
+09-27 21:42:38.639 17298 17317 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:42:38.640 17298 17317 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:38.649 17298 17317 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:42:38.658 17298 17317 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:42:38.659 17298 17317 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:38.659 17298 17317 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:38.701 17298 17317 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:42:38.704 17298 17317 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:38.706 17298 17303 I zygote  : Do partial code cache collection, code=31KB, data=28KB
+09-27 21:42:38.708 17298 17303 I zygote  : After code cache collection, code=31KB, data=28KB
+09-27 21:42:38.708 17298 17303 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:38.956  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity,wp,ca,749
+09-27 21:42:38.957  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity: +715ms
+09-27 21:42:39.060   808   808 I SFPerfTracer:      triggers: (rate: 4:4558) (compose: 0:0) (post: 0:0) (render: 0:1) (2:114375 frames) (3:290647)
+09-27 21:42:39.060   808   808 D SFPerfTracer:        layers: (6:13) (NavigationBar#0 (0xb07df000): 3:1041) (StatusBar#0 (0xb07e3000): 3:174029) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:126) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb0763000): 0:30)- (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb03a4000): 0:5)- (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb0383000): 3:25) (Application Error: org.mozilla.fenix.nightly#0 (0xb0763000): 0:14) (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb038f000): 3:10) (org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity#0 (0xb03a0000): 3:9)* 
+09-27 21:42:39.338   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (84:65193 vsyncs) (86:292845)
+09-27 21:42:40.389 16716 16716 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(3): onJobSchedulerWakeup with jobId 9004
+09-27 21:42:40.391 16716 16716 I Finsky  : [2] sfu.a(28): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+09-27 21:42:40.395 16716 16716 I Finsky  : [2] sfu.a(7): Scheduling fallback in 64799998 (absolute: 2227833854)
+09-27 21:42:40.423 16716 16716 I Finsky  : [2] sgf.handleMessage(6): DeviceState: DeviceState{currentTime=1569634960418, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+09-27 21:42:40.430 16716 16743 I Finsky  : [12030] shq.a(7): Jobs in database: 1-1337 3-495 12-1 24-77777777 26-1414141414 29-29 
+09-27 21:42:40.443 16716 16716 I Finsky  : [2] sgc.a(19): Running job: 12-1
+09-27 21:42:40.444 16716 16716 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(19): ContentSyncJob started
+09-27 21:42:40.445 16716 16716 I Finsky  : [2] sgf.handleMessage(77): RunningQueue size: 1, PendingQueue size: 0
+09-27 21:42:40.445 16716 16716 I Finsky  : [2] sgf.handleMessage(80): Running queue: 12-1 
+09-27 21:42:40.532 16716 16724 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: ahrc
+09-27 21:42:41.142 16716 17323 I Finsky  : [12091] dyu.a(15): Completed 0 account content syncs with 0 successful.
+09-27 21:42:41.144 16716 16716 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(17): Installation state replication succeeded.
+09-27 21:42:41.155 16716 16716 I Finsky  : [2] shm.a(12): jobFinished: 12-1. TimeElapsed: 711ms.
+09-27 21:42:41.157 16716 16716 I Finsky  : [2] sgc.a(39): Job 12-1 finished. Not rescheduling.
+09-27 21:42:41.158 16716 16716 I Finsky  : [2] sgf.handleMessage(77): RunningQueue size: 0, PendingQueue size: 0
+09-27 21:42:41.159 16716 16716 I Finsky  : [2] sgf.handleMessage(39): Executor finished
+09-27 21:42:41.176  1456  5797 I ActivityManager: Killing 16565:com.google.android.apps.wallpaper/u0a102 (adj 906): empty for 2851s
+09-27 21:42:41.177 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 3-495 24-77777777 26-1414141414 29-29 
+09-27 21:42:41.177  1456  1605 W zygote  : kill(-16565, 9) failed: No such process
+09-27 21:42:41.190 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56913101ms, C: false, I: true, N: 0
+09-27 21:42:41.192 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337,  -> L: 17297163ms, D: 60497163ms, C: false, I: false, N: 1
+09-27 21:42:41.193 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 3-495,  -> L: 0ms, D: 86375974ms, C: true, I: true, N: 2
+09-27 21:42:41.194  1456  1605 W zygote  : kill(-16565, 9) failed: No such process
+09-27 21:42:41.195 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414, 29-29,  -> L: 5164ms, D: 35164ms, C: false, I: false, N: 0
+09-27 21:42:41.210  1456  1605 W zygote  : kill(-16565, 9) failed: No such process
+09-27 21:42:41.210  1456  1605 I zygote  : Successfully killed process cgroup uid 10102 pid 16565 in 32ms
+09-27 21:42:41.220 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9007 9000 9005 
+09-27 21:42:41.221 16716 16716 I Finsky  : [2] shb.a(9): Throttling wakeup for job 9001 (expected to run in 0 ms) due to recent wakeup
+09-27 21:42:41.222 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9001, L: 30000, D: 56913101, C: false, I: true, N: 0
+09-27 21:42:41.225 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9002, L: 17297163, D: 60497163, C: false, I: false, N: 1
+09-27 21:42:41.228 16716 16716 I Finsky  : [2] shb.a(9): Throttling wakeup for job 9003 (expected to run in 0 ms) due to recent wakeup
+09-27 21:42:41.229 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9003, L: 30000, D: 86375974, C: true, I: true, N: 2
+09-27 21:42:41.231 16716 16716 I Finsky  : [2] shb.a(9): Throttling wakeup for job 9006 (expected to run in 5164 ms) due to recent wakeup
+09-27 21:42:41.232 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9006, L: 30000, D: 35164, C: false, I: false, N: 0
+09-27 21:42:45.287 12455 16639 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+09-27 21:42:45.826 12455 16283 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+09-27 21:42:45.827 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:45.827 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:45.836 12455 16283 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+09-27 21:42:45.837 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:45.837 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:45.872  1456  4829 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10283 user=0: from pid 17328
+09-27 21:42:45.872  1456  4829 I ActivityManager: Killing 17121:org.mozilla.fenix.nightly/u0a283 (adj 100): stop org.mozilla.fenix.nightly
+09-27 21:42:45.875  1456  1605 W zygote  : kill(-17121, 9) failed: No such process
+09-27 21:42:45.875  1456  4829 W ActivityManager: Scheduling restart of crashed service org.mozilla.fenix.nightly/androidx.work.impl.background.systemjob.SystemJobService in 1000ms
+09-27 21:42:45.875 17157 17157 I ServiceChildProcess: Service has been unbound. Stopping.
+09-27 21:42:45.876  1456  4829 I WindowManager: Keep hide if surface has never drawn Window{779f7ce u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity}
+09-27 21:42:45.890  1456  1605 W zygote  : kill(-17121, 9) failed: No such process
+09-27 21:42:45.922  1456  4829 I ActivityManager: Killing 17298:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:45.923  1456  4829 W ActivityManager: Force removing ActivityRecord{807862c u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t517}: app died, no saved state
+09-27 21:42:45.940  1456  4829 I WindowManager: Failed to capture screenshot of Token{81db8f5 ActivityRecord{807862c u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t517 f}} appWin=Window{b53228e u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity} drawState=4
+09-27 21:42:45.940  1456  4829 I WindowManager: Keep hide if surface has never drawn Window{b53228e u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity}
+09-27 21:42:45.948  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 4 lines
+09-27 21:42:45.963  1456  1605 W zygote  : kill(-17121, 9) failed: No such process
+09-27 21:42:45.963  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17121 in 88ms
+09-27 21:42:45.965  1456  1605 W zygote  : kill(-17298, 9) failed: No such process
+09-27 21:42:45.980  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+09-27 21:42:45.984  1456  4829 I ActivityManager: Killing 17157:org.mozilla.fenix.nightly:tab/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:45.988  1456  4829 I ActivityManager:   Force stopping service ServiceRecord{62c6121 u0 org.mozilla.fenix.nightly/androidx.work.impl.background.systemjob.SystemJobService}
+09-27 21:42:45.989  1456  7556 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{9ef1359 0:org.mozilla.fenix.nightly/u0a283}
+09-27 21:42:45.994  1456  1605 W zygote  : kill(-17298, 9) failed: No such process
+09-27 21:42:45.995  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17298 in 30ms
+09-27 21:42:45.995  1456  1605 W zygote  : kill(-17157, 9) failed: No such process
+09-27 21:42:45.997  1456  1603 W Looper  : Dispatch took 122ms on android.ui, h=Handler (android.os.Handler) {8ab1ec6} cb=android.app.-$Lambda$aS31cHIhRx41653CMnd4gZqshIQ@7609e87 msg=0
+09-27 21:42:46.015  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:42:46.016  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:42:46.017  1456  1605 W zygote  : kill(-17157, 9) failed: No such process
+09-27 21:42:46.017  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17157 in 22ms
+09-27 21:42:46.021  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 17121
+09-27 21:42:46.021  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 17298
+09-27 21:42:46.030  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:42:46.033  7883 16830 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:42:46.040  1456  1466 I zygote  : Background concurrent copying GC freed 75520(3MB) AllocSpace objects, 19(828KB) LOS objects, 42% free, 20MB/36MB, paused 261us total 287.649ms
+09-27 21:42:46.046  1456  5027 I WifiService: getVerboseLoggingLevel uid=1000
+09-27 21:42:46.047  1456  5027 I WifiService: getAggressiveHandover uid=1000
+09-27 21:42:46.047  1456  4829 I WifiService: getAllowScansWithTraffic uid=1000
+09-27 21:42:46.063  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:46.064  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+09-27 21:42:46.069  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:46.095  7883 16830 D Settings: No enabled state changed, skipping updateCategory call
+09-27 21:42:46.145 12455 16283 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+09-27 21:42:46.145 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:46.145 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:46.146  1456  2162 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+09-27 21:42:46.147   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+09-27 21:42:46.152 12455 16283 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+09-27 21:42:46.152 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:46.152 12455 16283 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19275018@19.2.75 (040308-269183835):2)
+09-27 21:42:46.168  1456  7556 I ActivityManager: Start proc 17336:org.mozilla.fenix.nightly/u0a283 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+09-27 21:42:46.228 12455 16283 I Funnel  : Init: funnel is disabled, skipping initialization.
+09-27 21:42:46.264 17336 17336 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+09-27 21:42:46.264 17336 17336 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+09-27 21:42:46.308 17336 17336 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:46.309 17336 17336 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:46.309 17336 17336 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:46.309 17336 17336 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:46.325 17336 17336 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:46.326 17336 17336 D RustNativeSupport: lib in use: none
+09-27 21:42:46.326 17336 17336 D RustNativeSupport: lib configured: fenix
+09-27 21:42:46.326 17336 17336 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:46.326 17336 17336 D RustNativeSupport: settled on fenix
+09-27 21:42:46.360 17336 17336 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:46.360 17336 17336 D RustNativeSupport: lib in use: none
+09-27 21:42:46.360 17336 17336 D RustNativeSupport: lib configured: fenix
+09-27 21:42:46.360 17336 17336 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:46.360 17336 17336 D RustNativeSupport: settled on fenix
+09-27 21:42:46.363 17336 17336 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:46.384 17336 17336 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:46.384 17336 17358 I GeckoThread: preparing to run Gecko
+09-27 21:42:46.390 17336 17336 D GeckoRuntime: Lifecycle: onCreate
+09-27 21:42:46.391 17336 17358 D GeckoThread: State changed to MOZGLUE_READY
+09-27 21:42:46.404 17336 17358 W Settings: Setting animator_duration_scale has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only global URI.
+09-27 21:42:46.405 17336 17358 E GeckoLibLoad: Load sqlite start
+09-27 21:42:46.421 17336 17336 I experiments: No active experiment in cache
+09-27 21:42:46.425 17336 17360 D App     : Bucket is 98
+09-27 21:42:46.429 17336 17360 D App     : Experiments active: {asFeatureSyncDisabled=false}
+09-27 21:42:46.440 17336 17336 I glean/Glean: Metrics enabled: true
+09-27 21:42:46.440 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: unhandled flags #8 not handled
+09-27 21:42:46.449 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: Relocation to NULL @0x00130ffc for symbol "__cxa_type_match"
+09-27 21:42:46.450 17336 17358 E GeckoLibLoad: Load sqlite done
+09-27 21:42:46.450 17336 17358 E GeckoLibLoad: Load nss start
+09-27 21:42:46.450 17336 17358 E GeckoLibLoad: Load nss done
+09-27 21:42:46.451 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libxul.so: unhandled flags #8 not handled
+09-27 21:42:46.451 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/liblgpllibs.so: unhandled flags #8 not handled
+09-27 21:42:46.501 17336 17358 E GeckoLibLoad: Loaded libs in 50.261984ms total, 26ms(116ms) user, 13ms(36ms) system, 0(0) faults
+09-27 21:42:46.501 17336 17358 D GeckoThread: State changed to LIBS_READY
+09-27 21:42:46.501 17336 17358 W GeckoThread: zerdatime 2163039963 - runGecko
+09-27 21:42:46.506 17336 17358 D GeckoProfile: Loading profile at: null name: default
+09-27 21:42:46.508 17336 17358 D GeckoProfile: Found profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:42:46.519  1456  4679 I ActivityManager: Start proc 17373:org.mozilla.fenix.nightly:tab/u0a283 for service org.mozilla.fenix.nightly/org.mozilla.gecko.process.GeckoServiceChildProcess$tab
+09-27 21:42:46.543 17336 17336 W [WARNING][Leanplum]: [com.leanplum.internal.ActionManager::getLocationManager::8]: Geofencing support requires leanplum-location module and Google Play Services v8.1 and higher.
+09-27 21:42:46.543 17336 17336 W [WARNING][Leanplum]: Add this to your build.gradle file:
+09-27 21:42:46.543 17336 17336 W [WARNING][Leanplum]: implementation 'com.google.android.gms:play-services-location:8.3.0+'
+09-27 21:42:46.543 17336 17336 W [WARNING][Leanplum]: implementation 'com.leanplum:leanplum-location:+'
+09-27 21:42:46.552 17336 17336 I [INFO][Leanplum]: [com.leanplum.monitoring.ExceptionHandler::setContext::6]: LeanplumExceptionHandler could not initialize Exception Reporting.This is expected if you have not included the leanplum-monitoring module
+09-27 21:42:46.565 17336 17336 I FirefoxAccountStateMachine: Enabling/updating sync with a new SyncConfig: SyncConfig(supportedEngines=[HISTORY, BOOKMARKS], syncPeriodInMinutes=240)
+09-27 21:42:46.568 17336 17336 I BgSyncManager: Periodic syncing enabled at a 240 interval
+09-27 21:42:46.569 17336 17336 I FirefoxAccountStateMachine: Sync is enabled
+09-27 21:42:46.572 17336 17336 W PushConfig: No firebase configuration found; cannot support push service.
+09-27 21:42:46.574 17336 17392 I FirefoxAccountStateMachine: Processing event Event$Init for state Start. Next state is Start
+09-27 21:42:46.576 17336 17392 I FirefoxAccountStateMachine: Ran 'Event$Init' side-effects for state Start, got successive event Event$AccountNotFound
+09-27 21:42:46.577 17336 17392 I FirefoxAccountStateMachine: Processing event Event$AccountNotFound for state Start. Next state is NotAuthenticated
+09-27 21:42:46.580 17336 17392 D RustNativeSupport: findMegazordLibraryName(fxaclient, 0.39.1
+09-27 21:42:46.580 17336 17392 D RustNativeSupport: lib in use: none
+09-27 21:42:46.580 17336 17392 D RustNativeSupport: lib configured: fenix
+09-27 21:42:46.580 17336 17392 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:46.580 17336 17392 D RustNativeSupport: settled on fenix
+09-27 21:42:46.583 17336 17392 D fxaclient_ffi: fxa_new
+09-27 21:42:46.596 17373 17373 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:46.596 17373 17373 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:46.596 17373 17373 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:46.597 17373 17373 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:46.611 17373 17373 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:46.611 17373 17373 D RustNativeSupport: lib in use: none
+09-27 21:42:46.611 17373 17373 D RustNativeSupport: lib configured: fenix
+09-27 21:42:46.611 17373 17373 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:46.611 17373 17373 D RustNativeSupport: settled on fenix
+09-27 21:42:46.619 17336 17336 D PhoneWindow: Restoring navigation bar divider color to default value = 0x00000000
+09-27 21:42:46.626  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:46.626  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:46.640 17373 17373 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:46.642 17373 17373 D RustNativeSupport: lib in use: none
+09-27 21:42:46.642 17373 17373 D RustNativeSupport: lib configured: fenix
+09-27 21:42:46.642 17373 17373 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:46.642 17373 17373 D RustNativeSupport: settled on fenix
+09-27 21:42:46.646 17373 17373 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:46.652 17373 17373 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:46.652 17373 17397 I GeckoThread: preparing to run Gecko
+09-27 21:42:46.685 17336 17341 I zygote  : Do partial code cache collection, code=31KB, data=28KB
+09-27 21:42:46.687 17336 17341 I zygote  : After code cache collection, code=31KB, data=28KB
+09-27 21:42:46.687 17336 17341 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:46.715 17336 17336 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:46.835 17336 17358 I Gecko:DumpUtils: Fifo watcher disabled via pref.
+09-27 21:42:46.854 17336 17336 D GeckoRuntime: Lifecycle: onStart
+09-27 21:42:46.872 17336 17336 D GeckoRuntime: Lifecycle: onResume
+09-27 21:42:46.872 17336 17392 W FirefoxAccountStateMachine: Got invalid event Event$Init for state NotAuthenticated.
+09-27 21:42:46.873 17336 17336 D GeckoNetworkManager: Incoming event start for state OffNoListeners -> OnNoListeners
+09-27 21:42:46.874 17336 17336 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:46.875 17336 17388 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:42:46.926 17336 17426 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:42:46.936 17336 17336 I glean/Glean: Registering pings for org.mozilla.fenix.GleanMetrics.Pings
+09-27 21:42:46.938 17336 17336 I glean/Glean: Registering pings for mozilla.components.service.glean.GleanMetrics.Pings
+09-27 21:42:46.957 17336 17336 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:46.969 17336 17336 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:46.970 17336 17336 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:46 EDT 2019.
+09-27 21:42:46.970 17336 17336 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22633042ms
+09-27 21:42:46.972 17336 17336 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:46.972 17336 17336 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:46 EDT 2019.
+09-27 21:42:46.972 17336 17336 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22633029ms
+09-27 21:42:46.979 17336 17432 D glean/PingMaker: Collecting events
+09-27 21:42:47.044 17336 17422 D glean/PingStorageEngine: Storing ping 6f24c9a9-00d7-4d0f-8142-d6b69958e069 at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/6f24c9a9-00d7-4d0f-8142-d6b69958e069
+09-27 21:42:47.048 17336 17358 D GeckoSysInfo: System memory: 1867MB.
+09-27 21:42:47.050 17336 17358 D GeckoThread: State changed to JNI_READY
+09-27 21:42:47.076  1456  4679 D ConnectivityService: requestNetwork for uid/pid:10283/17336 NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:42:47.078  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:47.078  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:47.078  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:47.078  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:47.079 17336 17341 I zygote  : Do partial code cache collection, code=62KB, data=52KB
+09-27 21:42:47.079 17336 17336 D App     : ActivationPing - already generated
+09-27 21:42:47.081 17336 17341 I zygote  : After code cache collection, code=62KB, data=52KB
+09-27 21:42:47.081 17336 17341 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:42:47.092 17336 17336 D GeckoNetworkManager: Incoming event receivedUpdate for state OnNoListeners -> OnNoListeners
+09-27 21:42:47.094 17336 17336 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:47.095  1456  4679 I WifiService: getDhcpInfo uid=10283
+09-27 21:42:47.096 17336 17390 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+09-27 21:42:47.105 17336 17336 I zygote  : Deoptimizing java.lang.Object androidx.collection.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+09-27 21:42:47.335 17336 17426 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:42:47.335 17336 17426 I Adreno  : Build Date                       : 06/07/18
+09-27 21:42:47.335 17336 17426 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:42:47.335 17336 17426 I Adreno  : Local Branch                     : 
+09-27 21:42:47.335 17336 17426 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:42:47.335 17336 17426 I Adreno  : Remote Branch                    : NONE
+09-27 21:42:47.335 17336 17426 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:42:47.336 17336 17426 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:47.344 17336 17426 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:42:47.352 17336 17426 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:42:47.353 17336 17341 I zygote  : Do full code cache collection, code=124KB, data=99KB
+09-27 21:42:47.354 17336 17426 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:47.355 17336 17426 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:47.356 17336 17341 I zygote  : After code cache collection, code=84KB, data=46KB
+09-27 21:42:47.408 17336 17341 I zygote  : Do partial code cache collection, code=92KB, data=68KB
+09-27 21:42:47.410 17336 17341 I zygote  : After code cache collection, code=92KB, data=68KB
+09-27 21:42:47.410 17336 17341 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:42:47.432 17336 17464 D glean/PingStorageEngine: Processing persisted pings at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings
+09-27 21:42:47.432 17336 17464 D glean/PingStorageEngine: Processing ping: 6f24c9a9-00d7-4d0f-8142-d6b69958e069
+09-27 21:42:47.435 17336 17464 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/events/1/6f24c9a9-00d7-4d0f-8142-d6b69958e069
+09-27 21:42:47.448 17336 17426 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:42:47.449 17336 17426 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:47.467  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity,cp,ca,1312
+09-27 21:42:47.468  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity: +1s307ms
+09-27 21:42:47.503 17336 17468 I experiments: Fetching experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256
+09-27 21:42:47.523 17336 17358 I Gecko   : 1569634967519	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readUTF8URI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: startup :: line 2362"  data: no] Stack trace: startup()@resource://gre/modules/addons/XPIProvider.jsm:2362
+09-27 21:42:47.523 17336 17358 I Gecko   : callProvider()@resource://gre/modules/AddonManager.jsm:213
+09-27 21:42:47.523 17336 17358 I Gecko   : _startProvider()@resource://gre/modules/AddonManager.jsm:649
+09-27 21:42:47.523 17336 17358 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:873
+09-27 21:42:47.523 17336 17358 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:3469
+09-27 21:42:47.523 17336 17358 I Gecko   : observe()@resource://gre/modules/addonManager.js:86
+09-27 21:42:47.688 17336 17358 D GeckoThread: State changed to PROFILE_READY
+09-27 21:42:47.793 17336 17358 W GeckoEventDispatcher: No listener for AndroidCastDevice:SyncDevice
+09-27 21:42:47.799 17336 17358 I Gecko   : -*- nsDNSServiceDiscovery.js : nsDNSServiceDiscovery
+09-27 21:42:47.840 17336 17464 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:42:47.841 17336 17464 D glean/PingStorageEngine: 6f24c9a9-00d7-4d0f-8142-d6b69958e069 was deleted: true
+09-27 21:42:47.842 17336 17350 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b0e70477-afe4-4323-9a19-5cdaa3d60077, tags={ mozac_service_glean_ping_upload_worker, mozilla.components.service.glean.scheduler.PingUploadWorker } ]
+09-27 21:42:47.846  1456  2067 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=702, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+09-27 21:42:47.900 17336 17358 W ResourceType: Too many attribute references, stopped at: 0x01010099
+09-27 21:42:47.947 17336 17358 I Gecko   : Attempting load of libEGL.so
+09-27 21:42:48.141 17336 17336 D GeckoNetworkManager: Incoming event enableNotifications for state OnNoListeners -> OnWithListeners
+09-27 21:42:48.142 17336 17336 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:48.143 17336 17336 D GeckoNetworkManager: Incoming event receivedUpdate for state OnWithListeners -> OnWithListeners
+09-27 21:42:48.144 17336 17336 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:48.146 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: unhandled flags #8 not handled
+09-27 21:42:48.147 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: Relocation to NULL @0x00025ffc for symbol "__cxa_type_match"
+09-27 21:42:48.148 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: unhandled flags #8 not handled
+09-27 21:42:48.148 17336 17358 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: Relocation to NULL @0x00040ffc for symbol "__cxa_type_match"
+09-27 21:42:48.183 17336 17486 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: unhandled flags #8 not handled
+09-27 21:42:48.184 17336 17486 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: Relocation to NULL @0x00050ffc for symbol "__cxa_type_match"
+09-27 21:42:48.346 17336 17468 D experiments: Fetched experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256:
+09-27 21:42:48.346 17336 17468 D experiments: {"data":[]}
+09-27 21:42:48.347 17336 17468 I experiments: Experiments update from server: ExperimentsSnapshot(experiments=[Experiment(id=fenix-test-2019-08-05, description=End-to-end test of the Mobiles Experiments platform for Firefox Preview., lastModified=1566233826256, schemaModified=1566228455761, buckets=Buckets(start=0, count=667), branches=[Branch(name=a, ratio=1), Branch(name=b, ratio=1), Branch(name=c, ratio=1)], match=Matcher(appId=^org.mozilla.fenix$, appDisplayVersion=null, appMinVersion=null, appMaxVersion=null, localeLanguage=null, localeCountry=null, deviceManufacturer=null, deviceModel=null, regions=[], debugTags=[]))], lastModified=1566233826256)
+09-27 21:42:48.349 17336 17468 I experiments: onExperimentsUpdated - no experiment currently active, looking for match
+09-27 21:42:48.351 17336 17350 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=9c85f365-0741-4044-ab34-1823a76286da, tags={ mozilla.components.service.experiments.ExperimentsUpdaterWorker, mozilla.components.service.experiments } ]
+09-27 21:42:56.276  1456  2162 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10283 user=0: from pid 17507
+09-27 21:42:56.276  1456  2162 I ActivityManager: Killing 17336:org.mozilla.fenix.nightly/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:56.279  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.280 17373 17373 I ServiceChildProcess: Service has been unbound. Stopping.
+09-27 21:42:56.280  1456  2162 W ActivityManager: Force removing ActivityRecord{9a4c8aa u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t518}: app died, no saved state
+09-27 21:42:56.294  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.310  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.312  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:56.312  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:56.324  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.337  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.341  1456  7570 I WindowManager: WIN DEATH: Window{54f63ba u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity}
+09-27 21:42:56.351  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.354   808  2484 E SurfaceFlinger: Failed to find layer (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0) in layer parent (no-parent).
+09-27 21:42:56.359  1456  2162 I ActivityManager: Killing 17373:org.mozilla.fenix.nightly:tab/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:42:56.371  1456  1605 I chatty  : uid=1000(system) ActivityManager expire 1 line
+09-27 21:42:56.382  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 17336
+09-27 21:42:56.384  1456  1605 W zygote  : kill(-17336, 9) failed: No such process
+09-27 21:42:56.384  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17336 in 105ms
+09-27 21:42:56.384  1456  1605 W zygote  : kill(-17373, 9) failed: No such process
+09-27 21:42:56.390  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:42:56.397  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:42:56.398  1456  1605 W zygote  : kill(-17373, 9) failed: No such process
+09-27 21:42:56.403  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:42:56.411  1456  4829 I WifiService: getVerboseLoggingLevel uid=1000
+09-27 21:42:56.412  1456  2402 I WifiService: getAggressiveHandover uid=1000
+09-27 21:42:56.412  1456  2402 I WifiService: getAllowScansWithTraffic uid=1000
+09-27 21:42:56.414  1456  1605 W zygote  : kill(-17373, 9) failed: No such process
+09-27 21:42:56.414  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17373 in 29ms
+09-27 21:42:56.415  7883 17108 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:42:56.432  7883 17108 D Settings: No enabled state changed, skipping updateCategory call
+09-27 21:42:56.458  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:56.462  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:42:56.484   808   808 I SFPerfTracer:      triggers: (rate: 4:4559) (compose: 0:0) (post: 0:0) (render: 0:1) (1:114449 frames) (2:290748)
+09-27 21:42:56.484   808   808 D SFPerfTracer:        layers: (2:13) (NavigationBar#0 (0xb07df000): 0:1054) (StatusBar#0 (0xb07e3000): 0:174042) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:140)* (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb0383000): 0:35)- (Application Error: org.mozilla.fenix.nightly#0 (0xb0763000): 0:20)- (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb038f000): 0:47)- (org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity#0 (0xb03a0000): 0:20)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb0763000): 0:30)- (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb0383000): 0:21)- 
+09-27 21:42:56.517   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+09-27 21:42:56.518  1456  5797 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+09-27 21:42:56.545  1456  2162 I ActivityManager: Start proc 17514:org.mozilla.fenix.nightly/u0a283 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+09-27 21:42:56.622  1456  1466 I zygote  : NativeAlloc concurrent copying GC freed 26145(1545KB) AllocSpace objects, 13(516KB) LOS objects, 42% free, 20MB/36MB, paused 438us total 309.060ms
+09-27 21:42:56.674 17514 17514 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+09-27 21:42:56.674 17514 17514 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+09-27 21:42:56.712 17514 17514 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:56.713 17514 17514 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:56.713 17514 17514 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:56.713 17514 17514 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:56.726 17514 17514 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:56.726 17514 17514 D RustNativeSupport: lib in use: none
+09-27 21:42:56.726 17514 17514 D RustNativeSupport: lib configured: fenix
+09-27 21:42:56.726 17514 17514 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:56.726 17514 17514 D RustNativeSupport: settled on fenix
+09-27 21:42:56.752 17514 17514 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:56.753 17514 17514 D RustNativeSupport: lib in use: none
+09-27 21:42:56.753 17514 17514 D RustNativeSupport: lib configured: fenix
+09-27 21:42:56.753 17514 17514 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:56.753 17514 17514 D RustNativeSupport: settled on fenix
+09-27 21:42:56.756 17514 17514 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:56.775 17514 17514 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:56.775 17514 17532 I GeckoThread: preparing to run Gecko
+09-27 21:42:56.780 17514 17514 D GeckoRuntime: Lifecycle: onCreate
+09-27 21:42:56.780 17514 17532 D GeckoThread: State changed to MOZGLUE_READY
+09-27 21:42:56.793 17514 17532 W Settings: Setting animator_duration_scale has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only global URI.
+09-27 21:42:56.794 17514 17532 E GeckoLibLoad: Load sqlite start
+09-27 21:42:56.808 17514 17514 I experiments: No active experiment in cache
+09-27 21:42:56.811 17514 17534 D App     : Bucket is 98
+09-27 21:42:56.815 17514 17534 D App     : Experiments active: {asFeatureSyncDisabled=false}
+09-27 21:42:56.819 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: unhandled flags #8 not handled
+09-27 21:42:56.825 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: Relocation to NULL @0x00130ffc for symbol "__cxa_type_match"
+09-27 21:42:56.825 17514 17514 I glean/Glean: Metrics enabled: true
+09-27 21:42:56.825 17514 17532 E GeckoLibLoad: Load sqlite done
+09-27 21:42:56.826 17514 17532 E GeckoLibLoad: Load nss start
+09-27 21:42:56.826 17514 17532 E GeckoLibLoad: Load nss done
+09-27 21:42:56.826 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libxul.so: unhandled flags #8 not handled
+09-27 21:42:56.827 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/liblgpllibs.so: unhandled flags #8 not handled
+09-27 21:42:56.870 17514 17532 E GeckoLibLoad: Loaded libs in 44.177140ms total, 30ms(126ms) user, 6ms(43ms) system, 0(0) faults
+09-27 21:42:56.871 17514 17532 D GeckoThread: State changed to LIBS_READY
+09-27 21:42:56.871 17514 17532 W GeckoThread: zerdatime 2163050332 - runGecko
+09-27 21:42:56.877 17514 17532 D GeckoProfile: Loading profile at: null name: default
+09-27 21:42:56.878 17514 17532 D GeckoProfile: Found profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:42:56.889  1456  2162 I ActivityManager: Start proc 17550:org.mozilla.fenix.nightly:tab/u0a283 for service org.mozilla.fenix.nightly/org.mozilla.gecko.process.GeckoServiceChildProcess$tab
+09-27 21:42:56.927 17514 17514 W [WARNING][Leanplum]: [com.leanplum.internal.ActionManager::getLocationManager::8]: Geofencing support requires leanplum-location module and Google Play Services v8.1 and higher.
+09-27 21:42:56.927 17514 17514 W [WARNING][Leanplum]: Add this to your build.gradle file:
+09-27 21:42:56.927 17514 17514 W [WARNING][Leanplum]: implementation 'com.google.android.gms:play-services-location:8.3.0+'
+09-27 21:42:56.927 17514 17514 W [WARNING][Leanplum]: implementation 'com.leanplum:leanplum-location:+'
+09-27 21:42:56.936 17514 17514 I [INFO][Leanplum]: [com.leanplum.monitoring.ExceptionHandler::setContext::6]: LeanplumExceptionHandler could not initialize Exception Reporting.This is expected if you have not included the leanplum-monitoring module
+09-27 21:42:56.948 17514 17514 I FirefoxAccountStateMachine: Enabling/updating sync with a new SyncConfig: SyncConfig(supportedEngines=[HISTORY, BOOKMARKS], syncPeriodInMinutes=240)
+09-27 21:42:56.950 17514 17514 I BgSyncManager: Periodic syncing enabled at a 240 interval
+09-27 21:42:56.951 17514 17514 I FirefoxAccountStateMachine: Sync is enabled
+09-27 21:42:56.954 17514 17514 W PushConfig: No firebase configuration found; cannot support push service.
+09-27 21:42:56.957 17514 17569 I FirefoxAccountStateMachine: Processing event Event$Init for state Start. Next state is Start
+09-27 21:42:56.959 17514 17569 I FirefoxAccountStateMachine: Ran 'Event$Init' side-effects for state Start, got successive event Event$AccountNotFound
+09-27 21:42:56.959 17514 17569 I FirefoxAccountStateMachine: Processing event Event$AccountNotFound for state Start. Next state is NotAuthenticated
+09-27 21:42:56.962 17514 17569 D RustNativeSupport: findMegazordLibraryName(fxaclient, 0.39.1
+09-27 21:42:56.962 17514 17569 D RustNativeSupport: lib in use: none
+09-27 21:42:56.962 17514 17569 D RustNativeSupport: lib configured: fenix
+09-27 21:42:56.962 17514 17569 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:56.962 17514 17569 D RustNativeSupport: settled on fenix
+09-27 21:42:56.962 17550 17550 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:42:56.962 17550 17550 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:42:56.963 17550 17550 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:42:56.963 17550 17550 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:42:56.967 17514 17569 D fxaclient_ffi: fxa_new
+09-27 21:42:56.976 17550 17550 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:42:56.977 17550 17550 D RustNativeSupport: lib in use: none
+09-27 21:42:56.977 17550 17550 D RustNativeSupport: lib configured: fenix
+09-27 21:42:56.977 17550 17550 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:56.977 17550 17550 D RustNativeSupport: settled on fenix
+09-27 21:42:56.982   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (15:65285 vsyncs) (17:292960)
+09-27 21:42:57.008 17550 17550 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:42:57.008 17550 17550 D RustNativeSupport: lib in use: none
+09-27 21:42:57.008 17550 17550 D RustNativeSupport: lib configured: fenix
+09-27 21:42:57.008 17550 17550 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:42:57.008 17550 17550 D RustNativeSupport: settled on fenix
+09-27 21:42:57.011 17550 17550 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:42:57.013 17514 17514 D PhoneWindow: Restoring navigation bar divider color to default value = 0x00000000
+09-27 21:42:57.017 17550 17550 D GeckoThread: State changed to LAUNCHED
+09-27 21:42:57.020 17550 17574 I GeckoThread: preparing to run Gecko
+09-27 21:42:57.078 17514 17519 I zygote  : Do partial code cache collection, code=31KB, data=28KB
+09-27 21:42:57.079 17514 17519 I zygote  : After code cache collection, code=31KB, data=28KB
+09-27 21:42:57.080 17514 17519 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:42:57.106 17514 17514 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:57.227 17514 17532 I Gecko:DumpUtils: Fifo watcher disabled via pref.
+09-27 21:42:57.245 17514 17514 D GeckoRuntime: Lifecycle: onStart
+09-27 21:42:57.266 17514 17514 D GeckoRuntime: Lifecycle: onResume
+09-27 21:42:57.266 17514 17569 W FirefoxAccountStateMachine: Got invalid event Event$Init for state NotAuthenticated.
+09-27 21:42:57.267 17514 17514 D GeckoNetworkManager: Incoming event start for state OffNoListeners -> OnNoListeners
+09-27 21:42:57.269 17514 17514 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:57.275 17514 17566 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:42:57.299 17514 17603 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:42:57.313 17514 17514 I glean/Glean: Registering pings for org.mozilla.fenix.GleanMetrics.Pings
+09-27 21:42:57.315 17514 17514 I glean/Glean: Registering pings for mozilla.components.service.glean.GleanMetrics.Pings
+09-27 21:42:57.334 17514 17514 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:42:57.346 17514 17514 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:57.347 17514 17514 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:57 EDT 2019.
+09-27 21:42:57.347 17514 17514 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22622665ms
+09-27 21:42:57.349 17514 17514 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:42:57.349 17514 17514 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:42:57 EDT 2019.
+09-27 21:42:57.350 17514 17514 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22622652ms
+09-27 21:42:57.364 17514 17609 D glean/PingMaker: Collecting events
+09-27 21:42:57.426 17514 17532 D GeckoSysInfo: System memory: 1867MB.
+09-27 21:42:57.429 17514 17532 D GeckoThread: State changed to JNI_READY
+09-27 21:42:57.438 17514 17592 D glean/PingStorageEngine: Storing ping ea679d89-465c-4062-9496-583250e895cf at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/ea679d89-465c-4062-9496-583250e895cf
+09-27 21:42:57.454 17514 17519 I zygote  : Do partial code cache collection, code=57KB, data=51KB
+09-27 21:42:57.456 17514 17519 I zygote  : After code cache collection, code=57KB, data=51KB
+09-27 21:42:57.456 17514 17519 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:42:57.472 17514 17514 D App     : ActivationPing - already generated
+09-27 21:42:57.482 17514 17514 D GeckoNetworkManager: Incoming event receivedUpdate for state OnNoListeners -> OnNoListeners
+09-27 21:42:57.483 17514 17514 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:57.488 17514 17568 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+09-27 21:42:57.496  1456  5797 D ConnectivityService: requestNetwork for uid/pid:10283/17514 NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:42:57.496  1456  2162 I WifiService: getDhcpInfo uid=10283
+09-27 21:42:57.497  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:57.497  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:57.498  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:57.498  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:42:57.512 17514 17514 I zygote  : Deoptimizing java.lang.Object androidx.collection.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+09-27 21:42:57.555 17514 17514 I zygote  : Deoptimizing void androidx.constraintlayout.widget.ConstraintLayout$LayoutParams.resolveLayoutDirection(int) due to JIT inline cache
+09-27 21:42:57.747 17514 17603 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:42:57.747 17514 17603 I Adreno  : Build Date                       : 06/07/18
+09-27 21:42:57.747 17514 17603 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:42:57.747 17514 17603 I Adreno  : Local Branch                     : 
+09-27 21:42:57.747 17514 17603 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:42:57.747 17514 17603 I Adreno  : Remote Branch                    : NONE
+09-27 21:42:57.747 17514 17603 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:42:57.748 17514 17603 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:57.757 17514 17603 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:42:57.761 17514 17519 I zygote  : Do full code cache collection, code=124KB, data=99KB
+09-27 21:42:57.763 17514 17519 I zygote  : After code cache collection, code=79KB, data=44KB
+09-27 21:42:57.768 17514 17603 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:42:57.770 17514 17603 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:42:57.770 17514 17603 D OpenGLRenderer: Swap behavior 2
+09-27 21:42:57.818 17514 17519 I zygote  : Do partial code cache collection, code=86KB, data=67KB
+09-27 21:42:57.821 17514 17519 I zygote  : After code cache collection, code=86KB, data=67KB
+09-27 21:42:57.821 17514 17519 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:42:57.842 17514 17641 D glean/PingStorageEngine: Processing persisted pings at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings
+09-27 21:42:57.843 17514 17641 D glean/PingStorageEngine: Processing ping: ea679d89-465c-4062-9496-583250e895cf
+09-27 21:42:57.847 17514 17641 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/events/1/ea679d89-465c-4062-9496-583250e895cf
+09-27 21:42:57.859 17514 17603 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:42:57.861 17514 17603 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:42:57.879  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity,cp,ca,1347
+09-27 21:42:57.880  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity: +1s342ms
+09-27 21:42:57.897 17514 17532 I Gecko   : 1569634977893	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readUTF8URI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: startup :: line 2362"  data: no] Stack trace: startup()@resource://gre/modules/addons/XPIProvider.jsm:2362
+09-27 21:42:57.897 17514 17532 I Gecko   : callProvider()@resource://gre/modules/AddonManager.jsm:213
+09-27 21:42:57.897 17514 17532 I Gecko   : _startProvider()@resource://gre/modules/AddonManager.jsm:649
+09-27 21:42:57.897 17514 17532 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:873
+09-27 21:42:57.897 17514 17532 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:3469
+09-27 21:42:57.897 17514 17532 I Gecko   : observe()@resource://gre/modules/addonManager.js:86
+09-27 21:42:57.915 17514 17645 I experiments: Fetching experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256
+09-27 21:42:58.064 17514 17532 D GeckoThread: State changed to PROFILE_READY
+09-27 21:42:58.169 17514 17532 W GeckoEventDispatcher: No listener for AndroidCastDevice:SyncDevice
+09-27 21:42:58.176 17514 17532 I Gecko   : -*- nsDNSServiceDiscovery.js : nsDNSServiceDiscovery
+09-27 21:42:58.265 17514 17641 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:42:58.266 17514 17641 D glean/PingStorageEngine: ea679d89-465c-4062-9496-583250e895cf was deleted: true
+09-27 21:42:58.267 17514 17528 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=8eef18af-bdf3-4bb8-8489-f35bcdc6b17a, tags={ mozac_service_glean_ping_upload_worker, mozilla.components.service.glean.scheduler.PingUploadWorker } ]
+09-27 21:42:58.273  1456  2067 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=703, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+09-27 21:42:58.278 17514 17532 W ResourceType: Too many attribute references, stopped at: 0x01010099
+09-27 21:42:58.325 17514 17532 I Gecko   : Attempting load of libEGL.so
+09-27 21:42:58.518 17514 17514 D GeckoNetworkManager: Incoming event enableNotifications for state OnNoListeners -> OnWithListeners
+09-27 21:42:58.519 17514 17514 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:58.520 17514 17514 D GeckoNetworkManager: Incoming event receivedUpdate for state OnWithListeners -> OnWithListeners
+09-27 21:42:58.521 17514 17514 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:42:58.523 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: unhandled flags #8 not handled
+09-27 21:42:58.524 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: Relocation to NULL @0x00025ffc for symbol "__cxa_type_match"
+09-27 21:42:58.525 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: unhandled flags #8 not handled
+09-27 21:42:58.525 17514 17532 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: Relocation to NULL @0x00040ffc for symbol "__cxa_type_match"
+09-27 21:42:58.560 17514 17664 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: unhandled flags #8 not handled
+09-27 21:42:58.561 17514 17664 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: Relocation to NULL @0x00050ffc for symbol "__cxa_type_match"
+09-27 21:42:58.671 17514 17645 D experiments: Fetched experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256:
+09-27 21:42:58.671 17514 17645 D experiments: {"data":[]}
+09-27 21:42:58.672 17514 17645 I experiments: Experiments update from server: ExperimentsSnapshot(experiments=[Experiment(id=fenix-test-2019-08-05, description=End-to-end test of the Mobiles Experiments platform for Firefox Preview., lastModified=1566233826256, schemaModified=1566228455761, buckets=Buckets(start=0, count=667), branches=[Branch(name=a, ratio=1), Branch(name=b, ratio=1), Branch(name=c, ratio=1)], match=Matcher(appId=^org.mozilla.fenix$, appDisplayVersion=null, appMinVersion=null, appMaxVersion=null, localeLanguage=null, localeCountry=null, deviceManufacturer=null, deviceModel=null, regions=[], debugTags=[]))], lastModified=1566233826256)
+09-27 21:42:58.674 17514 17645 I experiments: onExperimentsUpdated - no experiment currently active, looking for match
+09-27 21:42:58.676 17514 17528 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=82cfcc0b-fcb7-4a03-9f3f-7c8f08c52c57, tags={ mozilla.components.service.experiments.ExperimentsUpdaterWorker, mozilla.components.service.experiments } ]
+09-27 21:43:06.651  1456  7570 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10283 user=0: from pid 17686
+09-27 21:43:06.651  1456  7570 I ActivityManager: Killing 17514:org.mozilla.fenix.nightly/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:43:06.653  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.655  1456  7570 W ActivityManager: Force removing ActivityRecord{6311ad4 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t519}: app died, no saved state
+09-27 21:43:06.655 17550 17550 I ServiceChildProcess: Service has been unbound. Stopping.
+09-27 21:43:06.665  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.681  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:43:06.681  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:43:06.681  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.689  1456  7570 I ActivityManager: Killing 17550:org.mozilla.fenix.nightly:tab/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:43:06.694  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+09-27 21:43:06.717  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.727  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:43:06.735  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:43:06.739  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:43:06.755  1456  2162 I WifiService: getVerboseLoggingLevel uid=1000
+09-27 21:43:06.755  1456  4829 I WifiService: getAggressiveHandover uid=1000
+09-27 21:43:06.756  1456  2162 I WifiService: getAllowScansWithTraffic uid=1000
+09-27 21:43:06.771  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.781  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:43:06.784  7883 17688 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:43:06.784  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.787  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:43:06.797  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.815  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.816  7883 17692 D Settings: No enabled state changed, skipping updateCategory call
+09-27 21:43:06.820  1456  4829 I WindowManager: WIN DEATH: Window{5d0562a u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity}
+09-27 21:43:06.828  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 17514
+09-27 21:43:06.830  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.845  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.853  1456  4829 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+09-27 21:43:06.853   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+09-27 21:43:06.861  1456  1605 W zygote  : kill(-17514, 9) failed: No such process
+09-27 21:43:06.861  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17514 in 207ms
+09-27 21:43:06.861  1456  1605 W zygote  : kill(-17550, 9) failed: No such process
+09-27 21:43:06.861  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17550 in 0ms
+09-27 21:43:06.895  1456  7570 I ActivityManager: Start proc 17695:org.mozilla.fenix.nightly/u0a283 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+09-27 21:43:06.967  1456  1466 I zygote  : NativeAlloc concurrent copying GC freed 22627(1510KB) AllocSpace objects, 12(496KB) LOS objects, 42% free, 20MB/35MB, paused 215us total 286.631ms
+09-27 21:43:07.017 17695 17695 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+09-27 21:43:07.017 17695 17695 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+09-27 21:43:07.058 17695 17695 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:43:07.058 17695 17695 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:43:07.058 17695 17695 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:43:07.059 17695 17695 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:43:07.070 17695 17695 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:43:07.071 17695 17695 D RustNativeSupport: lib in use: none
+09-27 21:43:07.071 17695 17695 D RustNativeSupport: lib configured: fenix
+09-27 21:43:07.071 17695 17695 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:43:07.071 17695 17695 D RustNativeSupport: settled on fenix
+09-27 21:43:07.101 17695 17695 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:43:07.102 17695 17695 D RustNativeSupport: lib in use: none
+09-27 21:43:07.102 17695 17695 D RustNativeSupport: lib configured: fenix
+09-27 21:43:07.102 17695 17695 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:43:07.102 17695 17695 D RustNativeSupport: settled on fenix
+09-27 21:43:07.104 17695 17695 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:43:07.123 17695 17695 D GeckoThread: State changed to LAUNCHED
+09-27 21:43:07.124 17695 17717 I GeckoThread: preparing to run Gecko
+09-27 21:43:07.129 17695 17695 D GeckoRuntime: Lifecycle: onCreate
+09-27 21:43:07.129 17695 17717 D GeckoThread: State changed to MOZGLUE_READY
+09-27 21:43:07.141 17695 17717 W Settings: Setting animator_duration_scale has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only global URI.
+09-27 21:43:07.144 17695 17717 E GeckoLibLoad: Load sqlite start
+09-27 21:43:07.157 17695 17695 I experiments: No active experiment in cache
+09-27 21:43:07.159 17695 17719 D App     : Bucket is 98
+09-27 21:43:07.162 17695 17719 D App     : Experiments active: {asFeatureSyncDisabled=false}
+09-27 21:43:07.168 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: unhandled flags #8 not handled
+09-27 21:43:07.174 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnss3.so: Relocation to NULL @0x00130ffc for symbol "__cxa_type_match"
+09-27 21:43:07.175 17695 17717 E GeckoLibLoad: Load sqlite done
+09-27 21:43:07.176 17695 17717 E GeckoLibLoad: Load nss start
+09-27 21:43:07.176 17695 17717 E GeckoLibLoad: Load nss done
+09-27 21:43:07.177 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libxul.so: unhandled flags #8 not handled
+09-27 21:43:07.178 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/liblgpllibs.so: unhandled flags #8 not handled
+09-27 21:43:07.185 17695 17695 I glean/Glean: Metrics enabled: true
+09-27 21:43:07.223 17695 17717 E GeckoLibLoad: Loaded libs in 46.714901ms total, 33ms(173ms) user, 10ms(30ms) system, 0(0) faults
+09-27 21:43:07.223 17695 17717 D GeckoThread: State changed to LIBS_READY
+09-27 21:43:07.223 17695 17717 W GeckoThread: zerdatime 2163060685 - runGecko
+09-27 21:43:07.229 17695 17717 D GeckoProfile: Loading profile at: null name: default
+09-27 21:43:07.231 17695 17717 D GeckoProfile: Found profile dir: /data/user/0/org.mozilla.fenix.nightly/files/mozilla/6jjh3wbw.default
+09-27 21:43:07.240  1456  4829 I ActivityManager: Start proc 17732:org.mozilla.fenix.nightly:tab/u0a283 for service org.mozilla.fenix.nightly/org.mozilla.gecko.process.GeckoServiceChildProcess$tab
+09-27 21:43:07.274 17695 17695 W [WARNING][Leanplum]: [com.leanplum.internal.ActionManager::getLocationManager::8]: Geofencing support requires leanplum-location module and Google Play Services v8.1 and higher.
+09-27 21:43:07.274 17695 17695 W [WARNING][Leanplum]: Add this to your build.gradle file:
+09-27 21:43:07.274 17695 17695 W [WARNING][Leanplum]: implementation 'com.google.android.gms:play-services-location:8.3.0+'
+09-27 21:43:07.274 17695 17695 W [WARNING][Leanplum]: implementation 'com.leanplum:leanplum-location:+'
+09-27 21:43:07.283 17695 17695 I [INFO][Leanplum]: [com.leanplum.monitoring.ExceptionHandler::setContext::6]: LeanplumExceptionHandler could not initialize Exception Reporting.This is expected if you have not included the leanplum-monitoring module
+09-27 21:43:07.295 17695 17695 I FirefoxAccountStateMachine: Enabling/updating sync with a new SyncConfig: SyncConfig(supportedEngines=[HISTORY, BOOKMARKS], syncPeriodInMinutes=240)
+09-27 21:43:07.297 17695 17695 I BgSyncManager: Periodic syncing enabled at a 240 interval
+09-27 21:43:07.297 17695 17695 I FirefoxAccountStateMachine: Sync is enabled
+09-27 21:43:07.301 17695 17695 W PushConfig: No firebase configuration found; cannot support push service.
+09-27 21:43:07.302 17695 17751 I FirefoxAccountStateMachine: Processing event Event$Init for state Start. Next state is Start
+09-27 21:43:07.305 17695 17751 I FirefoxAccountStateMachine: Ran 'Event$Init' side-effects for state Start, got successive event Event$AccountNotFound
+09-27 21:43:07.305 17695 17751 I FirefoxAccountStateMachine: Processing event Event$AccountNotFound for state Start. Next state is NotAuthenticated
+09-27 21:43:07.308 17695 17751 D RustNativeSupport: findMegazordLibraryName(fxaclient, 0.39.1
+09-27 21:43:07.308 17695 17751 D RustNativeSupport: lib in use: none
+09-27 21:43:07.308 17695 17751 D RustNativeSupport: lib configured: fenix
+09-27 21:43:07.308 17695 17751 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:43:07.309 17695 17751 D RustNativeSupport: settled on fenix
+09-27 21:43:07.311 17732 17732 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+09-27 21:43:07.312 17732 17732 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+09-27 21:43:07.312 17732 17732 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-27 21:43:07.312 17695 17751 D fxaclient_ffi: fxa_new
+09-27 21:43:07.313 17732 17732 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+09-27 21:43:07.327 17732 17732 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.39.1
+09-27 21:43:07.328 17732 17732 D RustNativeSupport: lib in use: none
+09-27 21:43:07.328 17732 17732 D RustNativeSupport: lib configured: fenix
+09-27 21:43:07.328 17732 17732 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:43:07.328 17732 17732 D RustNativeSupport: settled on fenix
+09-27 21:43:07.358 17732 17732 D RustNativeSupport: findMegazordLibraryName(rustlog, 0.39.1
+09-27 21:43:07.358 17732 17732 D RustNativeSupport: lib in use: none
+09-27 21:43:07.358 17732 17732 D RustNativeSupport: lib configured: fenix
+09-27 21:43:07.358 17732 17732 D RustNativeSupport: lib version configured: 0.39.1
+09-27 21:43:07.358 17732 17732 D RustNativeSupport: settled on fenix
+09-27 21:43:07.361 17732 17732 I rc_log_ffi::ios: rc_log adapter initialized!
+09-27 21:43:07.364 17695 17695 D PhoneWindow: Restoring navigation bar divider color to default value = 0x00000000
+09-27 21:43:07.371 17732 17732 D GeckoThread: State changed to LAUNCHED
+09-27 21:43:07.373 17732 17756 I GeckoThread: preparing to run Gecko
+09-27 21:43:07.418 17695 17700 I zygote  : Do partial code cache collection, code=31KB, data=28KB
+09-27 21:43:07.419 17695 17700 I zygote  : After code cache collection, code=31KB, data=28KB
+09-27 21:43:07.420 17695 17700 I zygote  : Increasing code cache capacity to 128KB
+09-27 21:43:07.450 17695 17695 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:43:07.572 17695 17717 I Gecko:DumpUtils: Fifo watcher disabled via pref.
+09-27 21:43:07.589 17695 17695 D GeckoRuntime: Lifecycle: onStart
+09-27 21:43:07.605 17695 17695 D GeckoRuntime: Lifecycle: onResume
+09-27 21:43:07.605 17695 17751 W FirefoxAccountStateMachine: Got invalid event Event$Init for state NotAuthenticated.
+09-27 21:43:07.607 17695 17695 D GeckoNetworkManager: Incoming event start for state OffNoListeners -> OnNoListeners
+09-27 21:43:07.609 17695 17695 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:43:07.624 17695 17748 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-27 21:43:07.647 17695 17786 D OpenGLRenderer: HWUI GL Pipeline
+09-27 21:43:07.658 17695 17695 I glean/Glean: Registering pings for org.mozilla.fenix.GleanMetrics.Pings
+09-27 21:43:07.660 17695 17695 I glean/Glean: Registering pings for mozilla.components.service.glean.GleanMetrics.Pings
+09-27 21:43:07.682 17695 17695 I glean/Dispatchers: Task queued for execution and delayed until flushed
+09-27 21:43:07.694 17695 17695 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:43:07.695 17695 17695 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:43:07 EDT 2019.
+09-27 21:43:07.695 17695 17695 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22612316ms
+09-27 21:43:07.697 17695 17695 D glean/MetricsPingScheduler: The 'metrics' ping was last sent on Fri Sep 27 00:00:00 EDT 2019
+09-27 21:43:07.697 17695 17695 I glean/MetricsPingScheduler: The 'metrics' ping was already sent today, Fri Sep 27 21:43:07 EDT 2019.
+09-27 21:43:07.697 17695 17695 D glean/MetricsPingScheduler: Scheduling the 'metrics' ping in 22612304ms
+09-27 21:43:07.703 17695 17792 D glean/PingMaker: Collecting events
+09-27 21:43:07.785 17695 17720 D glean/PingStorageEngine: Storing ping 42f7bdfa-c78e-4c88-9b52-f8093236d453 at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings/42f7bdfa-c78e-4c88-9b52-f8093236d453
+09-27 21:43:07.790 17695 17717 D GeckoSysInfo: System memory: 1867MB.
+09-27 21:43:07.795 17695 17717 D GeckoThread: State changed to JNI_READY
+09-27 21:43:07.796 17695 17700 I zygote  : Do partial code cache collection, code=57KB, data=51KB
+09-27 21:43:07.799 17695 17700 I zygote  : After code cache collection, code=57KB, data=51KB
+09-27 21:43:07.799 17695 17700 I zygote  : Increasing code cache capacity to 256KB
+09-27 21:43:07.803 17695 17695 D App     : ActivationPing - already generated
+09-27 21:43:07.830 17695 17695 D GeckoNetworkManager: Incoming event receivedUpdate for state OnNoListeners -> OnNoListeners
+09-27 21:43:07.831 17695 17695 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:43:07.832 17695 17750 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+09-27 21:43:07.834  1456  2921 I WifiService: getDhcpInfo uid=10283
+09-27 21:43:07.841  1456  7570 D ConnectivityService: requestNetwork for uid/pid:10283/17695 NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-27 21:43:07.844  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:43:07.845  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:43:07.845  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:43:07.845  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+09-27 21:43:07.846 17695 17695 I zygote  : Deoptimizing java.lang.Object androidx.collection.SimpleArrayMap.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+09-27 21:43:08.079 17695 17700 I zygote  : Do full code cache collection, code=127KB, data=97KB
+09-27 21:43:08.082 17695 17700 I zygote  : After code cache collection, code=92KB, data=47KB
+09-27 21:43:08.083 17695 17786 I Adreno  : QUALCOMM build                   : bb5b86c, I77d3059488
+09-27 21:43:08.083 17695 17786 I Adreno  : Build Date                       : 06/07/18
+09-27 21:43:08.083 17695 17786 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+09-27 21:43:08.083 17695 17786 I Adreno  : Local Branch                     : 
+09-27 21:43:08.083 17695 17786 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+09-27 21:43:08.083 17695 17786 I Adreno  : Remote Branch                    : NONE
+09-27 21:43:08.083 17695 17786 I Adreno  : Reconstruct Branch               : NOTHING
+09-27 21:43:08.084 17695 17786 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:43:08.089 17695 17786 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+09-27 21:43:08.099 17695 17786 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-27 21:43:08.101 17695 17786 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:43:08.101 17695 17786 D OpenGLRenderer: Swap behavior 2
+09-27 21:43:08.169 17695 17700 I zygote  : Do partial code cache collection, code=101KB, data=75KB
+09-27 21:43:08.171 17695 17700 I zygote  : After code cache collection, code=101KB, data=75KB
+09-27 21:43:08.171 17695 17700 I zygote  : Increasing code cache capacity to 512KB
+09-27 21:43:08.175 17695 17824 D glean/PingStorageEngine: Processing persisted pings at /data/user/0/org.mozilla.fenix.nightly/glean_data/pending_pings
+09-27 21:43:08.176 17695 17824 D glean/PingStorageEngine: Processing ping: 42f7bdfa-c78e-4c88-9b52-f8093236d453
+09-27 21:43:08.180 17695 17824 D glean/ConceptFetchHttpUploader: Submitting ping to: https://incoming.telemetry.mozilla.org/submit/org-mozilla-fenix-nightly/events/1/42f7bdfa-c78e-4c88-9b52-f8093236d453
+09-27 21:43:08.197 17695 17786 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-27 21:43:08.198 17695 17786 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+09-27 21:43:08.216  1456  1673 I LaunchCheckinHandler: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity,cp,ca,1335
+09-27 21:43:08.217  1456  1673 I ActivityManager: Displayed org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity: +1s330ms
+09-27 21:43:08.250 17695 17828 I experiments: Fetching experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256
+09-27 21:43:08.286 17695 17717 I Gecko   : 1569634988282	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readUTF8URI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: startup :: line 2362"  data: no] Stack trace: startup()@resource://gre/modules/addons/XPIProvider.jsm:2362
+09-27 21:43:08.286 17695 17717 I Gecko   : callProvider()@resource://gre/modules/AddonManager.jsm:213
+09-27 21:43:08.286 17695 17717 I Gecko   : _startProvider()@resource://gre/modules/AddonManager.jsm:649
+09-27 21:43:08.286 17695 17717 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:873
+09-27 21:43:08.286 17695 17717 I Gecko   : startup()@resource://gre/modules/AddonManager.jsm:3469
+09-27 21:43:08.286 17695 17717 I Gecko   : observe()@resource://gre/modules/addonManager.js:86
+09-27 21:43:08.397   808   808 I SFPerfTracer:      triggers: (rate: 4:4559) (compose: 0:0) (post: 0:0) (render: 0:1) (4:114520 frames) (5:290849)
+09-27 21:43:08.397   808   808 D SFPerfTracer:        layers: (4:13) (NavigationBar#0 (0xb07df000): 0:1054) (StatusBar#0 (0xb07e3000): 0:174045) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:140)* (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 0:8)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb03a0000): 0:29)- (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb075d000): 0:28)- (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 0:9)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb075d000): 5:30) (org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity#0 (0xb03a0000): 5:13) 
+09-27 21:43:08.448 17695 17717 D GeckoThread: State changed to PROFILE_READY
+09-27 21:43:08.552 17695 17717 W GeckoEventDispatcher: No listener for AndroidCastDevice:SyncDevice
+09-27 21:43:08.558 17695 17717 I Gecko   : -*- nsDNSServiceDiscovery.js : nsDNSServiceDiscovery
+09-27 21:43:08.640 17695 17824 D glean/ConceptFetchHttpUploader: Ping successfully sent (200)
+09-27 21:43:08.641 17695 17824 D glean/PingStorageEngine: 42f7bdfa-c78e-4c88-9b52-f8093236d453 was deleted: true
+09-27 21:43:08.642 17695 17709 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f2b0f4ac-6269-4568-89eb-ac028a501b89, tags={ mozac_service_glean_ping_upload_worker, mozilla.components.service.glean.scheduler.PingUploadWorker } ]
+09-27 21:43:08.646  1456  2067 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=704, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+09-27 21:43:08.660 17695 17717 W ResourceType: Too many attribute references, stopped at: 0x01010099
+09-27 21:43:08.707 17695 17717 I Gecko   : Attempting load of libEGL.so
+09-27 21:43:08.901 17695 17695 D GeckoNetworkManager: Incoming event enableNotifications for state OnNoListeners -> OnWithListeners
+09-27 21:43:08.902 17695 17695 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:43:08.903 17695 17695 D GeckoNetworkManager: Incoming event receivedUpdate for state OnWithListeners -> OnWithListeners
+09-27 21:43:08.904 17695 17695 D GeckoNetworkManager: New network state: UP, WIFI, WIFI
+09-27 21:43:08.906 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: unhandled flags #8 not handled
+09-27 21:43:08.907 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libsoftokn3.so: Relocation to NULL @0x00025ffc for symbol "__cxa_type_match"
+09-27 21:43:08.907 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: unhandled flags #8 not handled
+09-27 21:43:08.908 17695 17717 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libfreebl3.so: Relocation to NULL @0x00040ffc for symbol "__cxa_type_match"
+09-27 21:43:08.943 17695 17846 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: unhandled flags #8 not handled
+09-27 21:43:08.944 17695 17846 W GeckoLinker: /data/app/org.mozilla.fenix.nightly-jHhkTPz6G7B-csLn4QM0ow==/lib/arm/libnssckbi.so: Relocation to NULL @0x00050ffc for symbol "__cxa_type_match"
+09-27 21:43:09.050 17695 17828 D experiments: Fetched experiments from https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/mobile-experiments/records?_since=1566233826256:
+09-27 21:43:09.050 17695 17828 D experiments: {"data":[]}
+09-27 21:43:09.051 17695 17828 I experiments: Experiments update from server: ExperimentsSnapshot(experiments=[Experiment(id=fenix-test-2019-08-05, description=End-to-end test of the Mobiles Experiments platform for Firefox Preview., lastModified=1566233826256, schemaModified=1566228455761, buckets=Buckets(start=0, count=667), branches=[Branch(name=a, ratio=1), Branch(name=b, ratio=1), Branch(name=c, ratio=1)], match=Matcher(appId=^org.mozilla.fenix$, appDisplayVersion=null, appMinVersion=null, appMaxVersion=null, localeLanguage=null, localeCountry=null, deviceManufacturer=null, deviceModel=null, regions=[], debugTags=[]))], lastModified=1566233826256)
+09-27 21:43:09.052 17695 17828 I experiments: onExperimentsUpdated - no experiment currently active, looking for match
+09-27 21:43:09.055 17695 17709 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=bd207dea-3812-4711-ad35-063510c750cd, tags={ mozilla.components.service.experiments.ExperimentsUpdaterWorker, mozilla.components.service.experiments } ]
+09-27 21:43:15.881 16716 16731 I Finsky  : [12018] jny.run(3): Stats for Executor: BlockingExecutor jpq@797793[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 13]
+09-27 21:43:15.882 16716 16731 I Finsky  : [12018] jny.run(3): Stats for Executor: LightweightExecutor jpq@4d8e3d0[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 68]
+09-27 21:43:16.215 16716 16731 I Finsky  : [12018] jny.run(3): Stats for Executor: bgExecutor jpq@8a28fc9[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 46]
+09-27 21:43:16.234 16716 16716 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(3): onJobSchedulerWakeup with jobId 9006
+09-27 21:43:16.237 16716 16716 I Finsky  : [2] sfu.a(28): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+09-27 21:43:16.242 16716 16716 I Finsky  : [2] sfu.a(7): Scheduling fallback in 64799997 (absolute: 2227869700)
+09-27 21:43:16.302 16716 16716 I Finsky  : [2] sgf.handleMessage(6): DeviceState: DeviceState{currentTime=1569634996294, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+09-27 21:43:16.315 16716 17864 I Finsky  : [12092] shq.a(7): Jobs in database: 1-1337 3-495 24-77777777 26-1414141414 29-29 
+09-27 21:43:16.333 16716 16716 I Finsky  : [2] sgc.a(19): Running job: 29-29
+09-27 21:43:16.337 16716 16716 I Finsky  : [2] sgf.handleMessage(77): RunningQueue size: 1, PendingQueue size: 0
+09-27 21:43:16.338 16716 16716 I Finsky  : [2] sgf.handleMessage(80): Running queue: 29-29 
+09-27 21:43:16.340 16716 17865 I Finsky  : [12093] xpn.a(1): ProcessRecoveryLogsUtil: No files in recovery directory
+09-27 21:43:16.341 16716 17865 I Finsky  : [12093] shm.a(12): jobFinished: 29-29. TimeElapsed: 7ms.
+09-27 21:43:16.343 16716 16716 I Finsky  : [2] sgc.a(39): Job 29-29 finished. Not rescheduling.
+09-27 21:43:16.344 16716 16716 I Finsky  : [2] sgf.handleMessage(77): RunningQueue size: 0, PendingQueue size: 0
+09-27 21:43:16.345 16716 16716 I Finsky  : [2] sgf.handleMessage(39): Executor finished
+09-27 21:43:16.362 16716 16716 I Finsky  : [2] shq.a(7): Jobs in database: 1-1337 3-495 24-77777777 26-1414141414 
+09-27 21:43:16.374 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56877916ms, C: false, I: true, N: 0
+09-27 21:43:16.375 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 1-1337,  -> L: 17261978ms, D: 60461978ms, C: false, I: false, N: 1
+09-27 21:43:16.376 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 3-495,  -> L: 0ms, D: 86340789ms, C: true, I: true, N: 2
+09-27 21:43:16.377 16716 16716 I Finsky  : [2] set.a(52): ConstraintMapping: 26-1414141414,  -> L: 22676538ms, D: 23576538ms, C: false, I: false, N: 0
+09-27 21:43:16.384 16716 16716 I Finsky  : [2] shb.a(46): Cancelling existing jobscheduler jobs: 9002 9003 9001 
+09-27 21:43:16.384 16716 16716 I Finsky  : [2] shb.a(9): Throttling wakeup for job 9000 (expected to run in 0 ms) due to recent wakeup
+09-27 21:43:16.385 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9000, L: 30000, D: 56877916, C: false, I: true, N: 0
+09-27 21:43:16.388 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9004, L: 17261978, D: 60461978, C: false, I: false, N: 1
+09-27 21:43:16.389 16716 16716 I Finsky  : [2] shb.a(9): Throttling wakeup for job 9005 (expected to run in 0 ms) due to recent wakeup
+09-27 21:43:16.390 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9005, L: 30000, D: 86340789, C: true, I: true, N: 2
+09-27 21:43:16.392 16716 16716 I Finsky  : [2] shb.a(24): Scheduling job Id: 9007, L: 22676538, D: 23576538, C: false, I: false, N: 0
+09-27 21:43:16.996  1456  2162 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10283 user=0: from pid 17868
+09-27 21:43:16.996  1456  2162 I ActivityManager: Killing 17695:org.mozilla.fenix.nightly/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:43:16.998  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.001  1456  2162 W ActivityManager: Force removing ActivityRecord{f85dc56 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t520}: app died, no saved state
+09-27 21:43:17.001 17732 17732 I ServiceChildProcess: Service has been unbound. Stopping.
+09-27 21:43:17.014  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.027  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.031  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+09-27 21:43:17.031  1456  7796 D OpenGLRenderer: Swap behavior 2
+09-27 21:43:17.040  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.046  1456  2162 I ActivityManager: Killing 17732:org.mozilla.fenix.nightly:tab/u0a283 (adj 0): stop org.mozilla.fenix.nightly
+09-27 21:43:17.057  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.073  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+09-27 21:43:17.074  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+09-27 21:43:17.074  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.097  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+09-27 21:43:17.104  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.109  1456  4829 I WifiService: getVerboseLoggingLevel uid=1000
+09-27 21:43:17.110  1456  4829 I WifiService: getAggressiveHandover uid=1000
+09-27 21:43:17.111  1456  2921 I WifiService: getAllowScansWithTraffic uid=1000
+09-27 21:43:17.120  7883 17870 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+09-27 21:43:17.130  1456  2401 I WindowManager: WIN DEATH: Window{22651bc u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity}
+09-27 21:43:17.130  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.141  1456  1673 W ActivityManager: setHasOverlayUi called on unknown pid: 17695
+09-27 21:43:17.144  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.145  7883 17870 D Settings: No enabled state changed, skipping updateCategory call
+09-27 21:43:17.155  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:43:17.157  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.160  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+09-27 21:43:17.172  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.188  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+09-27 21:43:17.201  1456  1605 W zygote  : kill(-17695, 9) failed: No such process
+09-27 21:43:17.201  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17695 in 203ms
+09-27 21:43:17.201  1456  1605 W zygote  : kill(-17732, 9) failed: No such process
+09-27 21:43:17.201  1456  1605 I zygote  : Successfully killed process cgroup uid 10283 pid 17732 in 0ms
