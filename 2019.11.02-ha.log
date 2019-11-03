@@ -1,0 +1,985 @@
+--------- beginning of system
+11-02 21:42:09.975  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4358189, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=255, SEQNUM=140680, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2820355, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+--------- beginning of main
+11-02 21:42:15.320  1456  1466 I zygote  : Background concurrent copying GC freed 230560(11MB) AllocSpace objects, 55(4MB) LOS objects, 42% free, 27MB/47MB, paused 403us total 332.849ms
+11-02 21:42:17.012  1456  1723 I ActivityManager: Start proc 7298:com.android.defcontainer/u0a27 for service com.android.defcontainer/.DefaultContainerService
+11-02 21:42:17.066  7298  7298 I zygote  : The ClassLoaderContext is a special shared library.
+11-02 21:42:17.148  1456  1601 I ActivityManager: Start proc 7314:com.android.vending/u0a62 for broadcast com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationReceiver
+11-02 21:42:17.229  7314  7314 I Finsky  : [2] ecz.aI(9): Process created at version: 17.2.20-all [0] [PR] 276779105
+11-02 21:42:17.613  7314  7336 I Finsky  : [29177] qtr.a(38): Started reading experiment flags from file [0tGUNCGIkbk4o6-fQ335kUYSKwVj4lusnHT-A5Dsy08].
+11-02 21:42:17.631  7314  7338 I Finsky  : [29179] qtr.a(38): Started reading experiment flags from file [Se-xCc4LzNyh3UrKMIU2sUf-PUKz4oQEbpKZDMuaFno].
+11-02 21:42:17.641  7314  7336 I Finsky  : [29177] qtr.a(49): Finished reading experiment flags from file [0tGUNCGIkbk4o6-fQ335kUYSKwVj4lusnHT-A5Dsy08].
+11-02 21:42:17.649  7314  7338 I Finsky  : [29179] qtr.a(49): Finished reading experiment flags from file [Se-xCc4LzNyh3UrKMIU2sUf-PUKz4oQEbpKZDMuaFno].
+11-02 21:42:17.748  7314  7314 I Finsky  : [2] tcn.<init>(14): Resetting scheduler db
+11-02 21:42:17.767  7314  7334 I Finsky  : [29175] ecz.Y(6): Not a unicorn account
+11-02 21:42:17.791  7314  7334 W PrimesInit: Primes instant initialization
+11-02 21:42:17.797  7314  7346 W Primes  : background initialization
+11-02 21:42:17.823  7314  7332 I Finsky  : [29173] ecz.aS(5): Disable SystemUpdateActivity, because Android is lower than Q
+11-02 21:42:17.831  7314  7331 I Finsky  : [29172] qiw.<init>(5): Registering in memory receiver for android.intent.action.PACKAGE_ADDED
+11-02 21:42:17.836  7314  7351 I Finsky  : [29190] ebz.run(3): Set SystemUpdateActivity enabled state to 2
+11-02 21:42:17.844  7314  7346 I PrimesTesting: GserviceFlagsSupplier.get()
+11-02 21:42:17.877  7314  7333 I cr_CronetLibraryLoader: Cronet version: 79.0.3940.0, arch: armv7l
+11-02 21:42:17.881  7314  7331 W Settings: Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:42:17.883  7314  7331 I Finsky  : [29172] poz.a(5): SettingNotFoundException, fall through to G.downloadBytesOverMobileMaximum
+11-02 21:42:17.883  7314  7331 W Settings: Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:42:17.887  7314  7333 W Finsky  : [29174] dsd.a(24): For unauth, use getDfeApiNonAuthenticated() instead!
+11-02 21:42:17.892  7314  7331 I Finsky  : [29172] poz.a(9): SettingNotFoundException, fall through to G.downloadBytesOverMobileRecommended
+11-02 21:42:17.941  7314  7344 I Finsky  : [29185] osj.a(16): Finished loading 0 libraries.
+11-02 21:42:17.951  7314  7333 I Finsky  : [29174] ywu.j(5): Setup app restrictions monitor
+11-02 21:42:17.954  7314  7333 I Finsky  : [29174] yyp.a(4): Device wide unknown source restriction is changed.
+11-02 21:42:18.019  7314  7314 I Finsky  : [2] yqa.a(6): Verification requested, id = 330
+11-02 21:42:18.048  7314  7314 I Finsky  : [2] mmm.<init>(16): Installer: Setting Parallelism[DEFAULT]
+11-02 21:42:18.052  7314  7314 I Finsky  : [2] mjw.a(19): Installer: Attempting to start installer
+11-02 21:42:18.056  7314  7314 I Finsky  : [2] mfi.<init>(7): Not checking if recovering from paused session because experiment is off
+11-02 21:42:20.735  7314  7351 I zygote  : Deoptimizing java.lang.Object j$.util.concurrent.ConcurrentHashMap.get(java.lang.Object) due to JIT inline cache
+11-02 21:42:20.858  7314  7314 E Finsky  : [2] zdo.b(2): Package name null is not an installed package
+11-02 21:42:20.866  7314  7314 W ActivityThread: serviceStart lasts for 2802 ms, ServiceArgsData = ServiceArgsData{token=android.os.BinderProxy@50a68e startId=1 args=Intent { act=android.intent.action.PACKAGE_NEEDS_VERIFICATION dat=file:///data/app/vmdl1512514819.tmp typ=application/vnd.android.package-archive flg=0x10000011 cmp=com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationService (has extras) }}
+11-02 21:42:20.870  7314  7338 I Finsky  : [29179] ysa.a(9): Single user settings service is not running, bind it now
+11-02 21:42:20.872  7314  7314 I Finsky  : [2] mjw.a(217): Installer kick - no action, not running yet
+11-02 21:42:20.872  7314  7314 I Finsky  : [2] mjw.a(217): Installer kick - no action, not running yet
+11-02 21:42:20.872  7314  7336 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-02 21:42:20.879  7314  7314 I Finsky  : [2] yrz.onServiceConnected(1): Single user settings service is connected
+11-02 21:42:20.896  1456 10962 I ActivityManager: Start proc 7388:android.process.media/u0a31 for content provider com.android.providers.downloads/.DownloadProvider
+11-02 21:42:20.913  7314  7395 I zygote  : Deoptimizing java.lang.Object j$.util.concurrent.ConcurrentHashMap.putVal(java.lang.Object, java.lang.Object, boolean) due to JIT inline cache
+11-02 21:42:20.939  7388  7388 I zygote  : The ClassLoaderContext is a special shared library.
+11-02 21:42:20.945  7314  7338 W Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+11-02 21:42:20.961  7388  7388 I zygote  : The ClassLoaderContext is a special shared library.
+11-02 21:42:21.024  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-808 3-809 24-77777777 26-1414141414 29-29 
+11-02 21:42:21.058  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56958091ms, C: false, I: true, N: 0
+11-02 21:42:21.059  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17317320ms, D: 60517320ms, C: false, I: false, N: 1
+11-02 21:42:21.060  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-809,  -> L: 0ms, D: 60548975ms, C: false, I: true, N: 2
+11-02 21:42:21.061  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-808,  -> L: 0ms, D: 60548964ms, C: true, I: true, N: 2
+11-02 21:42:21.063  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 26687ms, D: 56687ms, C: false, I: false, N: 0
+11-02 21:42:21.073  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9007 9000 9003 9002 9008 
+11-02 21:42:21.075  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9001, L: 0, D: 56958091, C: false, I: true, N: 0
+11-02 21:42:21.077  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9004, L: 17317320, D: 60517320, C: false, I: false, N: 1
+11-02 21:42:21.080  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9005, L: 0, D: 60548975, C: false, I: true, N: 2
+11-02 21:42:21.082  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9006, L: 0, D: 60548964, C: true, I: true, N: 2
+11-02 21:42:21.084  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9009, L: 26687, D: 56687, C: false, I: false, N: 0
+11-02 21:42:21.115  7314  7383 I Finsky  : [29216] mix.run(2): Installer: Installer starting.
+11-02 21:42:21.115  7314  7383 I Finsky  : [29216] mix.run(4): Installer: Installer started.
+11-02 21:42:21.124  7314  7319 I zygote  : Do partial code cache collection, code=30KB, data=29KB
+11-02 21:42:21.125  7314  7314 I Finsky  : [2] mjw.a(225): Installer: found apps to install. isMultiUserMode=false, apps=[]
+11-02 21:42:21.127  7314  7319 I zygote  : After code cache collection, code=27KB, data=29KB
+11-02 21:42:21.127  7314  7319 I zygote  : Increasing code cache capacity to 128KB
+11-02 21:42:21.145  7314  7314 I Finsky  : [2] tbw.a(3): SCH: Canceling job 3-808
+11-02 21:42:21.151  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-809 24-77777777 26-1414141414 29-29 
+11-02 21:42:21.168  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56957976ms, C: false, I: true, N: 0
+11-02 21:42:21.169  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17317195ms, D: 60517195ms, C: false, I: false, N: 1
+11-02 21:42:21.170  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-809,  -> L: 0ms, D: 60548857ms, C: false, I: true, N: 2
+11-02 21:42:21.171  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 26575ms, D: 56575ms, C: false, I: false, N: 0
+11-02 21:42:21.180  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9006 9004 9009 9005 9001 
+11-02 21:42:21.180  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9000, L: 0, D: 56957976, C: false, I: true, N: 0
+11-02 21:42:21.182  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9002, L: 17317195, D: 60517195, C: false, I: false, N: 1
+11-02 21:42:21.184  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9003, L: 0, D: 60548857, C: false, I: true, N: 2
+11-02 21:42:21.186  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9007, L: 26575, D: 56575, C: false, I: false, N: 0
+11-02 21:42:21.198  7314  7314 I Finsky  : [2] tbw.a(3): SCH: Canceling job 3-809
+11-02 21:42:21.205  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 24-77777777 26-1414141414 29-29 
+11-02 21:42:21.226  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56957922ms, C: false, I: true, N: 0
+11-02 21:42:21.227  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17317140ms, D: 60517140ms, C: false, I: false, N: 1
+11-02 21:42:21.229  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 26518ms, D: 56518ms, C: false, I: false, N: 0
+11-02 21:42:21.242  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9003 9007 9002 9000 
+11-02 21:42:21.243  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9001, L: 0, D: 56957922, C: false, I: true, N: 0
+11-02 21:42:21.245  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9004, L: 17317140, D: 60517140, C: false, I: false, N: 1
+11-02 21:42:21.248  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9005, L: 26518, D: 56518, C: false, I: false, N: 0
+11-02 21:42:21.292  7314  7408 I Finsky  : [29223] muv.c(25): IQ: Creating job 812, for (REQ_CHARGING, REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED)
+11-02 21:42:21.324  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 24-77777777 26-1414141414 29-29 
+11-02 21:42:21.325  7314  7408 I Finsky  : [29223] muv.c(25): IQ: Creating job 813, for (REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, MIN_BATTERY=70, SHOULD_APPLY_BUDGET=true, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED)
+11-02 21:42:21.341  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56957803ms, C: false, I: true, N: 0
+11-02 21:42:21.342  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17317022ms, D: 60517022ms, C: false, I: false, N: 1
+11-02 21:42:21.343  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-812,  -> L: 0ms, D: 86399971ms, C: true, I: true, N: 2
+11-02 21:42:21.343  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 26402ms, D: 56402ms, C: false, I: false, N: 0
+11-02 21:42:21.349  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9005 9001 9004 
+11-02 21:42:21.350  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9000, L: 0, D: 56957803, C: false, I: true, N: 0
+11-02 21:42:21.352  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9002, L: 17317022, D: 60517022, C: false, I: false, N: 1
+11-02 21:42:21.354  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9003, L: 0, D: 86399971, C: true, I: true, N: 2
+11-02 21:42:21.355  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9006, L: 26402, D: 56402, C: false, I: false, N: 0
+11-02 21:42:21.373  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 24-77777777 26-1414141414 29-29 
+11-02 21:42:21.395  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56957750ms, C: false, I: true, N: 0
+11-02 21:42:21.396  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17316973ms, D: 60516973ms, C: false, I: false, N: 1
+11-02 21:42:21.397  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-813,  -> L: 0ms, D: 86399944ms, C: false, I: true, N: 2
+11-02 21:42:21.398  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-812,  -> L: 0ms, D: 86399921ms, C: true, I: true, N: 2
+11-02 21:42:21.399  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 26349ms, D: 56349ms, C: false, I: false, N: 0
+11-02 21:42:21.407  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9006 9000 9002 9003 
+11-02 21:42:21.407  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9001, L: 0, D: 56957750, C: false, I: true, N: 0
+11-02 21:42:21.409  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9004, L: 17316973, D: 60516973, C: false, I: false, N: 1
+11-02 21:42:21.411  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9005, L: 0, D: 86399944, C: false, I: true, N: 2
+11-02 21:42:21.414  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9007, L: 0, D: 86399921, C: true, I: true, N: 2
+11-02 21:42:21.416  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9008, L: 26349, D: 56349, C: false, I: false, N: 0
+11-02 21:42:21.442  7314  7314 I Finsky  : [2] ukj.a(20): Connecting InstallListener to SplitInstallService broadcaster...
+11-02 21:42:22.200  7314  7328 I zygote  : Waiting for a blocking GC ProfileSaver
+11-02 21:42:22.259  7314  7328 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 59.379ms
+11-02 21:42:24.217  7314  7319 I zygote  : Do partial code cache collection, code=62KB, data=54KB
+11-02 21:42:24.219  7314  7319 I zygote  : After code cache collection, code=60KB, data=54KB
+11-02 21:42:24.219  7314  7319 I zygote  : Increasing code cache capacity to 256KB
+11-02 21:42:24.667  7314  7338 I Finsky  : [29179] kuk.a(2): Task 7 requested foreground
+11-02 21:42:24.672  7314  7338 I Finsky  : [29179] kuk.a(15): Not entering foreground
+11-02 21:42:25.138  7314  7351 I Finsky  : [29190] yyg.b(4): Verify: Verification package=org.mozilla.fenix.nightly, id=330 response=0
+11-02 21:42:25.157  7314  7338 I Finsky  : [29179] zdo.b(4): PSIC verification started with installer uid: 2000 package name: null, originating uid: -1
+11-02 21:42:25.163  7314  7314 I Finsky  : [2] yzh.c(7): Verifying id=330, result=1
+11-02 21:42:25.167  7314  7314 I Finsky  : [2] yzh.h(6): Verification complete: id=330, package_name=org.mozilla.fenix.nightly
+11-02 21:42:25.856  1456  1723 I PackageManager.DexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/org.mozilla.fenix.nightly-lv8G-qYa4nXTzejPmBjRKQ==/base.apk pkg=org.mozilla.fenix.nightly isa=arm dexoptFlags=boot_complete,public target-filter=quicken oatDir=/data/app/org.mozilla.fenix.nightly-lv8G-qYa4nXTzejPmBjRKQ==/oat sharedLibraries=PCL[]
+11-02 21:42:25.907  7415  7415 I dex2oat : /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=11 --compiler-filter=quicken --classpath-dir=/data/app/org.mozilla.fenix.nightly-lv8G-qYa4nXTzejPmBjRKQ== --class-loader-context=PCL[]
+11-02 21:42:25.915  7415  7415 W dex2oat : Could not reserve sentinel fault page
+11-02 21:42:27.782  7314  7359 I Finsky  : [29194] hcn.a(25): No selector loaded
+11-02 21:42:27.809  7314  7359 I Finsky  : [29194] imd.d(92): System was updated or GL extensions were already cached.
+11-02 21:42:27.820  7314  7344 I Finsky  : [29185] ece.run(3): Initializing the instant apps module.
+11-02 21:42:27.906  7314  7351 I Finsky  : [29190] ywu.f(2): Restoring notifications
+11-02 21:42:27.934  7314  7344 I Finsky  : [29185] ecb.run(8): Component class com.google.android.finsky.wear.WearSupportService disabled via PackageManager.
+11-02 21:42:27.935  7314  7344 I Finsky  : [29185] ecb.run(8): Component class com.google.android.finsky.wear.WearChangeListenerService disabled via PackageManager.
+11-02 21:42:27.944  7314  7344 I Finsky  : [29185] aabg.a(10): Do not start WearSupportService due to Wear service optimization
+11-02 21:42:27.955  7314  7384 I Finsky  : [29217] qtw.b(1): Triggered update for experiment package com.google.android.finsky.stable.
+11-02 21:42:27.965  7314  7351 I Finsky  : [29190] ywu.f(5): Done restoring notifications
+11-02 21:42:28.114  7314  7319 I zygote  : Do full code cache collection, code=117KB, data=81KB
+11-02 21:42:28.116  7314  7319 I zygote  : After code cache collection, code=59KB, data=29KB
+11-02 21:42:28.192  7314  7384 I Finsky  : [29217] qtw.b(8): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+11-02 21:42:28.196  7314  7380 I Finsky  : [29213] qtw.b(1): Triggered update for experiment package com.google.android.finsky.regular.
+11-02 21:42:28.379  7314  7319 I zygote  : Do partial code cache collection, code=65KB, data=57KB
+11-02 21:42:28.381  7314  7319 I zygote  : After code cache collection, code=65KB, data=57KB
+11-02 21:42:28.381  7314  7319 I zygote  : Increasing code cache capacity to 512KB
+11-02 21:42:28.384  7314  7319 I zygote  : Compiler allocated 6MB to compile java.lang.Object ailo.call()
+11-02 21:42:28.384  7314  7380 I Finsky  : [29213] qtw.b(8): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+11-02 21:42:29.371  7415  7415 I dex2oat : dex2oat took 3.465s (13.463s cpu) (threads: 8) arena alloc=34KB (34992B) java alloc=6MB (7021264B) native alloc=9MB (9618056B) free=2MB (2440568B)
+11-02 21:42:29.398  1456 10962 I ActivityManager: Killing 6664:com.google.android.gms.ui/u0a36 (adj 906): empty for 11291s
+11-02 21:42:29.399  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.407  1016  1911 E         : Couldn't opendir /data/app/vmdl1512514819.tmp: No such file or directory
+11-02 21:42:29.408  1016  1911 E installd: Failed to delete /data/app/vmdl1512514819.tmp: No such file or directory
+11-02 21:42:29.413  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.428  2360  2360 D MayaFrameworkProxyService: receive intent :Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) }
+11-02 21:42:29.430  2398  2398 D ImsResolver: maybeAddedImsService, packageName: org.mozilla.fenix.nightly
+11-02 21:42:29.435  1456  2402 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+11-02 21:42:29.437  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.438  7314  7314 I Finsky  : [2] qiw.a(7): PackageMonitor received: android.intent.action.PACKAGE_ADDED
+11-02 21:42:29.439  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+11-02 21:42:29.440  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+11-02 21:42:29.440  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:29.441  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+11-02 21:42:29.444  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+11-02 21:42:29.457  7314  7314 I Finsky  : [2] qjy.d(11): Invalidating cached PackageState for org.mozilla.fenix.nightly
+11-02 21:42:29.467  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 576, previously 579
+11-02 21:42:29.467  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 376, previously 1540
+11-02 21:42:29.467  1456  1456 W ResourceType: ResTable_typeSpec entry count inconsistent: given 215, previously 1186
+11-02 21:42:29.469  1456  1942 I InputReader: Reconfiguring input devices.  changes=0x00000010
+11-02 21:42:29.476  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.477  1456  1601 I ActivityManager: Start proc 7433:com.motorola.invisiblenet/u0a44 for broadcast com.motorola.invisiblenet/.PackageAddedReceiver
+11-02 21:42:29.490  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.491  7314  7314 I Finsky  : [2] aabg.a(10): Do not start WearSupportService due to Wear service optimization
+11-02 21:42:29.495  7314  7314 I Finsky  : [2] aabg.a(10): Do not start WearSupportService due to Wear service optimization
+11-02 21:42:29.498  7314  7314 I Finsky  : [2] ukx.a(1): Clearing split related stale data.
+11-02 21:42:29.498  1456  1605 W zygote  : kill(-6664, 9) failed: No such process
+11-02 21:42:29.498  1456  1605 I zygote  : Successfully killed process cgroup uid 10036 pid 6664 in 99ms
+11-02 21:42:29.515  7314  7314 I Finsky  : [2] pzp.c(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+11-02 21:42:29.515  7883  7431 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:42:29.531  7314  7439 I Finsky  : [29234] mze.run(2): Cleaning dev-triggered-update data on package install for org.mozilla.fenix.nightly.
+11-02 21:42:29.532  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080123
+11-02 21:42:29.532  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e4
+11-02 21:42:29.532  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e4
+11-02 21:42:29.533  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080121
+11-02 21:42:29.533  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e2
+11-02 21:42:29.533  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e2
+11-02 21:42:29.533  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:42:29.534  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:42:29.538  3847  7454 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-02 21:42:29.541  1456  1456 W ResourceType: Found multiple library tables, ignoring...
+11-02 21:42:29.554  2398  2398 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+11-02 21:42:29.554  2398  2398 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+11-02 21:42:29.556  3847  7457 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-02 21:42:29.560  7314  7442 I Finsky  : [29236] pzl.run(16): Wrote row to frosting DB: 1169
+11-02 21:42:29.567  3906  7458 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+11-02 21:42:29.577  7433  7433 I zygote  : The ClassLoaderContext is a special shared library.
+11-02 21:42:29.585  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 29, previously 35
+11-02 21:42:29.586  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 2203, previously 2200
+11-02 21:42:29.586  1456  1600 W ResourceType: ResTable_typeSpec entry count inconsistent: given 272, previously 1530
+11-02 21:42:29.589  1456  1456 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@FTo
+11-02 21:42:29.598  7314  7460 I Finsky  : [29239] mzg.run(2): Finished dev-triggered-update cleaning.
+11-02 21:42:29.612  3906  7458 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.mozilla.fenix.nightly flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+11-02 21:42:29.617  1456  2162 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+11-02 21:42:29.618   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+11-02 21:42:29.621  1456  1600 W SearchableInfo: Invalid searchable metadata for com.google.android.gms/.nearby.sharing.ContactSelectActivity: Search label must be a resource reference.
+11-02 21:42:29.652  1456  2162 I ActivityManager: Start proc 7469:org.mozilla.fenix.nightly/u0a409 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+11-02 21:42:29.676  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 12-1 24-77777777 26-1414141414 29-29 
+11-02 21:42:29.697  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56949446ms, C: false, I: true, N: 0
+11-02 21:42:29.697  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337, 12-1,  -> L: 14844ms, D: 60508669ms, C: false, I: false, N: 1
+11-02 21:42:29.698  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-813,  -> L: 0ms, D: 86391642ms, C: false, I: true, N: 2
+11-02 21:42:29.699  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-812,  -> L: 0ms, D: 86391618ms, C: true, I: true, N: 2
+11-02 21:42:29.702  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 18046ms, D: 48046ms, C: false, I: false, N: 0
+11-02 21:42:29.785  1456  2162 W ActivityManager: Slow operation: 51ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:42:29.789  1456  1466 I zygote  : Background concurrent copying GC freed 97517(4MB) AllocSpace objects, 28(1336KB) LOS objects, 42% free, 27MB/48MB, paused 447us total 381.838ms
+11-02 21:42:29.804  1456  1603 W Looper  : Dispatch took 104ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {2cc60ff} cb=null msg=53
+11-02 21:42:29.819  3906  4506 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+11-02 21:42:29.823  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9007 9008 9005 9004 9001 
+11-02 21:42:29.824  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9000, L: 0, D: 56949446, C: false, I: true, N: 0
+11-02 21:42:29.825  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9002, L: 14844, D: 60508669, C: false, I: false, N: 1
+11-02 21:42:29.828  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9003, L: 0, D: 86391642, C: false, I: true, N: 2
+11-02 21:42:29.834  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9006, L: 0, D: 86391618, C: true, I: true, N: 2
+11-02 21:42:29.836  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9009, L: 18046, D: 48046, C: false, I: false, N: 0
+11-02 21:42:29.840  3906  5543 W Icing   : No valid account for uploading user actions: addd: Not signed in
+11-02 21:42:29.881  3906  4506 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-02 21:42:29.906  7469  7469 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+11-02 21:42:29.907  7469  7469 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+11-02 21:42:29.948  7469  7469 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:29.948  3906  5543 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+11-02 21:42:29.948  7469  7469 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:29.948  7469  7469 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:29.949  7469  7469 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:29.959  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 21:42:29.959  1456  7796 D OpenGLRenderer: Swap behavior 2
+11-02 21:42:29.961  3906  5543 W Icing   : No valid account for uploading user actions: addd: Not signed in
+11-02 21:42:29.967  7469  7469 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:29.967  7469  7469 D RustNativeSupport: lib in use: none
+11-02 21:42:29.967  7469  7469 D RustNativeSupport: lib configured: fenix
+11-02 21:42:29.968  7469  7469 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:29.968  7469  7469 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:29.969  7469  7469 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 7469
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:29.971  7469  7469 E AndroidRuntime: 	... 14 more
+11-02 21:42:29.971  3906  5543 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-02 21:42:30.007  1456  5031 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:30.016  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:30.023  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:30.023  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:30.510  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{87ffbbf u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t898 f}
+11-02 21:42:30.531  1456  1601 I ActivityManager: Start proc 7495:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+11-02 21:42:30.653  1456  2402 W ActivityManager: Slow operation: 109ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:42:30.704  7495  7495 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:30.705  7495  7495 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:30.705  7495  7495 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:30.706  7495  7495 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:30.734  7495  7495 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:30.734  7495  7495 D RustNativeSupport: lib in use: none
+11-02 21:42:30.734  7495  7495 D RustNativeSupport: lib configured: fenix
+11-02 21:42:30.734  7495  7495 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:30.734  7495  7495 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:30.735  7495  7495 D AndroidRuntime: Shutting down VM
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: Process: org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter, PID: 7495
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:30.736  7495  7495 E AndroidRuntime: 	... 14 more
+11-02 21:42:30.766  1456  2196 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:30.805  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:30.812  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:30.813  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:30.871   808   808 D SurfaceFlinger: duplicate layer name: changing Application Error: org.mozilla.fenix.nightly to Application Error: org.mozilla.fenix.nightly#1
+11-02 21:42:30.889   808   808 I SFPerfTracer:      triggers: (rate: 5:10311) (compose: 0:0) (post: 0:0) (render: 0:1) (40:267757 frames) (41:667617)
+11-02 21:42:30.889   808   808 D SFPerfTracer:        layers: (4:10) (NavigationBar#0 (0xb07df000): 0:1107) (StatusBar#0 (0xb07e3000): 0:407710) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 9:221) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 1:37)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb039b000): 0:17)* (Application Error: org.mozilla.fenix.nightly#0 (0xb075e000): 8:14) 
+11-02 21:42:30.959  3906  5543 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-02 21:42:31.004  1456  1603 W Looper  : Dispatch took 110ms on android.ui, h=Handler (android.view.Choreographer$FrameHandler) {f3028d9} cb=android.view.Choreographer$FrameDisplayEventReceiver@4c9b29e msg=0
+11-02 21:42:31.043  3906  5543 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+11-02 21:42:31.061  3906  5543 I Icing   : Indexing done com.google.android.gms-apps
+11-02 21:42:31.063  3906  5543 I Icing   : Indexing com.google.android.gms-internal.3p:DigitalDocument from com.google.android.gms
+11-02 21:42:31.077  3906  5543 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+11-02 21:42:31.081  3906  5543 I Icing   : Indexing done com.google.android.gms-internal.3p:DigitalDocument
+11-02 21:42:31.127  7314  7314 I Finsky  : [2] tui.run(5): Detected restoreservicev2://recovery not needed, will not run
+11-02 21:42:31.273  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{f284b25 u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t898 f}
+11-02 21:42:31.446  7314  7516 I Finsky  : [29242] ajfq.a(2): registerListener
+11-02 21:42:31.456  7314  7516 I Finsky  : [29242] jod.a(2): getDownloads(-)
+11-02 21:42:31.458  7314  7517 I zygote  : Deoptimizing java.lang.String aane.a(java.lang.String, java.lang.Object[]) due to JIT inline cache
+11-02 21:42:31.458  7314  7517 I Finsky  : [29243] ajfy.a(7): Initiate binding to the service.
+11-02 21:42:31.459  7314  7516 I Finsky  : [29242] elu.run(7): Initialized AssetModuleDownloader.
+11-02 21:42:31.471  1456  2196 I ActivityManager: Start proc 7518:com.android.vending:download_service/u0a62 for service com.android.vending/com.google.android.finsky.downloadservice.DownloadService
+11-02 21:42:31.524  7518  7518 I Finsky:download_service: [2] ecz.aI(9): Process created at version: 17.2.20-all [0] [PR] 276779105
+11-02 21:42:31.562  1456  2196 D ConnectivityService: requestNetwork for uid/pid:10062/7518 NetworkRequest [ TRACK_DEFAULT id=1684, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+11-02 21:42:31.563  1456  2099 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=1684, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+11-02 21:42:31.563  1456  2054 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=1684, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+11-02 21:42:31.564  1456  2054 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=1684, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+11-02 21:42:31.564  2398  2398 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=1684, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 60
+11-02 21:42:31.565  7518  7536 I Finsky:download_service: [29193] jhg.onAvailable(3): Network is available [NetworkState{connected=true, wifi=true, metered=false, roaming=false}].
+11-02 21:42:31.566  7518  7535 I Finsky:download_service: [29192] jgt.a(1): Trying to resume downloads.
+11-02 21:42:31.567  1456  2196 I ActivityManager: Killing 6966:com.android.providers.calendar/u0a16 (adj 906): empty for 4854s
+11-02 21:42:31.568  7314  7314 I Finsky  : [2] ajge.onServiceConnected(2): ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.downloadservice.DownloadService})
+11-02 21:42:31.568  1456  1605 W zygote  : kill(-6966, 9) failed: No such process
+11-02 21:42:31.569  7314  7517 I Finsky  : [29243] ajgc.a(4): linkToDeath
+11-02 21:42:31.571  7518  7531 I Finsky:download_service: [29188] jig.a(13): Starting getDownloads().
+11-02 21:42:31.583  1456  1605 W zygote  : kill(-6966, 9) failed: No such process
+11-02 21:42:31.584  1456  1605 I zygote  : Successfully killed process cgroup uid 10016 pid 6966 in 15ms
+11-02 21:42:31.630  7314  7517 I Finsky  : [29243] ajfz.a(2): Unbind from service.
+11-02 21:42:31.631  7314  7360 I Finsky  : [29195] jnp.d(6): onGetDownloads()
+11-02 21:42:36.360   808   808 I SFPerfTracer:      triggers: (rate: 5:10311) (compose: 0:0) (post: 0:0) (render: 0:1) (316:268081 frames) (317:667944)
+11-02 21:42:36.360   808   808 D SFPerfTracer:        layers: (5:11) (NavigationBar#0 (0xb07df000): 0:1107) (StatusBar#0 (0xb07e3000): 0:407710) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 1:222) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 18:55)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb039b000): 1:18)* (Application Error: org.mozilla.fenix.nightly#0 (0xb075e000): 0:14) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a1000): 9:19) 
+11-02 21:42:36.510  7518  7532 I zygote  : Waiting for a blocking GC ProfileSaver
+11-02 21:42:36.516  7518  7532 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 5.979ms
+11-02 21:42:36.593  1456  1889 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5961 com.android.server.wm.WindowManagerService.removeWindow:1810 com.android.server.wm.Session.remove:222 
+11-02 21:42:36.595  1456  1601 I ActivityManager: Killing 7080:com.motorola.msimsettings/u0a48 (adj 906): empty for 2900s
+11-02 21:42:36.596  1456  1605 W zygote  : kill(-7080, 9) failed: No such process
+11-02 21:42:36.619  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 2 lines
+11-02 21:42:36.633  1456  1605 W zygote  : kill(-7080, 9) failed: No such process
+11-02 21:42:36.633  1456  1605 I zygote  : Successfully killed process cgroup uid 10048 pid 7080 in 37ms
+11-02 21:42:36.651   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (406:144639 vsyncs) (408:672614)
+11-02 21:42:39.630  1456  1601 W ActivityManager: Launch timeout has expired, giving up wake lock!
+11-02 21:42:39.750  1456  5050 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10409 user=0: from pid 7544
+11-02 21:42:39.750  1456  5050 I ActivityManager: Killing 7469:org.mozilla.fenix.nightly/u0a409 (adj 900): stop org.mozilla.fenix.nightly
+11-02 21:42:39.751  1456  1605 W zygote  : kill(-7469, 9) failed: No such process
+11-02 21:42:39.760  1456  5050 I ActivityManager: Killing 7495:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 (adj 0): stop org.mozilla.fenix.nightly
+11-02 21:42:39.761  1456  5050 W ActivityManager: Force removing ActivityRecord{2086b80 u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t898}: app died, no saved state
+11-02 21:42:39.766  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:42:39.780  1456  1605 W zygote  : kill(-7469, 9) failed: No such process
+11-02 21:42:39.780  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7469 in 28ms
+11-02 21:42:39.780  1456  1605 W zygote  : kill(-7495, 9) failed: No such process
+11-02 21:42:39.780  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7495 in 0ms
+11-02 21:42:39.812  1456  2921 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{fdca036 0:org.mozilla.fenix.nightly/u0a409}
+11-02 21:42:39.813  1456  2402 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{984db37 0:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409}
+11-02 21:42:39.820  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:42:39.823  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:42:39.832  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:42:39.843  7883  7546 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:42:39.889  1456  5031 I WifiService: getVerboseLoggingLevel uid=1000
+11-02 21:42:39.890  1456  5031 I WifiService: getAggressiveHandover uid=1000
+11-02 21:42:39.890  1456  4829 I WifiService: getAllowScansWithTraffic uid=1000
+11-02 21:42:39.902  7883  7883 W ResourceType: Found multiple library tables, ignoring...
+11-02 21:42:39.903  7883  7549 D Settings: No enabled state changed, skipping updateCategory call
+11-02 21:42:39.935  1456  5050 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+11-02 21:42:39.936  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:42:39.936   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+11-02 21:42:39.939  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:42:39.949  2398  2398 D ImsResolver: maybeAddedImsService, packageName: org.mozilla.fenix.nightly
+11-02 21:42:39.949  2360  2360 D MayaFrameworkProxyService: receive intent :Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:org.mozilla.fenix.nightly flg=0x45000010 (has extras) }
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080123
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e4
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e4
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f080121
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e2
+11-02 21:42:39.950  1456  1600 W ResourceType: No known package when getting value for resource number 0x7f1200e2
+11-02 21:42:39.951  1456  2921 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:42:39.952  1456  1942 I InputReader: Reconfiguring input devices.  changes=0x00000010
+11-02 21:42:39.960  1456  1600 W SearchableInfo: Invalid searchable metadata for com.google.android.gms/.nearby.sharing.ContactSelectActivity: Search label must be a resource reference.
+11-02 21:42:39.972  1456  1456 I TelecomService: DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@FTs
+11-02 21:42:39.973  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:42:39.973  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:42:39.977  2398  2398 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+11-02 21:42:39.991  1456  2921 I ActivityManager: Start proc 7555:org.mozilla.fenix.nightly/u0a409 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+11-02 21:42:40.022  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:42:40.031  3906  3912 I zygote  : Do partial code cache collection, code=1016KB, data=717KB
+11-02 21:42:40.034  3906  3912 I zygote  : After code cache collection, code=983KB, data=704KB
+11-02 21:42:40.034  3906  3912 I zygote  : Increasing code cache capacity to 3MB
+11-02 21:42:40.089  1456  2402 W ActivityManager: Slow operation: 60ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:42:40.119  3906  4506 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+11-02 21:42:40.131  3906  4947 W Icing   : No valid account for uploading user actions: addd: Not signed in
+11-02 21:42:40.147  3906  4506 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-02 21:42:40.181  7555  7555 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+11-02 21:42:40.181  7555  7555 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+11-02 21:42:40.227  7555  7555 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:40.227  7555  7555 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:40.227  7555  7555 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:40.228  7555  7555 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:40.242  7555  7555 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:40.243  7555  7555 D RustNativeSupport: lib in use: none
+11-02 21:42:40.243  7555  7555 D RustNativeSupport: lib configured: fenix
+11-02 21:42:40.243  7555  7555 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:40.243  7555  7555 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:40.244  7555  7555 D AndroidRuntime: Shutting down VM
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 7555
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:40.244  7555  7555 E AndroidRuntime: 	... 14 more
+11-02 21:42:40.251  3906  4947 I Icing   : Usage reports ok 3, Failed Usage reports 0, indexed 0, rejected 0
+11-02 21:42:40.255  3906  4947 W Icing   : No valid account for uploading user actions: addd: Not signed in
+11-02 21:42:40.263  3906  4947 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-02 21:42:40.270  1456  2921 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:40.278  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:40.280  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:40.281  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:40.303  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 21:42:40.303  1456  7796 D OpenGLRenderer: Swap behavior 2
+11-02 21:42:40.772  1456  1466 I zygote  : NativeAlloc concurrent copying GC freed 112030(5MB) AllocSpace objects, 38(1872KB) LOS objects, 42% free, 23MB/41MB, paused 189us total 254.198ms
+11-02 21:42:40.772  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{475f9c5 u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t899 f}
+11-02 21:42:40.794  1456  1601 I ActivityManager: Start proc 7585:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+11-02 21:42:40.928  1456  4679 W ActivityManager: Slow operation: 117ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:42:40.978  7585  7585 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:40.978  7585  7585 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:40.978  7585  7585 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:40.979  7585  7585 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:41.005  7585  7585 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:41.005  7585  7585 D RustNativeSupport: lib in use: none
+11-02 21:42:41.005  7585  7585 D RustNativeSupport: lib configured: fenix
+11-02 21:42:41.005  7585  7585 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:41.005  7585  7585 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:41.006  7585  7585 D AndroidRuntime: Shutting down VM
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: Process: org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter, PID: 7585
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:41.007  7585  7585 E AndroidRuntime: 	... 14 more
+11-02 21:42:41.032  1456  2402 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:41.080  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:41.081  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:41.081  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:41.123  3906  4947 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+11-02 21:42:41.144  3906  4947 I Icing   : Indexing com.google.android.gms-internal.3p:DigitalDocument from com.google.android.gms
+11-02 21:42:41.147   808   808 D SurfaceFlinger: duplicate layer name: changing Application Error: org.mozilla.fenix.nightly to Application Error: org.mozilla.fenix.nightly#1
+11-02 21:42:41.158  3906  4947 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+11-02 21:42:41.163  3906  4947 I Icing   : Indexing done com.google.android.gms-internal.3p:DigitalDocument
+11-02 21:42:41.165   808   808 I SFPerfTracer:      triggers: (rate: 5:10314) (compose: 0:0) (post: 0:0) (render: 0:1) (45:268165 frames) (46:668047)
+11-02 21:42:41.165   808   808 D SFPerfTracer:        layers: (4:13) (NavigationBar#0 (0xb07df000): 0:1117) (StatusBar#0 (0xb07e3000): 0:407720) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 9:245) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 1:77)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb039b000): 0:31)- (Application Error: org.mozilla.fenix.nightly#0 (0xb075e000): 0:22)- (Application Error: org.mozilla.fenix.nightly#1 (0xb03a1000): 0:28)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb075e000): 0:19)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03a1000): 8:13) 
+11-02 21:42:41.254  3906  4947 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-02 21:42:41.307  3906  4947 I Icing   : Indexing done com.google.android.gms-apps
+11-02 21:42:41.548  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{71e9b15 u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t899 f}
+11-02 21:42:42.557  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+11-02 21:42:44.676  1456  2063 D WifiNative-wlan0: Scan issued for specific freq..
+11-02 21:42:44.687  7314  7314 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(5): SCH: onJobSchedulerWakeup with jobId 9002
+11-02 21:42:44.687   769  1892 I MotoSensors: Sensorhub hal setDelay: 1 - 20
+11-02 21:42:44.687   769  1892 I MotoSensors: Sensorhub hal setdelay: 1 - 20
+11-02 21:42:44.687   769  1892 I MotoSensors: HubSensors::updateAccelRate 200
+11-02 21:42:44.687   769  1892 I MotoSensors: Sensorhub hal enable: 1 - 1
+11-02 21:42:44.688   769  1892 I MotoSensors: HubSensors::updateAccelRate 20
+11-02 21:42:44.695  7314  7314 I Finsky  : [2] szl.a(24): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+11-02 21:42:44.701  7314  7314 I Finsky  : [2] szl.a(5): Scheduling fallback in 64799997 (absolute: 5338243218)
+11-02 21:42:44.863  7314  7322 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: ajfx
+11-02 21:42:45.212   769   769 I MotoSensors: Sensorhub hal enable: 1 - 0
+11-02 21:42:46.635   808   808 I SFPerfTracer:      triggers: (rate: 5:10314) (compose: 0:0) (post: 0:0) (render: 0:1) (321:268489 frames) (322:668374)
+11-02 21:42:46.636   808   808 D SFPerfTracer:        layers: (5:11) (NavigationBar#0 (0xb07df000): 0:1117) (StatusBar#0 (0xb07e3000): 2:407722) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 1:246) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 18:95)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb075e000): 1:20)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03a1000): 0:13) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 9:14) 
+11-02 21:42:46.884  1456  1889 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5961 com.android.server.wm.WindowManagerService.removeWindow:1810 com.android.server.wm.Session.remove:222 
+11-02 21:42:46.993   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (426:145066 vsyncs) (428:673046)
+11-02 21:42:47.351  1456  4679 D WificondControl: Scan result ready event
+11-02 21:42:47.359  7314  7314 I Finsky  : [2] szx.handleMessage(10): SCH: DeviceState: DeviceState{currentTime=1572745367348, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+11-02 21:42:47.377  7314  7342 I Finsky  : [29183] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 12-1 24-77777777 26-1414141414 29-29 
+11-02 21:42:47.386  1456  4679 D WifiPermissionsUtil: Denied: no location permission
+11-02 21:42:47.387  1456  4679 D WifiPermissionsUtil: Denied: no location permission
+11-02 21:42:47.412  7314  7314 I Finsky  : [2] szy.a(20): SCH: Running job: 12-1
+11-02 21:42:47.414  7314  7314 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(15): ContentSyncJob started
+11-02 21:42:47.416  7314  7314 I Finsky  : [2] szx.handleMessage(65): SCH: RunningQueue size: 1, PendingQueue size: 0
+11-02 21:42:47.416  7314  7314 I Finsky  : [2] szx.handleMessage(68): SCH: Running queue: 12-1 
+11-02 21:42:47.886  7314  7314 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(5): SCH: onJobSchedulerWakeup with jobId 9009
+11-02 21:42:47.889  7314  7314 I Finsky  : [2] szl.a(24): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+11-02 21:42:47.893  7314  7314 I Finsky  : [2] szl.a(5): Scheduling fallback in 64799998 (absolute: 5338246411)
+11-02 21:42:47.901  7314  7314 W Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(4): SCH: onJobSchedulerWakeup while already running
+11-02 21:42:48.247  7314  7605 I Finsky  : [29245] eia.a(31): Completed 0 account content syncs with 0 successful.
+11-02 21:42:48.248  7314  7314 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(13): Installation state replication succeeded.
+11-02 21:42:48.274  7314  7314 I Finsky  : [2] tbi.a(16): SCH: jobFinished: 12-1. TimeElapsed: 861ms.
+11-02 21:42:48.276  7314  7314 I Finsky  : [2] szy.a(36): SCH: Job 12-1 finished. Not rescheduling.
+11-02 21:42:48.277  7314  7314 I Finsky  : [2] szx.handleMessage(65): SCH: RunningQueue size: 0, PendingQueue size: 0
+11-02 21:42:48.278  7314  7314 I Finsky  : [2] szx.handleMessage(29): Executor finished
+11-02 21:42:48.296  1456  4679 I ActivityManager: Killing 7107:android.process.acore/u0a14 (adj 906): empty for 2912s
+11-02 21:42:48.297  1456  1605 W zygote  : kill(-7107, 9) failed: No such process
+11-02 21:42:48.300  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 24-77777777 26-1414141414 29-29 
+11-02 21:42:48.303  1456  1605 W zygote  : kill(-7107, 9) failed: No such process
+11-02 21:42:48.317  1456  1605 W zygote  : kill(-7107, 9) failed: No such process
+11-02 21:42:48.317  1456  1605 I zygote  : Successfully killed process cgroup uid 10014 pid 7107 in 19ms
+11-02 21:42:48.331  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56930819ms, C: false, I: true, N: 0
+11-02 21:42:48.332  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17290045ms, D: 60490045ms, C: false, I: false, N: 1
+11-02 21:42:48.334  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-813,  -> L: 0ms, D: 86373014ms, C: false, I: true, N: 2
+11-02 21:42:48.336  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-812,  -> L: 0ms, D: 86372992ms, C: true, I: true, N: 2
+11-02 21:42:48.337  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414, 29-29,  -> L: 0ms, D: 29415ms, C: false, I: false, N: 0
+11-02 21:42:48.346  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9006 9003 9000 
+11-02 21:42:48.347  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9001 (expected to run in 0 ms) due to recent wakeup
+11-02 21:42:48.348  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9001, L: 30000, D: 56930819, C: false, I: true, N: 0
+11-02 21:42:48.351  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9004, L: 17290045, D: 60490045, C: false, I: false, N: 1
+11-02 21:42:48.354  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9005 (expected to run in 0 ms) due to recent wakeup
+11-02 21:42:48.354  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9005, L: 30000, D: 86373014, C: false, I: true, N: 2
+11-02 21:42:48.357  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9007 (expected to run in 0 ms) due to recent wakeup
+11-02 21:42:48.357  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9007, L: 30000, D: 86372992, C: true, I: true, N: 2
+11-02 21:42:48.360  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9008 (expected to run in 0 ms) due to recent wakeup
+11-02 21:42:48.361  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9008, L: 30000, D: 30000, C: false, I: false, N: 0
+11-02 21:42:49.944  1456  1601 W ActivityManager: Launch timeout has expired, giving up wake lock!
+11-02 21:42:50.073  1456  2402 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10409 user=0: from pid 7608
+11-02 21:42:50.073  1456  2402 I ActivityManager: Killing 7555:org.mozilla.fenix.nightly/u0a409 (adj 900): stop org.mozilla.fenix.nightly
+11-02 21:42:50.074  1456  1605 W zygote  : kill(-7555, 9) failed: No such process
+11-02 21:42:50.087  1456  2402 I ActivityManager: Killing 7585:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 (adj 0): stop org.mozilla.fenix.nightly
+11-02 21:42:50.088  1456  2402 W ActivityManager: Force removing ActivityRecord{7ef30df u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t899}: app died, no saved state
+11-02 21:42:50.090  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:42:50.104  1456  1605 W zygote  : kill(-7555, 9) failed: No such process
+11-02 21:42:50.104  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7555 in 29ms
+11-02 21:42:50.105  1456  1605 W zygote  : kill(-7585, 9) failed: No such process
+11-02 21:42:50.120  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:42:50.135  1456  1605 W zygote  : kill(-7585, 9) failed: No such process
+11-02 21:42:50.135  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7585 in 30ms
+11-02 21:42:50.155  1456  2920 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{90a17a7 0:org.mozilla.fenix.nightly/u0a409}
+11-02 21:42:50.156  1456  2921 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{eab2454 0:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409}
+11-02 21:42:50.171  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:42:50.172  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:42:50.179  7883  7610 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:42:50.182  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:42:50.193  1456  2921 I WifiService: getVerboseLoggingLevel uid=1000
+11-02 21:42:50.194  1456  2920 I WifiService: getAggressiveHandover uid=1000
+11-02 21:42:50.194  1456  2921 I WifiService: getAllowScansWithTraffic uid=1000
+11-02 21:42:50.213  7883  7610 D Settings: No enabled state changed, skipping updateCategory call
+11-02 21:42:50.218  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:42:50.229  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:42:50.281  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:42:50.328  1456  4829 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+11-02 21:42:50.329   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+11-02 21:42:50.353  1456  4829 I ActivityManager: Start proc 7616:org.mozilla.fenix.nightly/u0a409 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+11-02 21:42:50.378  1456  2921 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:42:50.498  7616  7616 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+11-02 21:42:50.499  7616  7616 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+11-02 21:42:50.535  7616  7616 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:50.536  7616  7616 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:50.536  7616  7616 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:50.537  7616  7616 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:50.551  7616  7616 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:50.551  7616  7616 D RustNativeSupport: lib in use: none
+11-02 21:42:50.551  7616  7616 D RustNativeSupport: lib configured: fenix
+11-02 21:42:50.551  7616  7616 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:50.551  7616  7616 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:50.552  7616  7616 D AndroidRuntime: Shutting down VM
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 7616
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:50.553  7616  7616 E AndroidRuntime: 	... 14 more
+11-02 21:42:50.577  1456  2921 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:50.585  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:50.589  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:50.589  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:50.611  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 21:42:50.612  1456  7796 D OpenGLRenderer: Swap behavior 2
+11-02 21:42:50.700  3847  3857 I zygote  : Background concurrent copying GC freed 121076(6MB) AllocSpace objects, 23(1008KB) LOS objects, 49% free, 7MB/14MB, paused 1.166ms total 106.341ms
+11-02 21:42:51.080  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{6f7c04a u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t900 f}
+11-02 21:42:51.099  1456  1601 I ActivityManager: Start proc 7640:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+11-02 21:42:51.221  1456  4829 W ActivityManager: Slow operation: 109ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:42:51.271  7640  7640 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:42:51.271  7640  7640 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:42:51.272  7640  7640 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:42:51.273  7640  7640 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:42:51.298  7640  7640 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:42:51.298  7640  7640 D RustNativeSupport: lib in use: none
+11-02 21:42:51.298  7640  7640 D RustNativeSupport: lib configured: fenix
+11-02 21:42:51.298  7640  7640 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:42:51.298  7640  7640 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:42:51.299  7640  7640 D AndroidRuntime: Shutting down VM
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: Process: org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter, PID: 7640
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:42:51.300  7640  7640 E AndroidRuntime: 	... 14 more
+11-02 21:42:51.325  1456  4829 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:42:51.373  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:42:51.374  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:42:51.374  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:42:51.423   808   808 D SurfaceFlinger: duplicate layer name: changing Application Error: org.mozilla.fenix.nightly to Application Error: org.mozilla.fenix.nightly#1
+11-02 21:42:51.440   808   808 I SFPerfTracer:      triggers: (rate: 5:10316) (compose: 0:0) (post: 0:0) (render: 0:1) (42:268571 frames) (43:668475)
+11-02 21:42:51.441   808   808 D SFPerfTracer:        layers: (4:13) (NavigationBar#0 (0xb07df000): 0:1134) (StatusBar#0 (0xb07e3000): 0:407739) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 8:269) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 1:120)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb075e000): 0:34)- (Application Error: org.mozilla.fenix.nightly#0 (0xb03a1000): 0:19)- (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 0:22)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb075d000): 0:19)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 7:13) 
+11-02 21:42:51.842  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{b5da38f u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t900 f}
+11-02 21:42:56.929   808   808 I SFPerfTracer:      triggers: (rate: 5:10316) (compose: 0:0) (post: 0:0) (render: 0:1) (322:268896 frames) (323:668803)
+11-02 21:42:56.929   808   808 D SFPerfTracer:        layers: (5:11) (NavigationBar#0 (0xb07df000): 0:1134) (StatusBar#0 (0xb07e3000): 0:407739) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 1:270) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 17:137)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb075d000): 1:20)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:13) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 9:14) 
+11-02 21:42:57.161  1456  1889 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5961 com.android.server.wm.WindowManagerService.removeWindow:1810 com.android.server.wm.Session.remove:222 
+11-02 21:42:57.161  1456  1601 I ActivityManager: Killing 7138:com.google.android.apps.wallpaper/u0a102 (adj 906): empty for 2907s
+11-02 21:42:57.163  1456  1605 W zygote  : kill(-7138, 9) failed: No such process
+11-02 21:42:57.176  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:42:57.190  1456  1605 W zygote  : kill(-7138, 9) failed: No such process
+11-02 21:42:57.190  1456  1605 I zygote  : Successfully killed process cgroup uid 10102 pid 7138 in 27ms
+11-02 21:42:57.303   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (426:145493 vsyncs) (428:673479)
+11-02 21:42:58.395  1456  4829 I ActivityManager: Killing 6304:com.google.android.partnersetup/u0a41 (adj 906): empty for 2012s
+11-02 21:42:58.397  1456  1605 W zygote  : kill(-6304, 9) failed: No such process
+11-02 21:42:58.412  1456  1605 W zygote  : kill(-6304, 9) failed: No such process
+11-02 21:42:58.413  1456  1605 I zygote  : Successfully killed process cgroup uid 10041 pid 6304 in 15ms
+11-02 21:43:00.334  1456  1601 W ActivityManager: Launch timeout has expired, giving up wake lock!
+11-02 21:43:00.454  1456  4829 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10409 user=0: from pid 7661
+11-02 21:43:00.455  1456  4829 I ActivityManager: Killing 7616:org.mozilla.fenix.nightly/u0a409 (adj 900): stop org.mozilla.fenix.nightly
+11-02 21:43:00.455  1456  1605 W zygote  : kill(-7616, 9) failed: No such process
+11-02 21:43:00.463  1456  4829 I ActivityManager: Killing 7640:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 (adj 0): stop org.mozilla.fenix.nightly
+11-02 21:43:00.464  1456  4829 W ActivityManager: Force removing ActivityRecord{7d4156f u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t900}: app died, no saved state
+11-02 21:43:00.476  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 2 lines
+11-02 21:43:00.492  1456  1605 W zygote  : kill(-7616, 9) failed: No such process
+11-02 21:43:00.492  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7616 in 36ms
+11-02 21:43:00.492  1456  1605 W zygote  : kill(-7640, 9) failed: No such process
+11-02 21:43:00.492  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7640 in 0ms
+11-02 21:43:00.514  1456  2920 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{827b96b 0:org.mozilla.fenix.nightly/u0a409}
+11-02 21:43:00.514  1456  5031 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{72abcc8 0:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409}
+11-02 21:43:00.525  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:43:00.527  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:43:00.536  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:43:00.540  7883  7663 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:43:00.545  1456 10962 I WifiService: getVerboseLoggingLevel uid=1000
+11-02 21:43:00.546  1456 10962 I WifiService: getAggressiveHandover uid=1000
+11-02 21:43:00.546  1456  7556 I WifiService: getAllowScansWithTraffic uid=1000
+11-02 21:43:00.561  7883  7663 D Settings: No enabled state changed, skipping updateCategory call
+11-02 21:43:00.564  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:00.570  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:00.645  1456 10962 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+11-02 21:43:00.646   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+11-02 21:43:00.656  1456 10962 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:43:00.672  1456 10962 I ActivityManager: Start proc 7669:org.mozilla.fenix.nightly/u0a409 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+11-02 21:43:00.702  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:43:00.816  7669  7669 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+11-02 21:43:00.816  7669  7669 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+11-02 21:43:00.853  7669  7669 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:43:00.853  7669  7669 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:43:00.853  7669  7669 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:43:00.854  7669  7669 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:43:00.868  7669  7669 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:43:00.868  7669  7669 D RustNativeSupport: lib in use: none
+11-02 21:43:00.868  7669  7669 D RustNativeSupport: lib configured: fenix
+11-02 21:43:00.868  7669  7669 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:43:00.869  7669  7669 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:43:00.869  7669  7669 D AndroidRuntime: Shutting down VM
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 7669
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:43:00.870  7669  7669 E AndroidRuntime: 	... 14 more
+11-02 21:43:00.894  1456  2916 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:43:00.904  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:43:00.911  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:43:00.911  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:43:00.937  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 21:43:00.937  1456  7796 D OpenGLRenderer: Swap behavior 2
+11-02 21:43:01.397  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{5eaee5e u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t901 f}
+11-02 21:43:01.410  1456  1601 I ActivityManager: Start proc 7693:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+11-02 21:43:01.518  1456  1466 I zygote  : NativeAlloc concurrent copying GC freed 64025(3MB) AllocSpace objects, 27(988KB) LOS objects, 42% free, 24MB/42MB, paused 156us total 258.499ms
+11-02 21:43:01.564  1456  2916 W ActivityManager: Slow operation: 132ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:43:01.613  7693  7693 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:43:01.613  7693  7693 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:43:01.613  7693  7693 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:43:01.614  7693  7693 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:43:01.640  7693  7693 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:43:01.640  7693  7693 D RustNativeSupport: lib in use: none
+11-02 21:43:01.640  7693  7693 D RustNativeSupport: lib configured: fenix
+11-02 21:43:01.640  7693  7693 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:43:01.640  7693  7693 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:43:01.641  7693  7693 D AndroidRuntime: Shutting down VM
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: Process: org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter, PID: 7693
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:43:01.642  7693  7693 E AndroidRuntime: 	... 14 more
+11-02 21:43:01.667  1456  2916 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:43:01.716  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:43:01.716  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:43:01.717  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:43:01.766   808   808 D SurfaceFlinger: duplicate layer name: changing Application Error: org.mozilla.fenix.nightly to Application Error: org.mozilla.fenix.nightly#1
+11-02 21:43:01.783   808   808 I SFPerfTracer:      triggers: (rate: 5:10318) (compose: 0:0) (post: 0:0) (render: 0:1) (43:268979 frames) (44:668908)
+11-02 21:43:01.783   808   808 D SFPerfTracer:        layers: (4:13) (NavigationBar#0 (0xb07df000): 0:1152) (StatusBar#0 (0xb07e3000): 0:407760) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 8:291) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 1:161)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb075d000): 0:33)- (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:21)- (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 0:22)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb03a0000): 0:18)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 7:13) 
+11-02 21:43:02.184  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{95152d3 u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t901 f}
+11-02 21:43:03.701  2340  2441 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+11-02 21:43:03.702  2340  2441 D QCNEJ   : |CORE| Updating RSSI: -67
+11-02 21:43:07.271   808   808 I SFPerfTracer:      triggers: (rate: 5:10318) (compose: 0:0) (post: 0:0) (render: 0:1) (323:269304 frames) (324:669236)
+11-02 21:43:07.271   808   808 D SFPerfTracer:        layers: (5:11) (NavigationBar#0 (0xb07df000): 0:1152) (StatusBar#0 (0xb07e3000): 1:407761) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 1:292) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 18:179)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb03a0000): 1:19)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:13) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 9:12) 
+11-02 21:43:07.503  1456  1889 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5961 com.android.server.wm.WindowManagerService.removeWindow:1810 com.android.server.wm.Session.remove:222 
+11-02 21:43:07.613   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (421:145916 vsyncs) (423:673911)
+11-02 21:43:10.136  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4357579, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=257, SEQNUM=140685, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2820060, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+11-02 21:43:10.143  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+11-02 21:43:10.654  1456  1601 W ActivityManager: Launch timeout has expired, giving up wake lock!
+11-02 21:43:10.776  1456  5031 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10409 user=0: from pid 7713
+11-02 21:43:10.777  1456  5031 I ActivityManager: Killing 7669:org.mozilla.fenix.nightly/u0a409 (adj 900): stop org.mozilla.fenix.nightly
+11-02 21:43:10.781  1456  1605 W zygote  : kill(-7669, 9) failed: No such process
+11-02 21:43:10.788  1456  5031 I ActivityManager: Killing 7693:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 (adj 0): stop org.mozilla.fenix.nightly
+11-02 21:43:10.789  1456  5031 W ActivityManager: Force removing ActivityRecord{74e0b0f u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t901}: app died, no saved state
+11-02 21:43:10.796  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:43:10.810  1456  1605 W zygote  : kill(-7669, 9) failed: No such process
+11-02 21:43:10.810  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7669 in 31ms
+11-02 21:43:10.810  1456  1605 W zygote  : kill(-7693, 9) failed: No such process
+11-02 21:43:10.810  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7693 in 0ms
+11-02 21:43:10.840  1456 10962 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{e5adae7 0:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409}
+11-02 21:43:10.843  1456  7556 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{2fcd53d 0:org.mozilla.fenix.nightly/u0a409}
+11-02 21:43:10.850  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:43:10.851  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:43:10.860  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:43:10.865  7883  7715 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:43:10.869  1456  1471 I WifiService: getVerboseLoggingLevel uid=1000
+11-02 21:43:10.870  1456 10962 I WifiService: getAggressiveHandover uid=1000
+11-02 21:43:10.870  1456  1471 I WifiService: getAllowScansWithTraffic uid=1000
+11-02 21:43:10.895  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:10.899  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:10.915  7883  7718 D Settings: No enabled state changed, skipping updateCategory call
+11-02 21:43:10.980  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:43:10.992  1456  2402 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity} from uid 2000
+11-02 21:43:10.993   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+11-02 21:43:11.017  1456 10962 I ActivityManager: Start proc 7722:org.mozilla.fenix.nightly/u0a409 for activity org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity
+11-02 21:43:11.046  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+11-02 21:43:11.159  7722  7722 D FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+11-02 21:43:11.159  7722  7722 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+11-02 21:43:11.196  7722  7722 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:43:11.196  7722  7722 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:43:11.196  7722  7722 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:43:11.197  7722  7722 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:43:11.212  7722  7722 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:43:11.212  7722  7722 D RustNativeSupport: lib in use: none
+11-02 21:43:11.212  7722  7722 D RustNativeSupport: lib configured: fenix
+11-02 21:43:11.212  7722  7722 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:43:11.213  7722  7722 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:43:11.213  7722  7722 D AndroidRuntime: Shutting down VM
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: Process: org.mozilla.fenix.nightly, PID: 7722
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:43:11.214  7722  7722 E AndroidRuntime: 	... 14 more
+11-02 21:43:11.238  1456 10962 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:43:11.247  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:43:11.255  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:43:11.255  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:43:11.278  1456  7796 I OpenGLRenderer: Initialized EGL, version 1.4
+11-02 21:43:11.279  1456  7796 D OpenGLRenderer: Swap behavior 2
+11-02 21:43:11.741  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{742148a u0 org.mozilla.fenix.nightly/org.mozilla.fenix.HomeActivity t902 f}
+11-02 21:43:11.769  1456  1601 I ActivityManager: Start proc 7746:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 for activity org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity
+11-02 21:43:11.890  1456  1471 W ActivityManager: Slow operation: 109ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+11-02 21:43:11.940  7746  7746 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-02 21:43:11.940  7746  7746 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-02 21:43:11.940  7746  7746 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-02 21:43:11.941  7746  7746 D io.sentry.android.AndroidSentryClientFactory: Construction of Android Sentry.
+11-02 21:43:11.971  7746  7746 D RustNativeSupport: findMegazordLibraryName(viaduct, 0.42.2
+11-02 21:43:11.971  7746  7746 D RustNativeSupport: lib in use: none
+11-02 21:43:11.971  7746  7746 D RustNativeSupport: lib configured: fenix
+11-02 21:43:11.971  7746  7746 D RustNativeSupport: lib version configured: 0.42.0
+11-02 21:43:11.971  7746  7746 E RustNativeSupport: version requested by component doesn't match initialized megazord version (0.42.2 != 0.42.0)
+11-02 21:43:11.972  7746  7746 D AndroidRuntime: Shutting down VM
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: FATAL EXCEPTION: main
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: Process: org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter, PID: 7746
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: java.lang.ExceptionInInitializerError
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct.<clinit>(Unknown Source:0)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.httpconfig.RustHttpConfig.setClient(HttpConfig.kt:5)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.setupApplication(FenixApplication.kt:25)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:2)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1141)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5854)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1697)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:164)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6626)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: Caused by: mozilla.appservices.support.native.IncompatibleMegazordVersion: Incompatible megazord version: library "viaduct" was compiled expecting app-services version "0.42.2", but the megazord "fenix" provides version "0.42.0"
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.lookupMegazordLibrary(Helpers.kt:13)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.support.native.HelpersKt.findMegazordLibraryName(Helpers.kt:4)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:3)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion$INSTANCE$1.invoke(LibViaduct.kt:1)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	at mozilla.appservices.httpconfig.LibViaduct$Companion.<clinit>(LibViaduct.kt:2)
+11-02 21:43:11.973  7746  7746 E AndroidRuntime: 	... 14 more
+11-02 21:43:11.998  1456  7556 I ActivityManager: START u0 {flg=0x10018000 cmp=org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity (has extras)} from uid 10409
+11-02 21:43:12.042  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-02 21:43:12.042  1456  1601 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-02 21:43:12.043  1456  1603 I ActivityManager: Showing crash dialog for package org.mozilla.fenix.nightly u0
+11-02 21:43:12.092   808   808 D SurfaceFlinger: duplicate layer name: changing Application Error: org.mozilla.fenix.nightly to Application Error: org.mozilla.fenix.nightly#1
+11-02 21:43:12.160   808   808 I SFPerfTracer:      triggers: (rate: 5:10318) (compose: 0:0) (post: 0:0) (render: 0:1) (2:269385 frames) (3:669338)
+11-02 21:43:12.160   808   808 D SFPerfTracer:        layers: (4:14) (NavigationBar#0 (0xb07df000): 0:1170) (StatusBar#0 (0xb07e3000): 0:407781) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:313) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 0:204)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb03a0000): 0:32)- (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:21)- (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 0:21)- (Splash Screen org.mozilla.fenix.nightly#0 (0xb0383000): 0:19)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:13) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 3:3)* 
+11-02 21:43:12.510  1456  1601 W ActivityManager: Activity pause timeout for ActivityRecord{d0cdecf u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t902 f}
+11-02 21:43:12.766  2340  2441 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+11-02 21:43:12.766  2340  2441 D QCNEJ   : |CORE| Updating RSSI: -66
+11-02 21:43:17.237  7314  7330 I Finsky  : [29171] kam.run(3): Stats for Executor: BlockingExecutor kce@b11e8d7[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 13]
+11-02 21:43:17.238  7314  7330 I Finsky  : [29171] kam.run(3): Stats for Executor: LightweightExecutor kce@8dbd5c4[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 71]
+11-02 21:43:17.597   808   808 I SFPerfTracer:      triggers: (rate: 5:10318) (compose: 0:0) (post: 0:0) (render: 0:1) (323:269708 frames) (324:669663)
+11-02 21:43:17.597   808   808 D SFPerfTracer:        layers: (5:11) (NavigationBar#0 (0xb07df000): 0:1170) (StatusBar#0 (0xb07e3000): 1:407782) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:76)* (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 1:314) (animation background stackId=1#0 (0xb0771000): 0:4)* (Sprite#1 (0xb077c000): 0:195)* (com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity#0 (0xb0763000): 18:222)* (Splash Screen org.mozilla.fenix.nightly#0 (0xb0383000): 1:20)* (Application Error: org.mozilla.fenix.nightly#0 (0xb03ae000): 0:13) (Application Error: org.mozilla.fenix.nightly#1 (0xb03a4000): 9:13) 
+11-02 21:43:17.616  7314  7330 I Finsky  : [29171] kam.run(3): Stats for Executor: bgExecutor kce@a53ecad[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 71]
+11-02 21:43:17.829  1456  1889 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5961 com.android.server.wm.WindowManagerService.removeWindow:1810 com.android.server.wm.Session.remove:222 
+11-02 21:43:17.939   808   898 I SFPerfTracer:      triggers: (rate: 0:0) (0 sw vsyncs) (0 skipped) (421:146337 vsyncs) (423:674338)
+11-02 21:43:18.373  7314  7314 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(5): SCH: onJobSchedulerWakeup with jobId 9008
+11-02 21:43:18.377  7314  7314 I Finsky  : [2] szl.a(24): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+11-02 21:43:18.381  7314  7314 I Finsky  : [2] szl.a(5): Scheduling fallback in 64799998 (absolute: 5338276899)
+11-02 21:43:18.420  7314  7314 I Finsky  : [2] szx.handleMessage(10): SCH: DeviceState: DeviceState{currentTime=1572745398410, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+11-02 21:43:18.434  7314  7765 I Finsky  : [29246] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 24-77777777 26-1414141414 29-29 
+11-02 21:43:18.468  7314  7314 I Finsky  : [2] szy.a(20): SCH: Running job: 29-29
+11-02 21:43:18.476  7314  7314 I Finsky  : [2] szx.handleMessage(65): SCH: RunningQueue size: 1, PendingQueue size: 0
+11-02 21:43:18.476  7314  7314 I Finsky  : [2] szx.handleMessage(68): SCH: Running queue: 29-29 
+11-02 21:43:18.480  7314  7766 I Finsky  : [29247] yjr.a(1): ProcessRecoveryLogsUtil: No files in recovery directory
+11-02 21:43:18.480  7314  7766 I Finsky  : [29247] tbi.a(16): SCH: jobFinished: 29-29. TimeElapsed: 12ms.
+11-02 21:43:18.482  7314  7314 I Finsky  : [2] szy.a(36): SCH: Job 29-29 finished. Not rescheduling.
+11-02 21:43:18.483  7314  7314 I Finsky  : [2] szx.handleMessage(65): SCH: RunningQueue size: 0, PendingQueue size: 0
+11-02 21:43:18.484  7314  7314 I Finsky  : [2] szx.handleMessage(29): Executor finished
+11-02 21:43:18.500  7314  7314 I Finsky  : [2] tcn.a(7): SCH: Jobs in database: 1-1337 3-812 3-813 24-77777777 26-1414141414 
+11-02 21:43:18.521  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56900621ms, C: false, I: true, N: 0
+11-02 21:43:18.522  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 1-1337,  -> L: 17259845ms, D: 60459845ms, C: false, I: false, N: 1
+11-02 21:43:18.523  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-813,  -> L: 0ms, D: 86342816ms, C: false, I: true, N: 2
+11-02 21:43:18.524  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 3-812,  -> L: 0ms, D: 86342793ms, C: true, I: true, N: 2
+11-02 21:43:18.525  7314  7314 I Finsky  : [2] syd.a(58): SCH: ConstraintMapping: 26-1414141414,  -> L: 23783051ms, D: 24683051ms, C: false, I: false, N: 0
+11-02 21:43:18.534  7314  7314 I Finsky  : [2] tav.a(37): Cancelling existing jobscheduler jobs: 9007 9005 9001 9004 
+11-02 21:43:18.535  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9000 (expected to run in 0 ms) due to recent wakeup
+11-02 21:43:18.535  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9000, L: 30000, D: 56900621, C: false, I: true, N: 0
+11-02 21:43:18.538  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9002, L: 17259845, D: 60459845, C: false, I: false, N: 1
+11-02 21:43:18.540  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9003 (expected to run in 0 ms) due to recent wakeup
+11-02 21:43:18.540  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9003, L: 30000, D: 86342816, C: false, I: true, N: 2
+11-02 21:43:18.542  7314  7314 I Finsky  : [2] tav.a(13): Throttling wakeup for job 9006 (expected to run in 0 ms) due to recent wakeup
+11-02 21:43:18.543  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9006, L: 30000, D: 86342793, C: true, I: true, N: 2
+11-02 21:43:18.545  7314  7314 I Finsky  : [2] tav.a(30): Scheduling job Id: 9009, L: 23783051, D: 24683051, C: false, I: false, N: 0
+11-02 21:43:21.000  1456  1601 W ActivityManager: Launch timeout has expired, giving up wake lock!
+11-02 21:43:21.119  1456  7556 I ActivityManager: Force stopping org.mozilla.fenix.nightly appid=10409 user=0: from pid 7769
+11-02 21:43:21.119  1456  7556 I ActivityManager: Killing 7722:org.mozilla.fenix.nightly/u0a409 (adj 900): stop org.mozilla.fenix.nightly
+11-02 21:43:21.120  1456  1605 W zygote  : kill(-7722, 9) failed: No such process
+11-02 21:43:21.127  1456  1605 I chatty  : uid=1000(system) ActivityManager identical 1 line
+11-02 21:43:21.128  1456  7556 I ActivityManager: Killing 7746:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409 (adj 0): stop org.mozilla.fenix.nightly
+11-02 21:43:21.129  1456  7556 W ActivityManager: Force removing ActivityRecord{e46e8cb u0 org.mozilla.fenix.nightly/mozilla.components.lib.crash.prompt.CrashReporterActivity t902}: app died, no saved state
+11-02 21:43:21.142  1456  1605 W zygote  : kill(-7722, 9) failed: No such process
+11-02 21:43:21.143  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7722 in 23ms
+11-02 21:43:21.143  1456  1605 W zygote  : kill(-7746, 9) failed: No such process
+11-02 21:43:21.158  1456  1605 W zygote  : kill(-7746, 9) failed: No such process
+11-02 21:43:21.159  1456  1605 I zygote  : Successfully killed process cgroup uid 10409 pid 7746 in 15ms
+11-02 21:43:21.183  1456  4829 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{9ab46aa 0:org.mozilla.fenix.nightly/u0a409}
+11-02 21:43:21.184  1456  1471 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{ef1129b 0:org.mozilla.fenix.nightly:mozilla.components.lib.crash.CrashReporter/u0a409}
+11-02 21:43:21.192  2398  2398 D CarrierSvcBindHelper: No carrier app for: 0
+11-02 21:43:21.194  2398  2398 D CarrierSvcBindHelper: No carrier app for: 1
+11-02 21:43:21.205  7883  7883 W Settings: Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-02 21:43:21.218  1456  4829 I WifiService: getVerboseLoggingLevel uid=1000
+11-02 21:43:21.219  1456  5031 I WifiService: getAggressiveHandover uid=1000
+11-02 21:43:21.220  1456  5031 I WifiService: getAllowScansWithTraffic uid=1000
+11-02 21:43:21.225  7883  7771 W TileUtils: Found com.android.settings.backup.BackupSettingsActivity for intent Intent { act=com.android.settings.action.SETTINGS pkg=com.android.settings } missing metadata com.android.settings.category
+11-02 21:43:21.243  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:21.249  7883  7771 D Settings: No enabled state changed, skipping updateCategory call
+11-02 21:43:21.256  2398  2398 E PhoneInterfaceManager: [PhoneIntfMgr] getAllowedCarriers: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-02 21:43:21.318  1456  1889 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
