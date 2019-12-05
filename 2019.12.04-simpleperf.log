@@ -1,0 +1,99 @@
+Not downloading a new apk; using existing.
+Downloaded the nightly APK.
+Profiling...
+Performing Streamed Install
+Success
+simpleperf'ing
+python: can't open file '/home/simpleperf//app_profiler.py': [Errno 2] No such file or directory
+Stopping the leftover process.
+Done profiling...
+Not downloading a new apk; using existing.
+Downloaded the nightly APK.
+Profiling...
+Not downloading a new apk; using existing.
+Downloaded the nightly APK.
+Profiling...
+Performing Streamed Install
+Success
+simpleperf'ing
+INFO:root:prepare profiling
+INFO:root:start profiling
+INFO:root:run adb cmd: ['adb', 'shell', '/data/local/tmp/simpleperf', 'record', '-o', '/data/local/tmp/perf.data', '-e task-clock:u -f 1000 -g --duration 10', '--log', 'info', '--app', 'org.mozilla.fenix.performancetest']
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/oat/arm/base.odex doesn't contain symbol table
+simpleperf W dso.cpp:501] failed to read min virtual address of /dev/ashmem/dalvik-jit-code-cache: File not found
+simpleperf W dso.cpp:394] failed to read symbols from /dev/ashmem/dalvik-jit-code-cache: File not found
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libmozglue.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libxul.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnss3.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfenix.so doesn't contain symbol table
+simpleperf W dso.cpp:501] failed to read min virtual address of //anon: File not found
+simpleperf W dso.cpp:394] failed to read symbols from //anon: File not found
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libglean_ffi.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libsoftokn3.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfreebl3.so doesn't contain symbol table
+simpleperf W dso.cpp:392] /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnssckbi.so doesn't contain symbol table
+simpleperf I cmd_record.cpp:677] Samples recorded: 13555 (cut 1168). Samples lost: 0.
+INFO:root:collect profiling data
+INFO:root:pull file to binary_cache: /system/framework/arm/boot-core-libart.oat to binary_cache/system/framework/arm/boot-core-libart.oat
+INFO:root:pull file to binary_cache: /system/lib/libc.so to binary_cache/system/lib/libc.so
+INFO:root:pull file to binary_cache: /system/lib/libicuuc.so to binary_cache/system/lib/libicuuc.so
+INFO:root:pull file to binary_cache: /system/lib/android.hardware.graphics.mapper@2.0.so to binary_cache/system/lib/android.hardware.graphics.mapper@2.0.so
+INFO:root:pull file to binary_cache: /system/bin/app_process32 to binary_cache/system/bin/app_process32
+INFO:root:pull file to binary_cache: /system/lib/libEGL.so to binary_cache/system/lib/libEGL.so
+INFO:root:pull file to binary_cache: /system/lib/libgui.so to binary_cache/system/lib/libgui.so
+INFO:root:pull file to binary_cache: /system/lib/libopenjdkjvm.so to binary_cache/system/lib/libopenjdkjvm.so
+INFO:root:pull file to binary_cache: /system/lib/libpng.so to binary_cache/system/lib/libpng.so
+INFO:root:pull file to binary_cache: /system/lib/libm.so to binary_cache/system/lib/libm.so
+INFO:root:pull file to binary_cache: /system/bin/linker to binary_cache/system/bin/linker
+INFO:root:pull file to binary_cache: /system/lib/libnativeloader.so to binary_cache/system/lib/libnativeloader.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libglean_ffi.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libglean_ffi.so
+INFO:root:pull file to binary_cache: /system/lib/libsqlite.so to binary_cache/system/lib/libsqlite.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfreebl3.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfreebl3.so
+INFO:root:pull file to binary_cache: /system/framework/arm/boot-core-oj.oat to binary_cache/system/framework/arm/boot-core-oj.oat
+INFO:root:pull file to binary_cache: /system/lib/libdl.so to binary_cache/system/lib/libdl.so
+INFO:root:pull file to binary_cache: /system/lib/libcutils.so to binary_cache/system/lib/libcutils.so
+INFO:root:pull file to binary_cache: /system/lib/libziparchive.so to binary_cache/system/lib/libziparchive.so
+INFO:root:pull file to binary_cache: /system/lib/libcrypto.so to binary_cache/system/lib/libcrypto.so
+INFO:root:pull file to binary_cache: /system/lib/libui.so to binary_cache/system/lib/libui.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/libgsl.so to binary_cache/system/vendor/lib/libgsl.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/egl/libESXEGL_adreno.so to binary_cache/system/vendor/lib/egl/libESXEGL_adreno.so
+INFO:root:pull file to binary_cache: /system/lib/libandroid_runtime.so to binary_cache/system/lib/libandroid_runtime.so
+INFO:root:pull file to binary_cache: /system/lib/libhwui.so to binary_cache/system/lib/libhwui.so
+INFO:root:pull file to binary_cache: /system/lib/libicui18n.so to binary_cache/system/lib/libicui18n.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/oat/arm/base.odex to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/oat/arm/base.odex
+INFO:root:pull file to binary_cache: /system/lib/libc++.so to binary_cache/system/lib/libc++.so
+INFO:root:pull file to binary_cache: /system/framework/arm/boot-conscrypt.oat to binary_cache/system/framework/arm/boot-conscrypt.oat
+INFO:root:pull file to binary_cache: /system/lib/libhwbinder.so to binary_cache/system/lib/libhwbinder.so
+INFO:root:pull file to binary_cache: /system/lib/libhidltransport.so to binary_cache/system/lib/libhidltransport.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfenix.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libfenix.so
+INFO:root:pull file to binary_cache: /system/lib/libskia.so to binary_cache/system/lib/libskia.so
+INFO:root:pull file to binary_cache: /system/lib/libharfbuzz_ng.so to binary_cache/system/lib/libharfbuzz_ng.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libmozglue.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libmozglue.so
+INFO:root:pull file to binary_cache: /system/lib/libminikin.so to binary_cache/system/lib/libminikin.so
+INFO:root:pull file to binary_cache: /system/lib/libart.so to binary_cache/system/lib/libart.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnss3.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnss3.so
+INFO:root:pull file to binary_cache: /system/lib/libart-compiler.so to binary_cache/system/lib/libart-compiler.so
+INFO:root:pull file to binary_cache: /system/lib/libjavacrypto.so to binary_cache/system/lib/libjavacrypto.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/egl/libESXGLESv2_adreno.so to binary_cache/system/vendor/lib/egl/libESXGLESv2_adreno.so
+INFO:root:pull file to binary_cache: /system/lib/libhardware.so to binary_cache/system/lib/libhardware.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libjnidispatch.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libjnidispatch.so
+INFO:root:pull file to binary_cache: /system/lib/libbinder.so to binary_cache/system/lib/libbinder.so
+INFO:root:pull file to binary_cache: /system/lib/libutils.so to binary_cache/system/lib/libutils.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/egl/eglSubDriverAndroid.so to binary_cache/system/vendor/lib/egl/eglSubDriverAndroid.so
+INFO:root:pull file to binary_cache: /system/lib/libopenjdk.so to binary_cache/system/lib/libopenjdk.so
+INFO:root:pull file to binary_cache: /system/lib/liblog.so to binary_cache/system/lib/liblog.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/libllvm-glnext.so to binary_cache/system/vendor/lib/libllvm-glnext.so
+INFO:root:pull file to binary_cache: /system/lib/libjavacore.so to binary_cache/system/lib/libjavacore.so
+INFO:root:pull file to binary_cache: /system/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so to binary_cache/system/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
+INFO:root:pull file to binary_cache: /system/lib/libft2.so to binary_cache/system/lib/libft2.so
+INFO:root:pull file to binary_cache: /system/lib/libandroidfw.so to binary_cache/system/lib/libandroidfw.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libxul.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libxul.so
+INFO:root:pull file to binary_cache: /system/lib/android.hardware.configstore@1.0.so to binary_cache/system/lib/android.hardware.configstore@1.0.so
+INFO:root:pull file to binary_cache: /system/lib/libz.so to binary_cache/system/lib/libz.so
+INFO:root:pull file to binary_cache: /system/framework/arm/boot-framework.oat to binary_cache/system/framework/arm/boot-framework.oat
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libsoftokn3.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libsoftokn3.so
+INFO:root:pull file to binary_cache: /system/lib/libvixl-arm.so to binary_cache/system/lib/libvixl-arm.so
+INFO:root:pull file to binary_cache: /data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnssckbi.so to binary_cache/data/app/org.mozilla.fenix.performancetest-Ab4TH5JKabUM4CU53YIMng==/lib/arm/libnssckbi.so
+INFO:root:profiling is finished.
+Stopping the leftover process.
+Done profiling...
