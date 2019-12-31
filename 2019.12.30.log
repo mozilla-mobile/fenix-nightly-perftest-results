@@ -610,3 +610,30 @@ Starting by using am start-activity org.mozilla.fenix.performancetest/org.mozill
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity }
 Starting by using am start-activity org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity }
+Downloading apk.
+Done downloading apk.
+Downloaded the nightly APK.
+Profiling...
+Performing Streamed Install
+Success
+Profiling by using am start-activity -W --start-profiler /data/local/tmp/temp.trace org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity }
+Status: timeout
+Activity: org.mozilla.fenix.performancetest/org.mozilla.fenix.HomeActivity
+WaitTime: 10210
+Complete
+Stopping the profiler and the process.
+Downloading profile.
+Performing Streamed Install
+Success
+Profiling by using am start-activity -W -t "text/html" -d "about:blank" -a android.intent.action.VIEW --start-profiler /data/local/tmp/temp.trace org.mozilla.fenix.performancetest/org.mozilla.fenix.IntentReceiverActivity
+Starting: Intent { act=android.intent.action.VIEW dat=about:blank typ=text/html cmp=org.mozilla.fenix.performancetest/org.mozilla.fenix.IntentReceiverActivity }
+Status: ok
+Activity: org.mozilla.fenix.performancetest/org.mozilla.fenix.IntentReceiverActivity
+ThisTime: 8559
+TotalTime: 8559
+WaitTime: 8633
+Complete
+Stopping the profiler and the process.
+Downloading profile.
+Done profiling...
