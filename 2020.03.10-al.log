@@ -1,0 +1,441 @@
+--------- beginning of main
+03-10 15:18:37.926  1456  1605 I chatty  : uid=1000(system) ActivityManager expire 1 line
+03-10 22:00:55.300  1456  1605 I chatty  : uid=1000(system) ActivityManager expire 1 line
+03-10 22:00:55.315  1456  1605 W zygote  : kill(-32723, 9) failed: No such process
+03-10 22:00:55.315  1456  1605 I zygote  : Successfully killed process cgroup uid 10031 pid 32723 in 30ms
+--------- beginning of system
+03-10 22:00:55.476  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:00:55.477   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:00:56.220  1456  1601 I ActivityManager: Start proc 1493:com.motorola.timeweatherwidget/u0a116 for service com.motorola.timeweatherwidget/com.motorola.commandcenter.WidgetService
+03-10 22:00:56.251  1493  1493 I zygote  : The ClassLoaderContext is a special shared library.
+03-10 22:00:56.255  1493  1493 I zygote  : The ClassLoaderContext is a special shared library.
+03-10 22:00:56.270  1493  1493 D CmdCenter: - --->: 2017 WidgetApplication onCreate
+03-10 22:00:56.289  1493  1493 I WeatherApp: Creating weather service
+03-10 22:00:56.299  1493  1493 I WeatherApp: onStartCommand action: com.motorola.commandcenter.weather.action.START_WEATHER_SERVICE
+03-10 22:00:56.300  1493  1531 I WeatherApp: is force update = false
+03-10 22:00:56.301  1493  1493 I WeatherApp: onStartCommand action: com.motorola.commandcenter.weather.action.START_WEATHER_SERVICE
+03-10 22:00:56.302  1493  1531 I WeatherApp: Current Location is OFF.
+03-10 22:00:56.302  1493  1531 I WeatherApp: is force update = false
+03-10 22:00:56.310  1493  1531 I WeatherApp: No top city.
+03-10 22:00:56.312  1493  1531 I WeatherApp: is force update = false
+03-10 22:00:56.312  1493  1531 I WeatherApp: Current Location is OFF.
+03-10 22:00:56.312  1493  1531 I WeatherApp: is force update = false
+03-10 22:00:56.314  1493  1531 I WeatherApp: No top city.
+03-10 22:00:56.330  1456  2915 I ActivityManager: Start proc 1540:com.android.providers.calendar/u0a16 for content provider com.android.providers.calendar/.CalendarProvider2
+03-10 22:00:56.358  1540  1540 I zygote  : The ClassLoaderContext is a special shared library.
+03-10 22:00:56.360  1540  1540 I chatty  : uid=10016(com.android.providers.calendar) identical 1 line
+03-10 22:00:56.362  1540  1540 I zygote  : The ClassLoaderContext is a special shared library.
+03-10 22:00:56.385  1540  1540 I CalendarProvider2: Created com.android.providers.calendar.CalendarAlarmManager@6e6d45e(com.android.providers.calendar.CalendarProvider2@3b1403f)
+03-10 22:00:56.388  1456  2915 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+03-10 22:00:56.388  1456  2915 W Binder  : java.lang.Throwable
+03-10 22:00:56.388  1456  2915 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+03-10 22:00:56.388  1456  2915 W Binder  : 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:451)
+03-10 22:00:56.388  1456  2915 W Binder  : 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:12677)
+03-10 22:00:56.388  1456  2915 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:1800)
+03-10 22:00:56.388  1456  2915 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3169)
+03-10 22:00:56.388  1456  2915 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+03-10 22:01:01.135  1568  1568 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:01.148  1568  1568 W app_process: Could not reserve sentinel fault page
+03-10 22:01:01.313  1568  1568 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:01.386  1568  1568 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:01.394  1568  1568 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968116668, downTime=15968116668, deviceId=-1, source=0x101 }
+03-10 22:01:01.400  1568  1568 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968116668, downTime=15968116668, deviceId=-1, source=0x101 }
+03-10 22:01:01.407  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:01.407   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:01.410  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:01.412  1568  1568 D AndroidRuntime: Shutting down VM
+03-10 22:01:01.423  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:01:06.549  1456  6339 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:01:06.664  1456  6339 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:01:06.664   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:06.777  1456  1466 I zygote  : Background concurrent copying GC freed 34358(2MB) AllocSpace objects, 40(864KB) LOS objects, 38% free, 37MB/61MB, paused 256us total 372.865ms
+03-10 22:01:11.122   769   769 I MotoSensors: Sensorhub hal setDelay: 1 - 20
+03-10 22:01:11.122   769   769 I MotoSensors: Sensorhub hal setdelay: 1 - 20
+03-10 22:01:11.122   769   769 I MotoSensors: HubSensors::updateAccelRate 200
+03-10 22:01:11.122   769   769 I MotoSensors: Sensorhub hal enable: 1 - 1
+03-10 22:01:11.122   769   769 I MotoSensors: HubSensors::updateAccelRate 20
+03-10 22:01:11.644   769   769 I MotoSensors: Sensorhub hal enable: 1 - 0
+03-10 22:01:12.313  1599  1599 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:12.326  1599  1599 W app_process: Could not reserve sentinel fault page
+03-10 22:01:12.491  1599  1599 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:12.563  1599  1599 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:12.564  1599  1599 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968127844, downTime=15968127844, deviceId=-1, source=0x101 }
+03-10 22:01:12.575  1599  1599 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968127844, downTime=15968127844, deviceId=-1, source=0x101 }
+03-10 22:01:12.581  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:12.582   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:12.584  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:12.586  1599  1599 D AndroidRuntime: Shutting down VM
+03-10 22:01:12.594  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:01:17.722  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:01:17.735  2146  2165 I zygote  : Background concurrent copying GC freed 100473(5MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 7MB/15MB, paused 189us total 153.983ms
+03-10 22:01:17.823  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:01:17.824   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:23.471  1627  1627 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:23.483  1627  1627 W app_process: Could not reserve sentinel fault page
+03-10 22:01:23.648  1627  1627 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:23.712  1627  1627 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:23.713  1627  1627 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968138993, downTime=15968138993, deviceId=-1, source=0x101 }
+03-10 22:01:23.719  1627  1627 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968138993, downTime=15968138993, deviceId=-1, source=0x101 }
+03-10 22:01:23.725  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:23.725   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:23.727  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:23.729  1627  1627 D AndroidRuntime: Shutting down VM
+03-10 22:01:23.738  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:01:28.880  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:01:28.977  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:01:28.978   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:34.631  1651  1651 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:34.644  1651  1651 W app_process: Could not reserve sentinel fault page
+03-10 22:01:34.809  1651  1651 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:34.874  1651  1651 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:34.876  1651  1651 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968150155, downTime=15968150155, deviceId=-1, source=0x101 }
+03-10 22:01:34.882  1651  1651 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968150155, downTime=15968150155, deviceId=-1, source=0x101 }
+03-10 22:01:34.888  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:34.889   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:34.891  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:34.892  1651  1651 D AndroidRuntime: Shutting down VM
+03-10 22:01:34.901  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:01:40.034  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:01:40.132  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:01:40.132   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:45.776  1688  1688 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:45.789  1688  1688 W app_process: Could not reserve sentinel fault page
+03-10 22:01:45.954  1688  1688 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:46.026  1688  1688 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:46.027  1688  1688 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968161307, downTime=15968161307, deviceId=-1, source=0x101 }
+03-10 22:01:46.036  1688  1688 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968161307, downTime=15968161307, deviceId=-1, source=0x101 }
+03-10 22:01:46.042  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:46.043   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:46.045  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:46.047  1688  1688 D AndroidRuntime: Shutting down VM
+03-10 22:01:46.056  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:01:46.197   808   808 I SFPerfTracer:      triggers: (rate: 71:2000080) (compose: 0:7) (post: 0:19) (render: 0:17) (1:9106800 frames) (2:11161818)
+03-10 22:01:46.198   808   808 D SFPerfTracer:        layers: (4:8) (NavigationBar#0 (0xb07df000): 0:702140) (StatusBar#0 (0xb07e3000): 1:1816949) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:62816) (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:3780)* (Sprite#1 (0xb077c000): 0:195)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xb0763000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xb0771000): 0:1604) 
+03-10 22:01:50.010  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4355290, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=285, SEQNUM=410242, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2816764, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+03-10 22:01:50.016  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:01:50.054   808   898 I SFPerfTracer:      triggers: (rate: 0:1) (0 sw vsyncs) (0 skipped) (0:5010482 vsyncs) (1:11231608)
+03-10 22:01:51.199  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:01:51.296  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:01:51.297   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:56.947  1715  1715 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:01:56.959  1715  1715 W app_process: Could not reserve sentinel fault page
+03-10 22:01:57.124  1715  1715 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:01:57.194  1715  1715 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:01:57.196  1715  1715 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968172476, downTime=15968172476, deviceId=-1, source=0x101 }
+03-10 22:01:57.202  1715  1715 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968172476, downTime=15968172476, deviceId=-1, source=0x101 }
+03-10 22:01:57.208  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:01:57.209   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:01:57.211  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:01:57.213  1715  1715 D AndroidRuntime: Shutting down VM
+03-10 22:01:57.222  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:02.367  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:02.477  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:02.478   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:08.131  1745  1745 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:02:08.144  1745  1745 W app_process: Could not reserve sentinel fault page
+03-10 22:02:08.309  1745  1745 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:02:08.375  1745  1745 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:02:08.376  1745  1745 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968183656, downTime=15968183656, deviceId=-1, source=0x101 }
+03-10 22:02:08.383  1745  1745 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968183656, downTime=15968183656, deviceId=-1, source=0x101 }
+03-10 22:02:08.389  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:02:08.389   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:08.391  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:02:08.393  1745  1745 D AndroidRuntime: Shutting down VM
+03-10 22:02:08.402  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:13.547  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:13.667  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:13.668   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:14.846 28336 28413 I DeviceStateChecker: screenOn: true, isCharging: true
+03-10 22:02:19.313  1770  1770 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:02:19.326  1770  1770 W app_process: Could not reserve sentinel fault page
+03-10 22:02:19.491  1770  1770 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:02:19.557  1770  1770 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:02:19.558  1770  1770 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968194838, downTime=15968194838, deviceId=-1, source=0x101 }
+03-10 22:02:19.568  1770  1770 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968194838, downTime=15968194838, deviceId=-1, source=0x101 }
+03-10 22:02:19.575  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:02:19.575   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:19.577  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:02:19.579  1770  1770 D AndroidRuntime: Shutting down VM
+03-10 22:02:19.587  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:24.731  1456  2915 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:24.836  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:24.837   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:30.488  1793  1793 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:02:30.501  1793  1793 W app_process: Could not reserve sentinel fault page
+03-10 22:02:30.666  1793  1793 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:02:30.733  1793  1793 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:02:30.738  1793  1793 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968206014, downTime=15968206014, deviceId=-1, source=0x101 }
+03-10 22:02:30.744  1793  1793 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968206014, downTime=15968206014, deviceId=-1, source=0x101 }
+03-10 22:02:30.750  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:02:30.751   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:30.753  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:02:30.755  1793  1793 D AndroidRuntime: Shutting down VM
+03-10 22:02:30.763  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:35.908  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:36.025  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:36.026   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:40.898 17694 17705 I zygote  : Background concurrent copying GC freed 39371(2MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 8MB/16MB, paused 185us total 139.700ms
+03-10 22:02:41.671  1816  1816 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:02:41.684  1816  1816 W app_process: Could not reserve sentinel fault page
+03-10 22:02:41.849  1816  1816 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:02:41.918  1816  1816 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:02:41.919  1816  1816 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968217199, downTime=15968217199, deviceId=-1, source=0x101 }
+03-10 22:02:41.929  1816  1816 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968217199, downTime=15968217199, deviceId=-1, source=0x101 }
+03-10 22:02:41.936  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:02:41.936   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:41.938  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:02:41.940  1816  1816 D AndroidRuntime: Shutting down VM
+03-10 22:02:41.948  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:47.092  1456  4797 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:47.192  1456  4797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:47.193   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:50.168  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4355290, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=410243, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2816750, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+03-10 22:02:50.172  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:02:52.837  1840  1840 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:02:52.850  1840  1840 W app_process: Could not reserve sentinel fault page
+03-10 22:02:53.014  1840  1840 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:02:53.087  1840  1840 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:02:53.088  1840  1840 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968228368, downTime=15968228368, deviceId=-1, source=0x101 }
+03-10 22:02:53.099  1840  1840 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968228368, downTime=15968228368, deviceId=-1, source=0x101 }
+03-10 22:02:53.105  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:02:53.105   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:02:53.107  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:02:53.109  1840  1840 D AndroidRuntime: Shutting down VM
+03-10 22:02:53.117  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:02:58.246  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:02:58.355  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:02:58.356   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:04.002  1873  1873 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:04.015  1873  1873 W app_process: Could not reserve sentinel fault page
+03-10 22:03:04.180  1873  1873 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:03:04.253  1873  1873 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:03:04.254  1873  1873 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968239534, downTime=15968239534, deviceId=-1, source=0x101 }
+03-10 22:03:04.265  1873  1873 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968239534, downTime=15968239534, deviceId=-1, source=0x101 }
+03-10 22:03:04.271  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:03:04.271   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:04.274  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:03:04.275  1873  1873 D AndroidRuntime: Shutting down VM
+03-10 22:03:04.284  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:03:09.401 28336 28346 I zygote  : Background concurrent copying GC freed 8114(470KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 8MB/17MB, paused 179us total 130.533ms
+03-10 22:03:09.410  1456  5907 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:03:09.518  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:03:09.518   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:14.420 13975 13985 I zygote  : Background concurrent copying GC freed 10396(724KB) AllocSpace objects, 6(312KB) LOS objects, 49% free, 8MB/16MB, paused 209us total 144.741ms
+03-10 22:03:15.167  1918  1918 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:15.180  1918  1918 W app_process: Could not reserve sentinel fault page
+03-10 22:03:15.345  1918  1918 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:03:15.409  1918  1918 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:03:15.410  1918  1918 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968250690, downTime=15968250690, deviceId=-1, source=0x101 }
+03-10 22:03:15.419  1918  1918 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968250690, downTime=15968250690, deviceId=-1, source=0x101 }
+03-10 22:03:15.426  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:03:15.426   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:15.428  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:03:15.430  1918  1918 D AndroidRuntime: Shutting down VM
+03-10 22:03:15.438  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:03:20.575  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:03:20.672  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:03:20.672   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:26.326  1948  1948 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:26.339  1948  1948 W app_process: Could not reserve sentinel fault page
+03-10 22:03:26.504  1948  1948 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:03:26.573  1948  1948 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:03:26.574  1948  1948 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968261854, downTime=15968261854, deviceId=-1, source=0x101 }
+03-10 22:03:26.586  1948  1948 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968261854, downTime=15968261854, deviceId=-1, source=0x101 }
+03-10 22:03:26.593  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:03:26.593   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:26.595  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:03:26.597  1948  1948 D AndroidRuntime: Shutting down VM
+03-10 22:03:26.605  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:03:27.123  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:03:31.749  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:03:31.854  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:03:31.855   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:37.498  1975  1975 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:37.510  1975  1975 W app_process: Could not reserve sentinel fault page
+03-10 22:03:37.676  1975  1975 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:03:37.740  1975  1975 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:03:37.741  1975  1975 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968273021, downTime=15968273021, deviceId=-1, source=0x101 }
+03-10 22:03:37.751  1975  1975 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968273021, downTime=15968273021, deviceId=-1, source=0x101 }
+03-10 22:03:37.758  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:03:37.758   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:37.760  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:03:37.762  1975  1975 D AndroidRuntime: Shutting down VM
+03-10 22:03:37.770  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:03:42.914  1456  5907 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:03:43.011  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:03:43.012   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:48.661  2002  2002 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:48.674  2002  2002 W app_process: Could not reserve sentinel fault page
+03-10 22:03:48.839  2002  2002 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:03:48.904  2002  2002 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:03:48.905  2002  2002 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968284185, downTime=15968284185, deviceId=-1, source=0x101 }
+03-10 22:03:48.912  2002  2002 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968284185, downTime=15968284185, deviceId=-1, source=0x101 }
+03-10 22:03:48.918  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:03:48.919   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:48.921  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:03:48.923  2002  2002 D AndroidRuntime: Shutting down VM
+03-10 22:03:48.931  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:03:50.328  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4355595, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=410244, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2816747, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+03-10 22:03:50.332  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:03:54.075  1456  5907 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:03:54.172  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:03:54.173   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:03:59.820  2026  2026 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:03:59.833  2026  2026 W app_process: Could not reserve sentinel fault page
+03-10 22:03:59.997  2026  2026 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:00.064  2026  2026 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:00.070  2026  2026 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968295345, downTime=15968295345, deviceId=-1, source=0x101 }
+03-10 22:04:00.078  2026  2026 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968295345, downTime=15968295345, deviceId=-1, source=0x101 }
+03-10 22:04:00.087  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:00.087   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:00.090  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:00.091  2026  2026 D AndroidRuntime: Shutting down VM
+03-10 22:04:00.102  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:05.247  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:04:05.357  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:04:05.358   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:11.007  2072  2072 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:04:11.019  2072  2072 W app_process: Could not reserve sentinel fault page
+03-10 22:04:11.184  2072  2072 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:11.253  2072  2072 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:11.257  2072  2072 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968306534, downTime=15968306534, deviceId=-1, source=0x101 }
+03-10 22:04:11.264  2072  2072 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968306534, downTime=15968306534, deviceId=-1, source=0x101 }
+03-10 22:04:11.270  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:11.270   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:11.272  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:11.274  2072  2072 D AndroidRuntime: Shutting down VM
+03-10 22:04:11.283  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:11.342   808   898 I SFPerfTracer:      triggers: (rate: 0:1) (0 sw vsyncs) (0 skipped) (0:5010491 vsyncs) (2:11231709)
+03-10 22:04:11.663   769   769 I MotoSensors: Sensorhub hal setDelay: 1 - 20
+03-10 22:04:11.663   769   769 I MotoSensors: Sensorhub hal setdelay: 1 - 20
+03-10 22:04:11.663   769   769 I MotoSensors: HubSensors::updateAccelRate 200
+03-10 22:04:11.664   769   769 I MotoSensors: Sensorhub hal enable: 1 - 1
+03-10 22:04:11.664   769   769 I MotoSensors: HubSensors::updateAccelRate 20
+03-10 22:04:12.177   769   769 I MotoSensors: Sensorhub hal enable: 1 - 0
+03-10 22:04:16.428  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:04:16.545  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:04:16.546   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:22.196  2119  2119 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:04:22.208  2119  2119 W app_process: Could not reserve sentinel fault page
+03-10 22:04:22.374  2119  2119 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:22.439  2119  2119 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:22.445  2119  2119 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968317723, downTime=15968317723, deviceId=-1, source=0x101 }
+03-10 22:04:22.451  2119  2119 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968317723, downTime=15968317723, deviceId=-1, source=0x101 }
+03-10 22:04:22.457  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:22.457   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:22.459  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:22.461  2119  2119 D AndroidRuntime: Shutting down VM
+03-10 22:04:22.470  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:25.585   808   808 I SFPerfTracer:      triggers: (rate: 71:2000100) (compose: 0:7) (post: 0:19) (render: 0:17) (0:9106830 frames) (1:11161918)
+03-10 22:04:25.586   808   808 D SFPerfTracer:        layers: (4:8) (NavigationBar#0 (0xb07df000): 0:702140) (StatusBar#0 (0xb07e3000): 1:1816995) (com.android.systemui.ImageWallpaper#0 (0xb07e7000): 0:62816) (Sprite#0 (0xb0733000): 0:317)* (DimLayerController/Stack=0#0 (0xb075a000): 0:3780)* (Sprite#1 (0xb077c000): 0:195)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xb0763000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xb0771000): 0:1617) 
+03-10 22:04:27.126  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:04:27.614  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:04:27.711  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:04:27.711   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:33.356  2147  2147 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:04:33.369  2147  2147 W app_process: Could not reserve sentinel fault page
+03-10 22:04:33.534  2147  2147 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:33.599  2147  2147 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:33.600  2147  2147 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968328880, downTime=15968328880, deviceId=-1, source=0x101 }
+03-10 22:04:33.610  2147  2147 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968328880, downTime=15968328880, deviceId=-1, source=0x101 }
+03-10 22:04:33.617  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:33.617   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:33.619  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:33.621  2147  2147 D AndroidRuntime: Shutting down VM
+03-10 22:04:33.629  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:38.773  1456  5907 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:04:38.870  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:04:38.871   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:44.513  2188  2188 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:04:44.526  2188  2188 W app_process: Could not reserve sentinel fault page
+03-10 22:04:44.691  2188  2188 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:44.766  2188  2188 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:44.767  2188  2188 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968340047, downTime=15968340047, deviceId=-1, source=0x101 }
+03-10 22:04:44.775  2188  2188 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968340047, downTime=15968340047, deviceId=-1, source=0x101 }
+03-10 22:04:44.781  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:44.782   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:44.784  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:44.785  2188  2188 D AndroidRuntime: Shutting down VM
+03-10 22:04:44.795  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:45.148  1023  2205 D libc    : Internal error: netid(0), id(0x531), server(0.0.0.0)
+03-10 22:04:45.148  1023  2205 D libc    : Internal error: netid(0), id(0x531), server(0.0.0.0)
+03-10 22:04:45.148  1023  2205 D libc    : dns query(xtrapath2.izatcloud.net, 1, 1) failed
+03-10 22:04:45.149  1023  2205 D libc    : Internal error: netid(0), id(0x6817), server(0.0.0.0)
+03-10 22:04:45.149  1023  2205 D libc    : Internal error: netid(0), id(0x6817), server(0.0.0.0)
+03-10 22:04:45.149  1023  2205 D libc    : dns query(xtrapath2.izatcloud.net., 1, 1) failed
+03-10 22:04:45.149  1124  1157 E LocSvc_xtra2: resolve:168] DNS resolution on xtrapath2.izatcloud.net failed.
+03-10 22:04:45.150  1023  2206 D libc    : Internal error: netid(0), id(0xf832), server(0.0.0.0)
+03-10 22:04:45.150  1023  2206 D libc    : Internal error: netid(0), id(0xf832), server(0.0.0.0)
+03-10 22:04:45.150  1023  2206 D libc    : dns query(xtrapath1.izatcloud.net, 1, 1) failed
+03-10 22:04:45.150  1023  2206 D libc    : Internal error: netid(0), id(0xc173), server(0.0.0.0)
+03-10 22:04:45.151  1023  2206 D libc    : Internal error: netid(0), id(0xc173), server(0.0.0.0)
+03-10 22:04:45.151  1023  2206 D libc    : dns query(xtrapath1.izatcloud.net., 1, 1) failed
+03-10 22:04:45.151  1124  1157 E LocSvc_xtra2: resolve:168] DNS resolution on xtrapath1.izatcloud.net failed.
+03-10 22:04:45.152  1023  2207 D libc    : Internal error: netid(0), id(0xec39), server(0.0.0.0)
+03-10 22:04:45.152  1023  2207 D libc    : Internal error: netid(0), id(0xec39), server(0.0.0.0)
+03-10 22:04:45.152  1023  2207 D libc    : dns query(xtrapath3.izatcloud.net, 1, 1) failed
+03-10 22:04:45.152  1023  2207 D libc    : Internal error: netid(0), id(0xa340), server(0.0.0.0)
+03-10 22:04:45.152  1023  2207 D libc    : Internal error: netid(0), id(0xa340), server(0.0.0.0)
+03-10 22:04:45.152  1023  2207 D libc    : dns query(xtrapath3.izatcloud.net., 1, 1) failed
+03-10 22:04:45.152  1124  1157 E LocSvc_xtra2: resolve:168] DNS resolution on xtrapath3.izatcloud.net failed.
+03-10 22:04:49.939  1456  6339 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:04:50.036  1456  6339 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:04:50.036   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:50.488  1456  1893 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4355290, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=410245, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2816738, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+03-10 22:04:50.492  2398  2398 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 22:04:55.677  2220  2220 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:04:55.690  2220  2220 W app_process: Could not reserve sentinel fault page
+03-10 22:04:55.855  2220  2220 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:04:55.924  2220  2220 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:04:55.929  2220  2220 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968351205, downTime=15968351205, deviceId=-1, source=0x101 }
+03-10 22:04:55.936  2220  2220 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968351205, downTime=15968351205, deviceId=-1, source=0x101 }
+03-10 22:04:55.942  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:04:55.943   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:04:55.945  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:04:55.947  2220  2220 D AndroidRuntime: Shutting down VM
+03-10 22:04:55.957  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:04:56.275  1456  1466 I zygote  : Background concurrent copying GC freed 56044(3MB) AllocSpace objects, 63(1260KB) LOS objects, 38% free, 37MB/61MB, paused 179us total 319.803ms
+03-10 22:05:01.100  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:05:01.197  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:05:01.198   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:06.851  2265  2265 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:05:06.863  2265  2265 W app_process: Could not reserve sentinel fault page
+03-10 22:05:07.029  2265  2265 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:05:07.093  2265  2265 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:05:07.094  2265  2265 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968362374, downTime=15968362374, deviceId=-1, source=0x101 }
+03-10 22:05:07.099  2265  2265 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968362374, downTime=15968362374, deviceId=-1, source=0x101 }
+03-10 22:05:07.105  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:05:07.106   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:07.108  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:05:07.109  2265  2265 D AndroidRuntime: Shutting down VM
+03-10 22:05:07.118  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:05:12.264  1456  5907 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:05:12.394  1456  5907 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:05:12.395   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:14.857 28336 28413 I DeviceStateChecker: screenOn: true, isCharging: true
+03-10 22:05:18.038  2292  2292 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:05:18.050  2292  2292 W app_process: Could not reserve sentinel fault page
+03-10 22:05:18.215  2292  2292 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:05:18.282  2292  2292 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:05:18.283  2292  2292 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968373563, downTime=15968373563, deviceId=-1, source=0x101 }
+03-10 22:05:18.293  2292  2292 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968373563, downTime=15968373563, deviceId=-1, source=0x101 }
+03-10 22:05:18.299  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:05:18.299   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:18.301  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:05:18.303  2292  2292 D AndroidRuntime: Shutting down VM
+03-10 22:05:18.311  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:05:23.459  1456  5050 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
+03-10 22:05:23.556  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity} from uid 2000
+03-10 22:05:23.557   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:29.207  2350  2350 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-10 22:05:29.220  2350  2350 W app_process: Could not reserve sentinel fault page
+03-10 22:05:29.385  2350  2350 I app_process: The ClassLoaderContext is a special shared library.
+03-10 22:05:29.452  2350  2350 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+03-10 22:05:29.455  2350  2350 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968384733, downTime=15968384733, deviceId=-1, source=0x101 }
+03-10 22:05:29.466  2350  2350 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=15968384733, downTime=15968384733, deviceId=-1, source=0x101 }
+03-10 22:05:29.473  1456  1941 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher (has extras)} from uid 1000
+03-10 22:05:29.473   794   839 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+03-10 22:05:29.475  2748  2748 D Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+03-10 22:05:29.477  2350  2350 D AndroidRuntime: Shutting down VM
+03-10 22:05:29.486  1456  1456 I NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10116
+03-10 22:05:34.629  1456  6339 W ActivityManager: Invalid packageName: org.mozilla.fennec_aurora
