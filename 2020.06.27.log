@@ -68,6 +68,8 @@
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.26-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.26-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.01-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.06-ha.log.
@@ -91,8 +93,6 @@
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.12-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.20-ha.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.25-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.10-ha.log
@@ -129,6 +129,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.11-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.26-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.01-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.21-ha.log
@@ -1832,6 +1833,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.07-al.log
 05-07 19:17:06.970 18665 18665 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 05-07 19:17:15.391  1456  2236 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-07 19:17:18.270 18920 18920 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-al.log
+06-26 23:51:56.765  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:51:59.769   448   448 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:09.090  1456 10962 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:11.952   812   812 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:21.354  1456  4802 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:24.208  1372  1372 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:33.613  1456  2921 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:36.601  1890  1890 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:45.842  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:48.798  2321  2321 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:58.128  1456  4829 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:00.983  2712  2712 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:10.402  1456  5031 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:13.297  3071  3071 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:22.651  1456  4797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:25.777  3364  3364 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:34.910  1456  2920 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:37.963  3635  3635 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:47.142  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:50.040  3905  3905 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:59.388  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:02.427  4179  4179 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:11.620  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:14.594  4459  4459 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:23.862  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:26.852  4771  4771 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:36.103  1456  4829 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:39.047  5084  5084 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:48.353  1456  4802 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:51.295  5363  5363 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:00.614  1456  3927 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:03.727  5660  5660 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:12.882  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:15.824  5953  5953 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:25.128  1456  2918 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:28.180  6233  6233 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:37.360  1456  6339 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:40.304  6500  6500 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:49.605  1456  4797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:52.637  6787  6787 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:01.879  1456  2916 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:04.990  7063  7063 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:14.148  1456  4679 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:17.281  7344  7344 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:26.385  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:29.385  7619  7619 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:38.607  1456  2401 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:41.619  7904  7904 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:50.851  1456  7570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:53.945  8186  8186 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.22-al.log
 06-22 23:51:52.497  1456  2921 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
@@ -2417,6 +2470,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.29-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.18-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.16-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.05-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.16-hanoob.log
@@ -2499,6 +2553,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.11-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.26-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.01-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.21-ha.log
@@ -4203,6 +4258,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.07-al.log
 05-07 19:17:15.391  1456  2236 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-07 19:17:18.270 18920 18920 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-al.log
+06-26 23:51:56.765  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:51:59.769   448   448 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:09.090  1456 10962 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:11.952   812   812 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:21.354  1456  4802 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:24.208  1372  1372 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:33.613  1456  2921 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:36.601  1890  1890 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:45.842  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:52:48.798  2321  2321 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:52:58.128  1456  4829 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:00.983  2712  2712 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:10.402  1456  5031 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:13.297  3071  3071 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:22.651  1456  4797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:25.777  3364  3364 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:34.910  1456  2920 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:37.963  3635  3635 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:47.142  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:53:50.040  3905  3905 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:53:59.388  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:02.427  4179  4179 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:11.620  1456  5050 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:14.594  4459  4459 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:23.862  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:26.852  4771  4771 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:36.103  1456  4829 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:39.047  5084  5084 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:54:48.353  1456  4802 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:54:51.295  5363  5363 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:00.614  1456  3927 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:03.727  5660  5660 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:12.882  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:15.824  5953  5953 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:25.128  1456  2918 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:28.180  6233  6233 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:37.360  1456  6339 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:40.304  6500  6500 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:55:49.605  1456  4797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:55:52.637  6787  6787 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:01.879  1456  2916 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:04.990  7063  7063 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:14.148  1456  4679 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:17.281  7344  7344 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:26.385  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:29.385  7619  7619 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:38.607  1456  2401 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:41.619  7904  7904 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-26 23:56:50.851  1456  7570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-26 23:56:53.945  8186  8186 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.22-al.log
 06-22 23:51:52.497  1456  2921 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-22 23:51:55.517 27549 27549 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -4770,7 +4877,10 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 06-13 23:55:59.296  4425  4425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:08.493  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:56:11.603  4698  4698 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.07-ha.log.
+06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:56:23.684  5020  5020 D GeckoSession: handleMessage GeckoView:PageStop uri=null./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.25-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.07-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.16-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -4811,7 +4921,6 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.06-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 
-06-13 23:56:23.684  5020  5020 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:32.972  1456  1471 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:56:36.089  5290  5290 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:45.214  1456  7570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
@@ -4827,6 +4936,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.29-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.18-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.26-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.16-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.05-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.16-hanoob.log
@@ -4874,465 +4984,3 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-hanoob.log
-Downloading apk.
-Done downloading apk.
-Running tests
-Performing Streamed Install
-Success
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Performing Streamed Install
-Success
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Starting by using am start-activity -t 'text/html' -d 'https://example.com' -a android.intent.action.VIEW org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... typ=text/html cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity }
-Performing Streamed Install
-Success
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App (has extras) }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
-Starting by using am start-activity org.mozilla.fennec_aurora/.App
-Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.mozilla.fennec_aurora/.App }
