@@ -56,6 +56,8 @@
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.13-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.03-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.08-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.28-ha.log.
@@ -92,8 +94,6 @@
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.12-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.04.30-ha.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.10-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.01-ha.log
@@ -123,6 +123,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.11-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.13-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.30-ha.log
@@ -1580,6 +1581,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-al.log
 05-08 22:06:21.081  1456 10366 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-08 22:06:23.876 15015 15015 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-al.log
+found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.02-al.log
 06-02 23:50:02.141  1456  2204 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-02 23:50:05.194 26580 26580 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -2604,6 +2607,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.07-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.25-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.03-hanoob.log
@@ -2671,6 +2675,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.11-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.13-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.30-ha.log
@@ -4128,6 +4133,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-al.log
 05-08 22:06:21.081  1456 10366 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-08 22:06:23.876 15015 15015 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-al.log
+found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.02-al.log
 06-02 23:50:02.141  1456  2204 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-02 23:50:05.194 26580 26580 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -5117,9 +5124,9 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 06-13 23:55:47.115  4157  4157 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:55:56.242  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:55:59.296  4425  4425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:56:08.493  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:56:11.603  4698  4698 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.19-ha.log.
+06-13 23:56:08.493  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.04.30-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.19-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.19-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -5163,6 +5170,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.20-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.03-hanoob.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.08-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.26-hanoob.log.
@@ -5182,6 +5191,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.02-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 
+06-13 23:56:11.603  4698  4698 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:56:23.684  5020  5020 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:32.972  1456  1471 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:56:36.089  5290  5290 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -5214,6 +5225,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.07-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.25-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.03-hanoob.log
@@ -5252,6 +5264,3 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.02-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-hanoob.log
-Downloading apk.
-Done downloading apk.
-Running tests
