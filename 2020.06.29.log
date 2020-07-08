@@ -88,11 +88,11 @@
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.06-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.06-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.21-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.31-ha.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.18-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.10-ha.log
@@ -139,12 +139,14 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.01-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.21-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.31-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.12-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.19-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-ha.log
@@ -478,9 +480,109 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.17-al.log
 05-17 22:06:26.471 23731 23731 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.04-al.log
-found iteration count: 0
+07-06 21:08:25.004  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:27.235 25467 25467 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:08:36.894  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:39.034 25759 25759 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:08:48.774  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:50.912 26046 26046 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:00.633  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:02.759 26318 26318 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:12.497  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:14.632 26583 26583 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:24.352  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:26.488 26853 26853 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:36.216  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:38.351 27134 27134 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:48.195  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:50.399 27449 27449 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:00.081  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:02.227 27718 27718 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:11.953  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:14.139 27988 27988 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:23.834  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:25.997 28255 28255 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:35.715  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:37.848 28523 28523 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:47.596  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:49.749 28791 28791 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:59.476  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:01.661 29062 29062 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:11.356  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:13.558 29326 29326 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:23.252  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:25.420 29594 29594 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:35.150  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:37.338 29877 29877 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:47.015  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:49.188 30143 30143 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:58.914  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:01.096 30412 30412 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:10.797  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:12.986 30684 30684 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:22.673  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:24.883 30970 30970 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:34.537  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:36.743 31238 31238 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:46.414  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:48.602 31509 31509 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:58.297  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:13:00.470 31778 31778 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:13:10.174  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:13:12.389 32044 32044 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-al.log
-found iteration count: 0
+07-06 12:20:05.002  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:07.236  3199  3199 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:16.878  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:19.026  3590  3590 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:28.755  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:30.929  3869  3869 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:40.639  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:42.843  4145  4145 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:52.500  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:54.747  4413  4413 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:04.376  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:06.544  4676  4676 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:16.260  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:18.374  4950  4950 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:28.139  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:30.278  5218  5218 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:40.017  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:42.143  5514  5514 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:51.880  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:54.008  5898  5898 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:03.779  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:05.924  6158  6158 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:15.677  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:17.833  6428  6428 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:27.578  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:29.756  6837  6837 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:39.493  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:41.689  7104  7104 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:51.381  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:53.571  7374  7374 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:03.257  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:05.448  7639  7639 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:15.142  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:17.336  7908  7908 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:27.002  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:29.187  8182  8182 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:38.895  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:41.038  8585  8585 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:50.759  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:52.935  8879  8879 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:02.660  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:04.850  9162  9162 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:14.554  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:16.774  9425  9425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:26.434  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:28.631  9692  9692 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:38.315  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:40.480  9966  9966 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:50.195  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:52.395 10240 10240 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.15-al.log
 found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-al.log
@@ -904,7 +1006,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.27-al.log
 06-27 23:56:50.420  7037  7037 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.01-al.log
-found iteration count: 0
+07-06 15:42:37.079  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:42:39.252 19081 19081 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:42:48.958  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:42:51.112 19372 19372 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:00.837  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:03.000 19638 19638 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:12.715  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:14.942 19921 19921 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:24.574  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:26.808 20187 20187 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:36.457  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:38.591 20498 20498 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:48.335  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:50.477 20763 20763 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:00.215  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:02.380 21031 21031 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:12.095  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:14.265 21300 21300 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:23.974  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:26.141 21572 21572 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:35.838  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:38.000 21847 21847 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:47.716  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:49.886 22115 22115 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:59.595  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:01.801 22384 22384 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:11.474  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:13.653 22657 22657 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:23.356  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:25.526 22972 22972 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:35.236  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:37.417 23271 23271 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:47.118  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:49.343 23543 23543 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:58.995  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:01.164 23807 23807 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:10.878  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:13.071 24074 24074 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:22.780  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:24.939 24475 24475 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:34.657  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:36.864 24741 24741 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:46.535  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:48.698 25010 25010 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:58.416  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:00.575 25277 25277 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:47:10.295  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:12.487 25549 25549 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:47:22.175  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:24.373 25824 25824 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-al.log
 05-03 22:01:56.117  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-03 22:01:59.356 18566 18566 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -1217,6 +1369,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-al.log
 06-05 23:56:38.780  1456  4679 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-05 23:56:41.783  9416  9416 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-al.log
+07-07 23:50:53.571  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:50:55.809 18367 18367 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:05.466  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:07.623 18692 18692 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:17.346  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:19.531 18986 18986 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:29.225  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:31.400 19294 19294 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:41.107  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:43.290 19567 19567 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:52.987  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:55.134 19874 19874 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:04.904  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:07.042 20144 20144 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:16.807  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:19.008 20415 20415 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:28.686  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:30.856 20690 20690 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:40.547  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:42.739 20962 20962 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:52.443  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:54.602 21235 21235 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:04.326  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:06.532 21517 21517 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:16.209  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:18.397 21795 21795 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:28.088  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:30.292 22069 22069 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:39.964  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:42.161 22348 22348 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:51.841  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:54.140 22622 22622 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:03.707  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:05.973 22916 22916 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:15.586  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:17.794 23209 23209 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:27.579  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:35.043 24326 24326 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:40.145  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:42.424 25080 25080 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:52.041  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:54.236 25355 25355 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:03.924  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:06.122 25676 25676 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:15.806  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:18.040 25964 25964 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:27.670  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:29.897 26249 26249 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:39.565  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:41.793 26535 26535 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.29-al.log
 05-29 23:50:03.240  1456  2162 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-29 23:50:06.168  9321  9321 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -1374,9 +1578,109 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-al.log
 05-04 17:01:41.955 19772 19772 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.02-al.log
-found iteration count: 0
+07-06 18:30:30.883  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:33.152 12016 12016 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:30:42.776  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:44.921 12345 12345 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:30:54.672  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:56.801 12612 12612 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:06.556  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:08.688 12877 12877 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:18.437  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:20.593 13143 13143 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:30.332  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:32.490 13434 13434 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:42.198  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:44.344 13707 13707 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:54.077  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:56.216 13979 13979 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:05.958  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:08.120 14251 14251 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:17.836  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:19.977 14519 14519 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:29.734  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:31.901 14824 14824 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:41.619  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:43.855 15092 15092 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:53.495  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:55.661 15366 15366 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:05.375  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:07.551 15658 15658 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:17.255  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:19.413 15934 15934 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:29.135  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:31.307 16206 16206 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:41.014  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:43.206 16487 16487 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:52.897  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:55.061 16747 16747 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:04.774  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:06.975 17017 17017 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:16.635  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:18.865 17287 17287 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:28.514  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:30.667 17556 17556 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:40.395  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:42.595 17828 17828 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:52.356  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:54.560 18115 18115 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:35:04.236  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:35:06.451 18375 18375 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:35:16.116  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:35:18.347 18650 18650 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.05-al.log
-found iteration count: 0
+07-06 22:19:22.677  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:24.908 17046 17046 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:34.553  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:36.693 17410 17410 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:46.432  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:48.598 17674 17674 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:58.312  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:00.452 17944 17944 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:10.196  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:12.311 18215 18215 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:22.076  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:24.234 18498 18498 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:33.955  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:36.095 18770 18770 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:45.854  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:47.996 19050 19050 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:57.736  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:59.932 19324 19324 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:09.613  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:11.754 19592 19592 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:21.495  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:23.656 19861 19861 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:33.374  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:35.538 20137 20137 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:45.258  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:47.427 20407 20407 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:57.154  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:59.323 20683 20683 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:09.051  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:11.222 20948 20948 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:20.930  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:23.107 21213 21213 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:32.791  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:34.966 21488 21488 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:44.656  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:46.837 21755 21755 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:56.537  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:58.736 22023 22023 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:08.415  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:10.582 22292 22292 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:20.296  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:22.473 22562 22562 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:32.176  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:34.334 22852 22852 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:44.054  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:46.232 23150 23150 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:55.936  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:58.134 23414 23414 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:24:07.816  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:24:10.007 23688 23688 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-al.log
 06-06 23:51:44.767  1456 10736 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-06 23:51:47.802 31187 31187 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -1588,7 +1892,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-al.log
 05-08 22:06:23.876 15015 15015 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-al.log
-found iteration count: 0
+07-06 19:50:34.764  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:50:36.989  2566  2566 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:50:46.618  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:50:48.747  2954  2954 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:50:58.516  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:00.650  3297  3297 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:10.392  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:12.532  3601  3601 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:22.272  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:24.430  3872  3872 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:34.153  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:36.299  4149  4149 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:46.017  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:48.147  4420  4420 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:57.913  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:00.058  4687  4687 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:09.776  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:11.953  4960  4960 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:21.656  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:23.816  5231  5231 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:33.534  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:35.700  5530  5530 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:45.437  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:47.611  5812  5812 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:57.312  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:59.472  6107  6107 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:09.193  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:11.413  6379  6379 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:21.057  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:23.223  6652  6652 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:32.933  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:35.126  6919  6919 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:44.813  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:47.072  7185  7185 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:56.696  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:58.955  7454  7454 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:08.574  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:10.731  7722  7722 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:20.457  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:22.589  7991  7991 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:32.338  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:34.515  8257  8257 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:44.233  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:46.417  8657  8657 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:56.177  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:58.932  8936  8936 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:55:08.055  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:55:10.239  9212  9212 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:55:19.932  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:55:22.122  9480  9480 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.02-al.log
 06-02 23:50:02.141  1456  2204 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-02 23:50:05.194 26580 26580 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -2118,7 +2472,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.25-al.log
 06-25 23:56:51.027 11743 11743 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.30-al.log
-found iteration count: 0
+07-06 13:48:28.860  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:31.316 26722 26722 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:48:40.737  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:42.879 27190 27190 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:48:52.619  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:54.757 27487 27487 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:04.498  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:06.639 27753 27753 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:16.376  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:18.514 28016 28016 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:28.277  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:30.408 28285 28285 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:40.177  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:42.383 28554 28554 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:52.059  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:54.329 28825 28825 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:03.918  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:06.087 29096 29096 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:15.795  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:17.938 29357 29357 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:27.676  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:29.823 29629 29629 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:39.556  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:41.713 29930 29930 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:51.418  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:53.583 30219 30219 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:03.298  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:05.470 30483 30483 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:15.176  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:17.367 30748 30748 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:27.038  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:29.202 31036 31036 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:38.919  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:41.080 31300 31300 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:50.799  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:52.979 31567 31567 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:02.697  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:04.896 31831 31831 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:14.577  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:16.734 32103 32103 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:26.457  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:28.629 32367 32367 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:38.339  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:40.520 32638 32638 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:50.217  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:52.375   555   555 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:53:02.099  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:53:04.322   904   904 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:53:13.977  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:53:16.172  1363  1363 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-al.log
 06-18 23:51:51.978  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-18 23:51:54.903 27878 27878 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -2378,6 +2782,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.23-al.log
 05-23 19:06:17.767 13194 13194 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 05-23 19:06:26.004  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-23 19:06:28.937 13450 13450 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-al.log
+07-06 23:50:44.045  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:50:46.260  9516  9516 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:50:55.931  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:50:58.038  9808  9808 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:07.815  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:09.940 10109 10109 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:19.696  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:21.846 10401 10401 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:31.574  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:33.705 10691 10691 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:43.451  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:45.591 10966 10966 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:55.315  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:57.445 11236 11236 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:07.192  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:09.361 11513 11513 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:19.072  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:21.214 11788 11788 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:30.951  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:33.084 12066 12066 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:42.815  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:44.986 12330 12330 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:54.710  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:56.871 12599 12599 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:06.595  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:08.806 12902 12902 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:18.472  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:20.674 13171 13171 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:30.372  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:32.548 13439 13439 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:42.234  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:44.403 13715 13715 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:54.120  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:56.286 13981 13981 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:05.991  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:08.154 14251 14251 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:17.871  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:20.048 14514 14514 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:29.731  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:31.892 14781 14781 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:41.594  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:43.816 15049 15049 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:53.472  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:55.665 15317 15317 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:05.332  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:07.577 15588 15588 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:17.215  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:19.394 15888 15888 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:29.096  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:31.258 16169 16169 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-al.log
 05-09 22:01:51.702  1456  2196 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
@@ -2612,6 +3068,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.04-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.07-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-hanoob.log
@@ -2653,6 +3110,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.02-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.10-ha.log
@@ -2699,12 +3157,14 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.01-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.21-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.31-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.12-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.19-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-ha.log
@@ -3038,9 +3498,109 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.17-al.log
 05-17 22:06:26.471 23731 23731 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.04-al.log
-found iteration count: 0
+07-06 21:08:25.004  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:27.235 25467 25467 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:08:36.894  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:39.034 25759 25759 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:08:48.774  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:08:50.912 26046 26046 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:00.633  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:02.759 26318 26318 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:12.497  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:14.632 26583 26583 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:24.352  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:26.488 26853 26853 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:36.216  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:38.351 27134 27134 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:09:48.195  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:09:50.399 27449 27449 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:00.081  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:02.227 27718 27718 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:11.953  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:14.139 27988 27988 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:23.834  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:25.997 28255 28255 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:35.715  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:37.848 28523 28523 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:47.596  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:10:49.749 28791 28791 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:10:59.476  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:01.661 29062 29062 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:11.356  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:13.558 29326 29326 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:23.252  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:25.420 29594 29594 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:35.150  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:37.338 29877 29877 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:47.015  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:11:49.188 30143 30143 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:11:58.914  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:01.096 30412 30412 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:10.797  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:12.986 30684 30684 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:22.673  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:24.883 30970 30970 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:34.537  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:36.743 31238 31238 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:46.414  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:12:48.602 31509 31509 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:12:58.297  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:13:00.470 31778 31778 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 21:13:10.174  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 21:13:12.389 32044 32044 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-al.log
-found iteration count: 0
+07-06 12:20:05.002  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:07.236  3199  3199 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:16.878  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:19.026  3590  3590 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:28.755  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:30.929  3869  3869 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:40.639  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:42.843  4145  4145 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:20:52.500  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:20:54.747  4413  4413 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:04.376  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:06.544  4676  4676 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:16.260  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:18.374  4950  4950 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:28.139  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:30.278  5218  5218 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:40.017  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:42.143  5514  5514 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:21:51.880  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:21:54.008  5898  5898 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:03.779  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:05.924  6158  6158 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:15.677  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:17.833  6428  6428 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:27.578  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:29.756  6837  6837 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:39.493  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:41.689  7104  7104 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:22:51.381  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:22:53.571  7374  7374 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:03.257  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:05.448  7639  7639 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:15.142  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:17.336  7908  7908 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:27.002  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:29.187  8182  8182 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:38.895  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:41.038  8585  8585 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:23:50.759  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:23:52.935  8879  8879 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:02.660  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:04.850  9162  9162 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:14.554  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:16.774  9425  9425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:26.434  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:28.631  9692  9692 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:38.315  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:40.480  9966  9966 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 12:24:50.195  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 12:24:52.395 10240 10240 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.15-al.log
 found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-al.log
@@ -3464,7 +4024,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.27-al.log
 06-27 23:56:50.420  7037  7037 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.01-al.log
-found iteration count: 0
+07-06 15:42:37.079  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:42:39.252 19081 19081 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:42:48.958  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:42:51.112 19372 19372 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:00.837  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:03.000 19638 19638 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:12.715  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:14.942 19921 19921 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:24.574  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:26.808 20187 20187 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:36.457  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:38.591 20498 20498 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:43:48.335  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:43:50.477 20763 20763 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:00.215  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:02.380 21031 21031 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:12.095  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:14.265 21300 21300 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:23.974  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:26.141 21572 21572 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:35.838  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:38.000 21847 21847 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:47.716  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:44:49.886 22115 22115 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:44:59.595  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:01.801 22384 22384 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:11.474  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:13.653 22657 22657 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:23.356  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:25.526 22972 22972 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:35.236  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:37.417 23271 23271 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:47.118  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:45:49.343 23543 23543 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:45:58.995  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:01.164 23807 23807 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:10.878  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:13.071 24074 24074 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:22.780  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:24.939 24475 24475 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:34.657  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:36.864 24741 24741 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:46.535  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:46:48.698 25010 25010 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:46:58.416  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:00.575 25277 25277 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:47:10.295  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:12.487 25549 25549 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 15:47:22.175  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 15:47:24.373 25824 25824 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-al.log
 05-03 22:01:56.117  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-03 22:01:59.356 18566 18566 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -3777,6 +4387,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-al.log
 06-05 23:56:38.780  1456  4679 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-05 23:56:41.783  9416  9416 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-al.log
+07-07 23:50:53.571  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:50:55.809 18367 18367 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:05.466  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:07.623 18692 18692 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:17.346  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:19.531 18986 18986 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:29.225  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:31.400 19294 19294 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:41.107  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:43.290 19567 19567 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:51:52.987  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:51:55.134 19874 19874 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:04.904  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:07.042 20144 20144 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:16.807  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:19.008 20415 20415 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:28.686  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:30.856 20690 20690 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:40.547  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:42.739 20962 20962 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:52:52.443  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:52:54.602 21235 21235 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:04.326  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:06.532 21517 21517 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:16.209  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:18.397 21795 21795 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:28.088  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:30.292 22069 22069 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:39.964  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:42.161 22348 22348 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:53:51.841  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:53:54.140 22622 22622 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:03.707  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:05.973 22916 22916 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:15.586  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:17.794 23209 23209 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:27.579  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:35.043 24326 24326 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:40.145  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:42.424 25080 25080 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:54:52.041  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:54:54.236 25355 25355 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:03.924  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:06.122 25676 25676 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:15.806  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:18.040 25964 25964 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:27.670  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:29.897 26249 26249 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-07 23:55:39.565  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-07 23:55:41.793 26535 26535 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.29-al.log
 05-29 23:50:03.240  1456  2162 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-29 23:50:06.168  9321  9321 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -3934,9 +4596,109 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-al.log
 05-04 17:01:41.955 19772 19772 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.02-al.log
-found iteration count: 0
+07-06 18:30:30.883  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:33.152 12016 12016 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:30:42.776  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:44.921 12345 12345 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:30:54.672  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:30:56.801 12612 12612 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:06.556  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:08.688 12877 12877 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:18.437  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:20.593 13143 13143 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:30.332  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:32.490 13434 13434 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:42.198  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:44.344 13707 13707 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:31:54.077  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:31:56.216 13979 13979 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:05.958  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:08.120 14251 14251 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:17.836  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:19.977 14519 14519 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:29.734  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:31.901 14824 14824 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:41.619  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:43.855 15092 15092 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:32:53.495  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:32:55.661 15366 15366 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:05.375  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:07.551 15658 15658 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:17.255  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:19.413 15934 15934 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:29.135  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:31.307 16206 16206 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:41.014  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:43.206 16487 16487 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:33:52.897  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:33:55.061 16747 16747 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:04.774  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:06.975 17017 17017 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:16.635  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:18.865 17287 17287 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:28.514  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:30.667 17556 17556 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:40.395  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:42.595 17828 17828 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:34:52.356  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:34:54.560 18115 18115 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:35:04.236  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:35:06.451 18375 18375 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 18:35:16.116  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 18:35:18.347 18650 18650 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.05-al.log
-found iteration count: 0
+07-06 22:19:22.677  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:24.908 17046 17046 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:34.553  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:36.693 17410 17410 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:46.432  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:19:48.598 17674 17674 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:19:58.312  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:00.452 17944 17944 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:10.196  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:12.311 18215 18215 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:22.076  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:24.234 18498 18498 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:33.955  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:36.095 18770 18770 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:45.854  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:47.996 19050 19050 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:20:57.736  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:20:59.932 19324 19324 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:09.613  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:11.754 19592 19592 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:21.495  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:23.656 19861 19861 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:33.374  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:35.538 20137 20137 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:45.258  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:47.427 20407 20407 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:21:57.154  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:21:59.323 20683 20683 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:09.051  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:11.222 20948 20948 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:20.930  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:23.107 21213 21213 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:32.791  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:34.966 21488 21488 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:44.656  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:46.837 21755 21755 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:22:56.537  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:22:58.736 22023 22023 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:08.415  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:10.582 22292 22292 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:20.296  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:22.473 22562 22562 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:32.176  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:34.334 22852 22852 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:44.054  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:46.232 23150 23150 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:23:55.936  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:23:58.134 23414 23414 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 22:24:07.816  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 22:24:10.007 23688 23688 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-al.log
 06-06 23:51:44.767  1456 10736 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-06 23:51:47.802 31187 31187 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -4148,7 +4910,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-al.log
 05-08 22:06:23.876 15015 15015 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-al.log
-found iteration count: 0
+07-06 19:50:34.764  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:50:36.989  2566  2566 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:50:46.618  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:50:48.747  2954  2954 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:50:58.516  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:00.650  3297  3297 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:10.392  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:12.532  3601  3601 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:22.272  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:24.430  3872  3872 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:34.153  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:36.299  4149  4149 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:46.017  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:51:48.147  4420  4420 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:51:57.913  1694  8064 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:00.058  4687  4687 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:09.776  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:11.953  4960  4960 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:21.656  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:23.816  5231  5231 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:33.534  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:35.700  5530  5530 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:45.437  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:47.611  5812  5812 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:52:57.312  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:52:59.472  6107  6107 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:09.193  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:11.413  6379  6379 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:21.057  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:23.223  6652  6652 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:32.933  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:35.126  6919  6919 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:44.813  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:47.072  7185  7185 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:53:56.696  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:53:58.955  7454  7454 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:08.574  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:10.731  7722  7722 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:20.457  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:22.589  7991  7991 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:32.338  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:34.515  8257  8257 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:44.233  1694  5949 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:46.417  8657  8657 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:54:56.177  1694  5717 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:54:58.932  8936  8936 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:55:08.055  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:55:10.239  9212  9212 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 19:55:19.932  1694  3149 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 19:55:22.122  9480  9480 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.02-al.log
 06-02 23:50:02.141  1456  2204 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-02 23:50:05.194 26580 26580 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -4678,7 +5490,57 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.25-al.log
 06-25 23:56:51.027 11743 11743 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.30-al.log
-found iteration count: 0
+07-06 13:48:28.860  1694  2353 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:31.316 26722 26722 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:48:40.737  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:42.879 27190 27190 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:48:52.619  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:48:54.757 27487 27487 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:04.498  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:06.639 27753 27753 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:16.376  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:18.514 28016 28016 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:28.277  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:30.408 28285 28285 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:40.177  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:42.383 28554 28554 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:49:52.059  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:49:54.329 28825 28825 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:03.918  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:06.087 29096 29096 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:15.795  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:17.938 29357 29357 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:27.676  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:29.823 29629 29629 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:39.556  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:41.713 29930 29930 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:50:51.418  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:50:53.583 30219 30219 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:03.298  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:05.470 30483 30483 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:15.176  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:17.367 30748 30748 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:27.038  1694  5577 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:29.202 31036 31036 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:38.919  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:41.080 31300 31300 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:51:50.799  1694  2384 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:51:52.979 31567 31567 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:02.697  1694  1710 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:04.896 31831 31831 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:14.577  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:16.734 32103 32103 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:26.457  1694  3138 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:28.629 32367 32367 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:38.339  1694 10570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:40.520 32638 32638 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:52:50.217  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:52:52.375   555   555 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:53:02.099  1694  4524 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:53:04.322   904   904 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 13:53:13.977  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 13:53:16.172  1363  1363 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.18-al.log
 06-18 23:51:51.978  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-18 23:51:54.903 27878 27878 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -4939,6 +5801,58 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.23-al.log
 05-23 19:06:26.004  1456  2915 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-23 19:06:28.937 13450 13450 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-al.log
+07-06 23:50:44.045  1694  2319 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:50:46.260  9516  9516 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:50:55.931  1694  2359 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:50:58.038  9808  9808 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:07.815  1694  1709 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:09.940 10109 10109 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:19.696  1694  8536 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:21.846 10401 10401 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:31.574  1694  2499 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:33.705 10691 10691 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:43.451  1694  3944 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:45.591 10966 10966 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:51:55.315  1694 12025 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:51:57.445 11236 11236 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:07.192  1694  5754 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:09.361 11513 11513 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:19.072  1694 12349 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:21.214 11788 11788 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:30.951  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:33.084 12066 12066 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:42.815  1694 10573 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:44.986 12330 12330 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:52:54.710  1694  5553 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:52:56.871 12599 12599 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:06.595  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:08.806 12902 12902 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:18.472  1694  2498 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:20.674 13171 13171 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:30.372  1694  7911 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:32.548 13439 13439 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:42.234  1694  3103 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:44.403 13715 13715 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:53:54.120  1694  7964 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:53:56.286 13981 13981 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:05.991  1694  4186 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:08.154 14251 14251 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:17.871  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:20.048 14514 14514 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:29.731  1694 11817 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:31.892 14781 14781 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:41.594  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:43.816 15049 15049 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:54:53.472  1694  5718 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:54:55.665 15317 15317 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:05.332  1694  5305 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:07.577 15588 15588 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:17.215  1694  5097 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:19.394 15888 15888 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+07-06 23:55:29.096  1694  5037 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+07-06 23:55:31.258 16169 16169 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+found iteration count: 25
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-al.log
 05-09 22:01:51.702  1456  2196 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-09 22:01:54.498  3738  3738 D GeckoSession: handleMessage GeckoView:PageStop uri=null
@@ -5130,11 +6044,26 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 06-13 23:54:58.067  3065  3065 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:55:07.257  1456  6339 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:55:10.272  3360  3360 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:55:19.510  1456 10366 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.29-ha.log.
+06-13 23:55:19.510  1456 10366 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:55:22.639  3623  3623 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:55:31.754  1456  1471 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:55:34.809  3891  3891 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:55:43.996  1456  4250 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:55:47.115  4157  4157 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:55:56.242  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:55:59.296  4425  4425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:56:08.493  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:56:11.603  4698  4698 D GeckoSession: handleMessage GeckoView:PageStop uri=null
+06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
+06-13 23:56:23.684  5020  5020 D GeckoSession: handleMessage GeckoView:PageStop uri=null./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.18-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.29-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.12-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.04.30-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.07-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.19-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -5166,10 +6095,6 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - Did not find any matching lines for variant: is the intent configured correctly?
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.30-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.29-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.24-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.05-hanoob.log.
@@ -5180,15 +6105,9 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.20-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.03-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.08-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.26-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.05-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.04-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.13-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -5196,26 +6115,11 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.12-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.01-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.15-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.06-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.02-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 
-06-13 23:55:22.639  3623  3623 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:55:31.754  1456  1471 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:55:34.809  3891  3891 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:55:43.996  1456  4250 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:55:47.115  4157  4157 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:55:56.242  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:55:59.296  4425  4425 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:56:08.493  1456  2923 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:56:11.603  4698  4698 D GeckoSession: handleMessage GeckoView:PageStop uri=null
-06-13 23:56:20.725  1456  2402 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:56:23.684  5020  5020 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:32.972  1456  1471 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:56:36.089  5290  5290 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:56:45.214  1456  7570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
@@ -5246,6 +6150,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.04-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.19-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.28-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.06-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.07-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.03-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.09-hanoob.log
@@ -5287,13 +6192,10 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.02-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.07-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-hanoob.log
 Downloading apk.
 Done downloading apk.
-Running tests
-Not downloading a new apk; using existing.
-Running tests
-Not downloading a new apk; using existing.
 Running tests
 Performing Streamed Install
 Success
