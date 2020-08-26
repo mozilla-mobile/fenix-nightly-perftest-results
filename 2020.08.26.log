@@ -64,6 +64,8 @@
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.24-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.08.25-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.03-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.08.14-ha.log.
@@ -91,8 +93,6 @@
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.08.02-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.26-ha.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.17-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.05-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.10-ha.log
@@ -127,6 +127,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.23-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.24-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.14-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.11-ha.log
@@ -511,6 +512,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.17-al.log
 05-17 22:06:23.625  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-17 22:06:26.471 23731 23731 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-al.log
+found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.23-al.log
 found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-al.log
@@ -2717,7 +2720,9 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 06-13 23:52:28.115  1456  5027 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 06-13 23:52:31.193 31244 31244 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 06-13 23:52:40.353  1456 10962 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
-06-13 23:52:43.233 31577 31577 D GeckoSession: handleMessage GeckoView:PageStop uri=null./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.21-ha.log.
+06-13 23:52:43.233 31577 31577 D GeckoSession: handleMessage GeckoView:PageStop uri=null./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.17-ha.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.21-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.04-ha.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -2808,8 +2813,6 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.13-al.log
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.24-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.05-hanoob.log.
-  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
-./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.09-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 
 06-13 23:52:52.593  1456  7570 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
@@ -2932,6 +2935,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.20-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.17-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.15-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.01-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.06-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-hanoob.log
@@ -2977,6 +2981,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.04-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.23-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.27-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.24-ha.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.03-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.14-ha.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.11-ha.log
@@ -3361,6 +3366,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.17-al.log
 05-17 22:06:23.625  1456  5797 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=https://example.com/... typ=text/html flg=0x10000000 cmp=org.mozilla.fennec_aurora/org.mozilla.fenix.IntentReceiverActivity
 05-17 22:06:26.471 23731 23731 D GeckoSession: handleMessage GeckoView:PageStop uri=null
 found iteration count: 25
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-al.log
+found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.23-al.log
 found iteration count: 0
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.29-al.log
@@ -5678,7 +5685,9 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.08-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.29-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.31-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.06-hanoob.log
-Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.12-hanoob.log./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.25-hanoob.log.
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.12-hanoob.log./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.06.09-hanoob.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.25-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.07.23-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
@@ -5734,6 +5743,8 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.12-hanoob.log./t
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.15-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
+./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.08.25-hanoob.log.
+  warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.08.01-hanoob.log.
   warnings.warn('ValueError - ' + str(ve), RuntimeWarning)
 ./times.py:345: RuntimeWarning: ValueError - No 'Displayed' lines found in /opt/fnprms/run_logs/2020.05.06-hanoob.log.
@@ -5760,6 +5771,7 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.23-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.20-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.06.17-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.15-hanoob.log
+Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.25-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.01-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.06-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.04.30-hanoob.log
@@ -5772,19 +5784,3 @@ Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.28-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.08.16-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.05.22-hanoob.log
 Using fennec-nightly as a variant! /opt/fnprms/run_logs/2020.07.24-hanoob.log
-Downloading apk.
-Done downloading apk.
-Trying again to download the nightly apk (error 22).
-Downloading apk.
-Done downloading apk.
-Trying again to download the nightly apk (error 22).
-Downloading apk.
-Done downloading apk.
-Trying again to download the nightly apk (error 22).
-Downloading apk.
-Done downloading apk.
-Trying again to download the nightly apk (error 22).
-Downloading apk.
-Done downloading apk.
-Trying again to download the nightly apk (error 22).
-Error: Failed to download an APK.
